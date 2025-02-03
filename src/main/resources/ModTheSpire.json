@@ -3,7 +3,7 @@
   "name": "FrierenMod 葬送的芙莉莲",
   "author_list": ["Arkalin","Figure"],
   "description": "It is Updating! 持续更新中",
-  "version": "2.1.4",
+  "version": "2.1.5",
   "sts_version": "12-18-2020",
   "mts_version": "3.23.2",
   "dependencies": ["basemod","stslib"]
