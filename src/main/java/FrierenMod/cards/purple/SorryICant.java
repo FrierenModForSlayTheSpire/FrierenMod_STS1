@@ -1,5 +1,6 @@
 package FrierenMod.cards.purple;
 
+import FrierenMod.actions.ExhaustAllManaAction;
 import FrierenMod.cards.AbstractBaseCard;
 import FrierenMod.cards.tempCards.Mana;
 import FrierenMod.enums.CardEnums;
@@ -42,6 +43,7 @@ public class SorryICant extends AbstractBaseCard {
 
     @Override
     public void use(AbstractPlayer p, AbstractMonster m) {
+        this.addToBot(new ExhaustAllManaAction());
         this.addToBot(new GainBlockAction(p, this.block));
         this.addToBot(new ApplyPowerAction(p, p, new ConcentrationPower(this.magicNumber)));
     }
