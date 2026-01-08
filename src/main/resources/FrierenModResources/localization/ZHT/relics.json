@@ -7,14 +7,14 @@
     ]
   },
   "FrierenMod:HairAccessory": {
-    "NAME": "菲倫的發飾",
+    "NAME": "菲倫的髮飾",
     "FLAVOR": "芙莉蓮送給徒弟菲倫的16歲生日禮物。",
     "DESCRIPTIONS": [
-      "每當 #y魔力 消耗後，獲得1點 #y專註 。"
+      "每當 #y魔力 消耗後，獲得1點 #y專注 。"
     ]
   },
   "FrierenMod:OLDHairAccessory": {
-    "NAME": "菲倫的發飾",
+    "NAME": "菲倫的髮飾",
     "FLAVOR": "芙莉蓮送給徒弟菲倫的16歲生日禮物。",
     "DESCRIPTIONS": [
       "你每 #y同調 #b4 次 ，抽 #b1 張牌。"
@@ -87,7 +87,7 @@
     "NAME": "冰柱櫻",
     "FLAVOR": "冰柱櫻在冬天開花，儘管它的花朵有毒，但非常美麗。它也是芙莉蓮最喜歡的冬季花。",
     "DESCRIPTIONS": [
-      "在每回合開始時獲得 [E] 。在卡牌獎勵畫面，可供選擇的牌有 #b60 %的機率被替換為 #y魔力 。"
+      "在每回合開始時獲得 [E] 。在卡牌獎勵畫面，可供選擇的牌有 #b60 %的機率被取代為 #y魔力 。"
     ]
   },
   "FrierenMod:UbelStaff": {

@@ -44,7 +44,7 @@
   "FrierenMod:TimeTravelPower": {
     "NAME": "精靈的時間觀念",
     "DESCRIPTIONS": [
-      "將你當前的一切送入 #b%d 回合後的未來。"
+      "將你目前的一切送入 #b%d 回合後的未來。"
     ]
   },
   "FrierenMod:ThunderPower": {
@@ -146,13 +146,13 @@
   "FrierenMod:OpenTheWaygatePower": {
     "NAME": "打開時空之門",
     "DESCRIPTIONS": [
-      "一回合內連續 #y同調 #b%d 張 #y魔力 後，結束你的回合並額外獲得一回合，失去該能力。"
+      "一回合內連續 #y同調 #b%d 張 #y魔力 後，結束你的回合併額外獲得一回合，失去該能力。"
     ]
   },
   "FrierenMod:CopyPower": {
-    "NAME": "復製體",
+    "NAME": "複製體",
     "DESCRIPTIONS": [
-      "受到未被格擋的傷害時，獲得等量 #r魔力 層數 。 NL 玩家獲得 #y格擋 時，獲得相同數量的 #y格擋 。 NL 血量降到100以下時將會逼出復製體的全力！"
+      "受到未被格擋的傷害時，獲得等量 #r魔力 層數 。 NL 玩家獲得 #y格擋 時，獲得相同數量的 #y格擋 。 NL 血量降到100以下時將會逼出複製體的全力！"
     ]
   },
   "FrierenMod:EnemyManaPower": {
@@ -239,7 +239,7 @@
     ]
   },
   "FrierenMod:ConcentrationPower": {
-    "NAME": "專註",
+    "NAME": "專注",
     "DESCRIPTIONS": [
       " 打出非 #y魔力 牌後失去1點該能力。"
     ]
@@ -269,15 +269,15 @@
     ]
   },
   "FrierenMod:CopySelfToDiscardFusionPower": {
-    "NAME": "復製融合",
+    "NAME": "複製融合",
     "DESCRIPTIONS": [
-      "下一張獲得的 #y特化普攻魔法 將附加： NL 在棄牌堆放入 #b%d 張本牌的復製品。"
+      "下一張獲得的 #y特化普攻魔法 將附加： NL 在棄牌堆放入 #b%d 張本牌的複製品。"
     ]
   },
   "FrierenMod:ConcentrationFusionPower": {
-    "NAME": "專註融合",
+    "NAME": "專注融合",
     "DESCRIPTIONS": [
-      "下一張獲得的 #y特化普攻魔法 將附加： NL 獲得 #b%d 點 #y專註 。"
+      "下一張獲得的 #y特化普攻魔法 將附加： NL 獲得 #b%d 點 #y專注 。"
     ]
   },
   "FrierenMod:StrengthFusionPower": {
@@ -301,13 +301,13 @@
   "FrierenMod:WithNoStopPower": {
     "NAME": "疾速飛馳",
     "DESCRIPTIONS": [
-      "下 #b%d 張牌打出後獲得兩點專註。"
+      "下 #b%d 張牌打出後獲得兩點專注。"
     ]
   },
   "FrierenMod:MysticEyePower": {
     "NAME": "直視的魔眼",
     "DESCRIPTIONS": [
-      "每當玩家攻擊敵人時，玩家獲得 #b%d 點 #y專註 。"
+      "每當玩家攻擊敵人時，玩家獲得 #b%d 點 #y專注 。"
     ]
   },
   "FrierenMod:MasterAndApprenticePower": {
@@ -343,19 +343,19 @@
   "FrierenMod:SocialDancingPower": {
     "NAME": "交際舞",
     "DESCRIPTIONS": [
-      "當你擁有 #y專註 時， #y奇襲 X的判定條件改為X-1、X 、X+1均可觸發。"
+      "當你擁有 #y專注 時， #y奇襲 X的判定條件改為X-1、X 、X+1均可觸發。"
     ]
   },
   "FrierenMod:ConfidencePower": {
     "NAME": "胸有成竹",
     "DESCRIPTIONS": [
-      "所有造成傷害的 #y奇襲 效果會額外觸發一次。每回合開始後失去所有 #y專註 。"
+      "所有造成傷害的 #y奇襲 效果會額外觸發一次。每回合開始後失去所有 #y專注 。"
     ]
   },
   "FrierenMod:GamblePower": {
     "NAME": "豪賭",
     "DESCRIPTIONS": [
-      "打出卡牌後，隨機化你的 #y專註 數為1～6。若為6，對所有敵人造成 #b%d 點傷害。"
+      "打出卡牌後，隨機化你的 #y專注 數為1～6。若為6，對所有敵人造成 #b%d 點傷害。"
     ]
   },
   "FrierenMod:FumeshroomFormPower": {
@@ -365,7 +365,7 @@
     ]
   },
   "FrierenMod:RecollectionOfBenefactorPower": {
-    "NAME": "心系故人",
+    "NAME": "心繫故人",
     "DESCRIPTIONS": [
       "通過 #y海塔留下的法杖 獲得 #y特化普攻魔法 時，傷害從2倍改為4倍。"
     ]
@@ -373,7 +373,7 @@
   "FrierenMod:NextTurnConcentrationPower": {
     "NAME": "普通蓄力",
     "DESCRIPTIONS": [
-      "在下一回合獲得 #b%d 點 #y專註 。"
+      "在下一回合獲得 #b%d 點 #y專注 。"
     ]
   }
 }
