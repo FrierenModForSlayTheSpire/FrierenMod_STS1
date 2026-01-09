@@ -987,8 +987,7 @@
   },
   "FrierenMod:ColdBlood": {
     "NAME": "冷酷無情",
-    "DESCRIPTION": "如果本場戰鬥中打出的上一張牌觸發了 frierenmod:奇襲 ，造成 !D! 點傷害。 NL frierenmod:奇襲 !R! ：造成 !D! 點傷害。",
-    "UPGRADE_DESCRIPTION": "如果本場戰鬥中打出的上一張 frierenmod:奇襲 牌觸發了 *奇襲 ，造成 !D! 點傷害。 NL frierenmod:奇襲 !R! ：造成 !D! 點傷害。"
+    "DESCRIPTION": "造成 !D! 點傷害。 NL 如果本場戰鬥中打出的上一張 frierenmod:奇襲 牌觸發了 *奇襲 ，這張牌在本回合耗能變為0。"
   },
   "FrierenMod:FernFixFrieren": {
     "NAME": "富婦撫芙服",

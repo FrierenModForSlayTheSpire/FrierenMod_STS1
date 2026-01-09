@@ -980,8 +980,7 @@
   },
   "FrierenMod:ColdBlood": {
     "NAME": "Cold Blood",
-    "DESCRIPTION": "If the last card played in this battle triggered frierenmod:Raid, deal !D! damage. NL frierenmod:Raid !R! :Deal !D! damage.",
-    "UPGRADE_DESCRIPTION": "If the last frierenmod:Raid card played in this battle triggered *Raid, deal !D! damage. NL frierenmod:Raid !R! :Deal !D! damage."
+    "DESCRIPTION": "Deal !D! damage. NL Costs 0 if the last frierenmod:Raid card played in this battle triggered *Raid."
   },
   "FrierenMod:FernFixFrieren": {
     "NAME": "Fern Fix Frieren",
