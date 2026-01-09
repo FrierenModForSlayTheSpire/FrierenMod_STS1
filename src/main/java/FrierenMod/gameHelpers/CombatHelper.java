@@ -130,6 +130,20 @@ public class CombatHelper {
         return set.size();
     }
 
+    public static int getLegendarySpellUsedVarietyInDeck(boolean isInUsingCard) {
+        HashSet<String> set = new HashSet<>();
+        int size = Math.max(0, (isInUsingCard ? AbstractDungeon.player.masterDeck.group.size() - 1 : AbstractDungeon.player.masterDeck.group.size()));
+        if (size == 0)
+            return 0;
+        for (int i = 0; i < size; i++) {
+            AbstractCard c = AbstractDungeon.player.masterDeck.group.get(i);
+            if (c.hasTag(AbstractBaseCard.Enum.LEGENDARY_SPELL)) {
+                set.add(c.cardID);
+            }
+        }
+        return set.size();
+    }
+
     public static int getCardsUsedThisTurnSize(boolean isInUsingCard) {
         int cardsPlayedThisTurnSize = AbstractDungeon.actionManager.cardsPlayedThisTurn.size();
         return isInUsingCard ? cardsPlayedThisTurnSize - 1 : cardsPlayedThisTurnSize;

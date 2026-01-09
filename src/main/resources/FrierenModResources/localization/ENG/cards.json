@@ -825,10 +825,10 @@
   },
   "FrierenMod:FairyTaleEnd": {
     "NAME": "The end of Fairy Tale",
-    "DESCRIPTION": "frierenmod:Legendary_Spell. NL Deal !D! damage. Double base damage of this card after you played a new kind of *Legendary *Spell this combat.",
+    "DESCRIPTION": "frierenmod:Legendary_Spell. NL Deal !D! damage. Double base damage of this card for every kinds of *Legendary *Spell in master deck. NL Exhaust.",
     "EXTENDED_DESCRIPTION": [
-      " NL （Have played",
-      " kinds.）"
+      " NL (",
+      " kinds in master deck.)"
     ]
   },
   "FrierenMod:HotTeaSpell": {

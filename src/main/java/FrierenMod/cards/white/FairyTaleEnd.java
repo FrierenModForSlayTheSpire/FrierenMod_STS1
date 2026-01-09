@@ -18,8 +18,8 @@ public class FairyTaleEnd extends AbstractBaseCard {
     public static final String ID = ModInformation.makeID(FairyTaleEnd.class.getSimpleName());
     private static final CardStrings cardStrings = CardCrawlGame.languagePack.getCardStrings(ID);
     public static final CardInfo info = new CardInfo(ID, 1, CardType.ATTACK, CardEnums.FRIEREN_CARD, CardRarity.RARE, CardTarget.ENEMY);
-    private static final int BASE_DAMAGE = 10;
-    private static final int UPGRADE_BASE_DAMAGE = 12;
+    private static final int BASE_DAMAGE = 6;
+    private static final int UPGRADE_BASE_DAMAGE = 8;
 
     public FairyTaleEnd() {
         super(info);
@@ -27,15 +27,16 @@ public class FairyTaleEnd extends AbstractBaseCard {
 
     @Override
     public void initializeSpecifiedAttributes() {
-        this.damage = this.baseDamage = 10;
+        this.damage = this.baseDamage = BASE_DAMAGE;
         this.tags.add(AbstractBaseCard.Enum.LEGENDARY_SPELL);
+        this.exhaust = true;
     }
 
     @Override
     public void upgrade() {
         if (!this.upgraded) {
             this.upgradeName();
-            this.upgradeDamage(2);
+            this.upgradeDamage(UPGRADE_BASE_DAMAGE-BASE_DAMAGE);
         }
     }
 
@@ -51,7 +52,7 @@ public class FairyTaleEnd extends AbstractBaseCard {
 
     public void applyPowers() {
         super.applyPowers();
-        int count = CombatHelper.getLegendarySpellUsedVarietyThisCombat(false);
+        int count = CombatHelper.getLegendarySpellUsedVarietyInDeck(false);
         this.rawDescription = cardStrings.DESCRIPTION;
         if (count > 0) {
             this.rawDescription += cardStrings.EXTENDED_DESCRIPTION[0] + count + cardStrings.EXTENDED_DESCRIPTION[1];
@@ -69,7 +70,7 @@ public class FairyTaleEnd extends AbstractBaseCard {
 
     private void calculateDamage(AbstractMonster m, boolean isUsingCard) {
         int baseDamage = this.upgraded ? UPGRADE_BASE_DAMAGE : BASE_DAMAGE;
-        int count = CombatHelper.getLegendarySpellUsedVarietyThisCombat(isUsingCard);
+        int count = CombatHelper.getLegendarySpellUsedVarietyInDeck(isUsingCard);
         if (this.baseDamage >= 99999 || this.baseDamage == Integer.MIN_VALUE)
             this.damage = this.baseDamage = 99999;
         else

@@ -832,9 +832,9 @@
   },
   "FrierenMod:FairyTaleEnd": {
     "NAME": "童話的結尾",
-    "DESCRIPTION": " frierenmod:傳說魔法 。 NL 造成 !D! 點傷害。本場戰鬥中你每使用過一種 *傳說魔法 ，此牌的基礎傷害就翻一倍。",
+    "DESCRIPTION": " frierenmod:傳說魔法 。 NL 造成 !D! 點傷害。牌組中每有一種 *傳說魔法 ，此牌的基礎傷害就翻一倍。 NL 消耗 。",
     "EXTENDED_DESCRIPTION": [
-      " NL （已使用",
+      " NL （牌組中有",
       " 種。）"
     ]
   },
