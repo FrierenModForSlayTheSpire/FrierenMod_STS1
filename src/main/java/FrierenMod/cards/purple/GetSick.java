@@ -25,6 +25,7 @@ public class GetSick extends AbstractBaseCard {
     public void initializeSpecifiedAttributes() {
         this.block = baseBlock = 20;
         this.cardsToPreview = new GetWell();
+        this.exhaust = true;
     }
 
     @Override

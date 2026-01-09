@@ -18,6 +18,11 @@ public class WithNoStop extends AbstractBaseCard {
     }
 
     @Override
+    public void initializeSpecifiedAttributes() {
+        this.tags.add(Enum.SPEED);
+    }
+
+    @Override
     public void upgrade() {
         if (!this.upgraded) {
             this.upgradeName();

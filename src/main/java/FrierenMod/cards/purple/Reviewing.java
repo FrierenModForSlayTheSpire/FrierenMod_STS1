@@ -46,14 +46,22 @@ public class Reviewing extends AbstractBaseCard {
     }
 
     public void onMoveToDiscard() {
-        this.rawDescription = cardStrings.DESCRIPTION;
+        if (this.upgraded){
+            this.rawDescription = cardStrings.UPGRADE_DESCRIPTION;
+        }else {
+            this.rawDescription = cardStrings.DESCRIPTION;
+        }
         initializeDescription();
     }
 
     public void calculateCardDamage(AbstractMonster mo) {
         int amount = (int) AbstractDungeon.actionManager.cardsPlayedThisTurn.stream().filter(card -> !card.hasTag(Enum.MANA)).count();
         super.calculateCardDamage(mo);
-        this.rawDescription = cardStrings.DESCRIPTION;
+        if (this.upgraded){
+            this.rawDescription = cardStrings.UPGRADE_DESCRIPTION;
+        }else {
+            this.rawDescription = cardStrings.DESCRIPTION;
+        }
         if (amount > 0)
             this.rawDescription += String.format(cardStrings.EXTENDED_DESCRIPTION[0], amount);
         initializeDescription();
@@ -62,7 +70,11 @@ public class Reviewing extends AbstractBaseCard {
     public void applyPowers() {
         int amount = (int) AbstractDungeon.actionManager.cardsPlayedThisTurn.stream().filter(card -> !card.hasTag(Enum.MANA)).count();
         super.applyPowers();
-        this.rawDescription = cardStrings.DESCRIPTION;
+        if (this.upgraded){
+            this.rawDescription = cardStrings.UPGRADE_DESCRIPTION;
+        }else {
+            this.rawDescription = cardStrings.DESCRIPTION;
+        }
         if (amount > 0)
             this.rawDescription += String.format(cardStrings.EXTENDED_DESCRIPTION[0], amount);
         initializeDescription();
