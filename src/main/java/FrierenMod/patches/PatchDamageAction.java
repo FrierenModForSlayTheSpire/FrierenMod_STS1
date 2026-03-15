@@ -19,7 +19,7 @@ public class PatchDamageAction {
     public static class PatchConstructor {
         @SpirePostfixPatch
         public static void PostFix(DamageAction __instance, AbstractCreature target, DamageInfo info, AbstractGameAction.AttackEffect effect) {
-            if (info.owner.equals(AbstractDungeon.player) && target != AbstractDungeon.player && AbstractDungeon.player.hasPower(FumeshroomFormPower.POWER_ID)) {
+            if (info.owner != null && info.owner == AbstractDungeon.player && target != AbstractDungeon.player && AbstractDungeon.player.hasPower(FumeshroomFormPower.POWER_ID)) {
                 DamageActionField.backUpAction.set(__instance, new DamageAllEnemiesAction((AbstractPlayer) info.owner, info.base, info.type, effect));
             }
         }
@@ -29,9 +29,10 @@ public class PatchDamageAction {
     public static class PatchUpdate {
         @SpirePrefixPatch
         public static SpireReturn<Void> Prefix(DamageAction __instance) {
-            if (DamageActionField.backUpAction.get(__instance) != null) {
-                DamageActionField.backUpAction.get(__instance).update();
-                if (DamageActionField.backUpAction.get(__instance).isDone) {
+            AbstractGameAction backUp = DamageActionField.backUpAction.get(__instance);
+            if (backUp != null) {
+                backUp.update();
+                if (backUp.isDone) {
                     __instance.isDone = true;
                 }
                 return SpireReturn.Return(null);
