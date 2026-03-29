@@ -21,7 +21,7 @@
         <maven.compiler.target>1.8</maven.compiler.target>
         <SlayTheSpire.version>12-22-2020</SlayTheSpire.version>
         <ModTheSpire.version>3.23.2</ModTheSpire.version>
-        <Steam.path>E:\SteamLibrary\steamapps</Steam.path>
+        <Steam.path>D:\Steam\steamapps</Steam.path>
     </properties>
 
     <dependencies>
