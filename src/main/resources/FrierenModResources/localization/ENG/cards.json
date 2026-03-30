@@ -837,7 +837,7 @@
   },
   "FrierenMod:ButtSlam": {
     "NAME": "Butt Slam",
-    "DESCRIPTION": "The every 10 Block you have, deal !D! damage and Shuffle 2 *Mana into your draw pile.",
+    "DESCRIPTION": "For every 10 Block you have, deal !D! damage and Shuffle 2 *Mana into your draw pile.",
     "EXTENDED_DESCRIPTION": [
       " NL (%d times)"
     ]
