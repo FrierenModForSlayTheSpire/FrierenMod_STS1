@@ -833,7 +833,7 @@
   },
   "FrierenMod:HotTeaSpell": {
     "NAME": "Spell to Produce Hot Tea",
-    "DESCRIPTION": "frierenmod:Legendary_Spell. NL Gain !B! Block. NL (Additionally Increases Block By whole amount of your *Mana)"
+    "DESCRIPTION": "frierenmod:Legendary_Spell. NL Gain !B! Block. NL (Additionally Increases Block By the total amount of your *Mana)"
   },
   "FrierenMod:ButtSlam": {
     "NAME": "Butt Slam",
