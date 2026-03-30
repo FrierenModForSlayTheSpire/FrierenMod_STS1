@@ -9,7 +9,7 @@
   },
   "FrierenMod:OrdinaryOffensiveMagic": {
     "NAME": "Ordinary Offensive Magic",
-    "DESCRIPTION": "Deal damage equal to twice the number of Mana Exhausted this combat.",
+    "DESCRIPTION": "Deal damage equal to twice the number of *Mana Exhausted this combat.",
     "EXTENDED_DESCRIPTION": [
       " NL (Deals !D! damage.)"
     ]
@@ -328,7 +328,7 @@
   },
   "FrierenMod:FlyingMagic": {
     "NAME": "Flying Magic",
-    "DESCRIPTION": "Gain 3 Intangible. NL Exhaust !M! Mana in discard pile at the end of your turn."
+    "DESCRIPTION": "Gain 3 Intangible. NL At the end of your turn, Exhaust !M! *Mana from your discard pile."
   },
   "FrierenMod:FolkGrimoire": {
     "NAME": "Folk Grimoire",
@@ -754,7 +754,7 @@
   },
   "FrierenMod:HellFireSummoning": {
     "NAME": "Hellfire Summoning",
-    "DESCRIPTION": "frierenmod:Seal. frierenmod:Backfire. NL Deal !D! damage for each frierenmod:Chant played this turn twice.",
+    "DESCRIPTION": "frierenmod:Seal. frierenmod:Backfire. NL Deal !D! damage twice for each frierenmod:Chant played this turn.",
     "EXTENDED_DESCRIPTION": [
       " NL (Deal ",
       " times.)"
