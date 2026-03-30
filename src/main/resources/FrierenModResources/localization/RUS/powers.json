@@ -1,0 +1,379 @@
+{
+  "FrierenMod:PerpetualPower": {
+    "NAME": "Вечность",
+    "DESCRIPTIONS": [
+      "В начале вашего хода переместите #b%d #yМаны в стопку сброса."
+    ]
+  },
+  "FrierenMod:OutpouringPower": {
+    "NAME": "Излияние",
+    "DESCRIPTIONS": [
+      "Каждый раз, когда вы #yСинхронизируете #yМану в этот ход, получайте #b%d #yСилы."
+    ]
+  },
+  "FrierenMod:PajamasFormPower": {
+    "NAME": "Форма Пижамы",
+    "DESCRIPTIONS": [
+      "В конце хода Истощите ВСЮ #yМану и нанесите всем врагам урон, равный количеству Истощённой #yМаны, умноженному на #b%d. NL (Нанесёт #b%d урона)"
+    ]
+  },
+  "FrierenMod:TrickPower": {
+    "NAME": "Трюк",
+    "DESCRIPTIONS": [
+      "В начале вашего хода добавьте #yМанаСокрытие в руку."
+    ]
+  },
+  "FrierenMod:GainRelicPower": {
+    "NAME": "Найти Утерянные Украшения",
+    "DESCRIPTIONS": [
+      "В конце боя получите #b%d случайных реликвий."
+    ]
+  },
+  "FrierenMod:RitesPreparationPower": {
+    "NAME": "Подготовка Ритуала",
+    "DESCRIPTIONS": [
+      "Следующие #b%d #yМаны, которые вы #yСинхронизируете, нанесут 6 урона всем врагам."
+    ]
+  },
+  "FrierenMod:SwitchStrengthAndDexterityPower": {
+    "NAME": "Обмен",
+    "DESCRIPTIONS": [
+      "В конце вашего хода поменяйте местами значения #yСилы и #yЛовкости."
+    ]
+  },
+  "FrierenMod:TimeTravelPower": {
+    "NAME": "Концепция Времени",
+    "DESCRIPTIONS": [
+      "Отправьте всё своё состояние на #b%d ходов в будущее."
+    ]
+  },
+  "FrierenMod:ThunderPower": {
+    "NAME": "Разрушительная Молния",
+    "DESCRIPTIONS": [
+      "#yСинхро меняется на #yЛимит #yОвер #yСинхро до конца боя."
+    ]
+  },
+  "FrierenMod:AccelerateFlowPower": {
+    "NAME": "Ясный Разум",
+    "DESCRIPTIONS": [
+      "В этот ход #yСинхро меняется на #yАкцел #yСинхро."
+    ]
+  },
+  "FrierenMod:ManaReturnPower": {
+    "NAME": "Возврат Маны",
+    "DESCRIPTIONS": [
+      "Каждый раз при получении урона переместите #b%d #yМаны в стопку сброса."
+    ]
+  },
+  "FrierenMod:ChantWithoutManaPower": {
+    "NAME": "Магия",
+    "DESCRIPTIONS": [
+      "В этот ход #yВоспевание можно активировать БЕСПЛАТНО."
+    ]
+  },
+  "FrierenMod:ChantWithoutManaTimesPower": {
+    "NAME": "Свободное Воспевание",
+    "DESCRIPTIONS": [
+      "В этот ход следующие #b%d раз(а) #yВоспевание можно активировать БЕСПЛАТНО."
+    ]
+  },
+  "FrierenMod:SynchroWithoutManaPower": {
+    "NAME": "Переработка Маны",
+    "DESCRIPTIONS": [
+      "Следующие #b%d раз(а) #yСинхро БЕСПЛАТНО."
+    ]
+  },
+  "FrierenMod:BanManaGainPower": {
+    "NAME": "&",
+    "DESCRIPTIONS": [
+      "В этот ход вы НЕ МОЖЕТЕ получать новую #yМану с карт."
+    ]
+  },
+  "FrierenMod:ManaInsteadOfEnergyPower": {
+    "NAME": "Воображение",
+    "DESCRIPTIONS": [
+      "В этот ход ваши карты не тратят [E], а тратят равное количество #yМаны."
+    ]
+  },
+  "FrierenMod:MageStyleChokePower": {
+    "NAME": "Удушение в Стиле Мага",
+    "DESCRIPTIONS": [
+      "Каждый раз, когда вы #yСинхронизируете #yМану в этот ход, враг теряет #b%d ОЗ."
+    ]
+  },
+  "FrierenMod:RingletFormPower": {
+    "NAME": "Форма Кудрей",
+    "DESCRIPTIONS": [
+      "Каждый раз, когда вы #yИстощаете #yМану, получайте #b%d #yБлока."
+    ]
+  },
+  "FrierenMod:SealPower": {
+    "NAME": "Печать",
+    "DESCRIPTIONS": [
+      "#yВоспойте #b%d раз(а) за один ход, чтобы сломать печать и добавить #b%d #yВызовОгненногоАда в руку."
+    ]
+  },
+  "FrierenMod:ManaBarricadePower": {
+    "NAME": "Мана-Баррикада",
+    "DESCRIPTIONS": [
+      "В конце вашего хода: если у вас 5 или более #yМаны — получите #yБаррикаду, иначе потеряйте #yБаррикаду."
+    ]
+  },
+  "FrierenMod:FullAheadPower": {
+    "NAME": "Полный Вперёд",
+    "DESCRIPTIONS": [
+      "После первого #yВоспевания каждый ход получайте #b%d #yСилы и #b%d #yЛовкости."
+    ]
+  },
+  "FrierenMod:FrierenSuitcasePower": {
+    "NAME": "Чемодан Фрирен",
+    "DESCRIPTIONS": [
+      "Увеличьте максимальный размер руки до 13 в этом бою. NL Если после розыгрыша карты рука заполнена, получите #b%d Блока."
+    ]
+  },
+  "FrierenMod:SimmeringPower": {
+    "NAME": "Тлеющий Огонь",
+    "DESCRIPTIONS": [
+      "После #yВоспевания возьмите #b%d #yЛегендарных #yЗаклинаний."
+    ]
+  },
+  "FrierenMod:FlyingMagicPower": {
+    "NAME": "Летающая Магия",
+    "DESCRIPTIONS": [
+      "В конце вашего хода #yИстощите #b%d Маны из стопки сброса."
+    ]
+  },
+  "FrierenMod:OpenTheWaygatePower": {
+    "NAME": "Открыть Врата",
+    "DESCRIPTIONS": [
+      "После #b%d НЕПРЕРЫВНЫХ #yСинхро за один ход получите дополнительный ход, завершите текущий и снимите эту силу."
+    ]
+  },
+  "FrierenMod:CopyPower": {
+    "NAME": "Копия",
+    "DESCRIPTIONS": [
+      "При получении незаблокированного урона получите равное количество #rМаны. NL Когда игрок получает #yБлок, получите столько же #yБлока. NL При снижении ОЗ ниже 100 применит #rВершину #yМагии!"
+    ]
+  },
+  "FrierenMod:EnemyManaPower": {
+    "NAME": "Мана",
+    "DESCRIPTIONS": [
+      "Истощает соответствующее количество #rМаны при применении #rЗаклинания."
+    ]
+  },
+  "FrierenMod:SpellCasterPower": {
+    "NAME": "Мастер Заклинаний",
+    "DESCRIPTIONS": [
+      "Заклинание_Защиты_Сокровищницы.  ",
+      "Потратьте #b%d #rМаны, получите #yБаррикаду и #b%d #yБлока. NL ",
+      "Быстрое_Воспевание_СП NL ",
+      "Потратьте #b%d #rМаны, получите #b%d #yРитуала. NL ",
+      "Заклинание_Управления_Каменным_Големом_СП   ",
+      "Потратьте #b%d #rМаны, получите #b%d #yАртефакта. NL ",
+      "Вызов_Огненного_Ада_СП NL ",
+      "Потратьте #b%d #rМаны, добавьте #b%d #yОжога в стопку сброса врага. NL ",
+      "Разрушительная_Молния_СП  ",
+      "Потратьте #b%d #rМаны, наложите #b%d #yУязвимости и #yСлабости на врага. NL ",
+      "Совершенная_Защитная_Магия_СП NL ",
+      "Потратьте #b%d #rМаны, получите #b%d #yБуфера и #b%d #yГибкости. NL ",
+      "Заклинание_Поимки_Птиц NL ",
+      "Потратьте #b%d #rМаны, призовите #b1 #yФанатика. NL ",
+      "Летающая_Магия_СП NL ",
+      "Потратьте #b%d #rМаны, получите #b%d #yНематериальности.",
+      "Потратьте #b%d #rМаны, получите #b%d #yБуфера и #b%d #yМеталлизации. NL "
+    ]
+  },
+  "FrierenMod:WeakenedChantPower": {
+    "NAME": "Ослабленное Воспевание",
+    "DESCRIPTIONS": [
+      "В этот ход #yВоспевание истощает на #b%d больше #yМаны."
+    ]
+  },
+  "FrierenMod:Factor100Power": {
+    "NAME": " @ ? ? ",
+    "DESCRIPTIONS": [
+      "...Фрирен..."
+    ]
+  },
+  "FrierenMod:Factor010Power": {
+    "NAME": " ? @ ? ",
+    "DESCRIPTIONS": [
+      "...Убить..."
+    ]
+  },
+  "FrierenMod:Factor001Power": {
+    "NAME": " ? ? @ ",
+    "DESCRIPTIONS": [
+      "...Монстр..."
+    ]
+  },
+  "FrierenMod:PaperPlaneSpellPower": {
+    "NAME": "Заклинание, заставляющее бумажный самолётик лететь дальше",
+    "DESCRIPTIONS": [
+      "Следующие #b%d Атак наносят двойной урон. NL #yСинхронизируйте #b%d раз(а) НЕПРЕРЫВНО, чтобы добавить #b%d удвоений."
+    ]
+  },
+  "FrierenMod:FrushDownPower": {
+    "NAME": "Стремительный Спуск",
+    "DESCRIPTIONS": [
+      "После #b%d НЕПРЕРЫВНЫХ #yСинхро возьмите #b%d карт и сбросьте #b%d карт с крайнего левого края руки."
+    ]
+  },
+  "FrierenMod:MimicPower": {
+    "NAME": "Мимик",
+    "DESCRIPTIONS": [
+      "После розыгрыша #b%d карт завершите ход, уберите всю #yМану и наложите #yТёмный #yи #yСтрашный на себя."
+    ]
+  },
+  "FrierenMod:DarkPower": {
+    "NAME": "Темно и Страшно",
+    "DESCRIPTIONS": [
+      "Внутри Мимика ничего не видно...",
+      "Так темно, и #r@Страшно@"
+    ]
+  },
+  "FrierenMod:SwallowedPower": {
+    "NAME": "Поглощённый",
+    "DESCRIPTIONS": [
+      "Уменьшите максимальный размер руки на #b%d в этом бою."
+    ]
+  },
+  "FrierenMod:ConcentrationPower": {
+    "NAME": "Концентрация",
+    "DESCRIPTIONS": [
+      "Теряйте 1 единицу этой силы после розыгрыша карты, не являющейся #yМаной."
+    ]
+  },
+  "FrierenMod:DamageFusionPower": {
+    "NAME": "Слияние Урона",
+    "DESCRIPTIONS": [
+      "Следующее #yСпециализированное #yАтакующее #yЗаклинание получит: NL Нанесите #b%d урона."
+    ]
+  },
+  "FrierenMod:EnergyFusionPower": {
+    "NAME": "Слияние Энергии",
+    "DESCRIPTIONS": [
+      "Следующее #yСпециализированное #yАтакующее #yЗаклинание получит: NL Получите #b%d [E]."
+    ]
+  },
+  "FrierenMod:WeakVulnerableFusionPower": {
+    "NAME": "Слияние Слабости и Уязвимости",
+    "DESCRIPTIONS": [
+      "Следующее #yСпециализированное #yАтакующее #yЗаклинание получит: NL Наложите #b%d #yСлабости и #yУязвимости."
+    ]
+  },
+  "FrierenMod:DrawCardFusionPower": {
+    "NAME": "Слияние Добора Карт",
+    "DESCRIPTIONS": [
+      "Следующее #yСпециализированное #yАтакующее #yЗаклинание получит: NL Возьмите #b%d карт."
+    ]
+  },
+  "FrierenMod:CopySelfToDiscardFusionPower": {
+    "NAME": "Слияние Копирования",
+    "DESCRIPTIONS": [
+      "Следующее #yСпециализированное #yАтакующее #yЗаклинание получит: NL Поместите #b%d копий этой карты в стопку сброса."
+    ]
+  },
+  "FrierenMod:ConcentrationFusionPower": {
+    "NAME": "Слияние Концентрации",
+    "DESCRIPTIONS": [
+      "Следующее #yСпециализированное #yАтакующее #yЗаклинание получит: NL Получите #b%d #yКонцентрации."
+    ]
+  },
+  "FrierenMod:StrengthFusionPower": {
+    "NAME": "Слияние Силы",
+    "DESCRIPTIONS": [
+      "Следующее #yСпециализированное #yАтакующее #yЗаклинание получит: NL Получите #b%d #yСилы."
+    ]
+  },
+  "FrierenMod:StrengthFusionPowerFusionPower": {
+    "NAME": "Слияние Слияния Силы",
+    "DESCRIPTIONS": [
+      "Следующее #yСпециализированное #yАтакующее #yЗаклинание получит: NL #yСлияние: Получите #b%d #yСилы."
+    ]
+  },
+  "FrierenMod:FightPower": {
+    "NAME": "Бой",
+    "DESCRIPTIONS": [
+      " "
+    ]
+  },
+  "FrierenMod:WithNoStopPower": {
+    "NAME": "Без Остановок",
+    "DESCRIPTIONS": [
+      "После розыгрыша следующих #b%d карт получите 2 #yКонцентрации."
+    ]
+  },
+  "FrierenMod:MysticEyePower": {
+    "NAME": "Мистический Взгляд",
+    "DESCRIPTIONS": [
+      " "
+    ]
+  },
+  "FrierenMod:MasterAndApprenticePower": {
+    "NAME": "Учитель и Ученик",
+    "DESCRIPTIONS": [
+      "В начале вашего хода добавьте #b%d случайных #yДвухцветных карт в руку."
+    ]
+  },
+  "FrierenMod:SkilledMagePower": {
+    "NAME": "Опытный Маг",
+    "DESCRIPTIONS": [
+      "После розыгрыша карт #yСлияния, #yСкорости, #yСпециализированного #yАтакующего #yЗаклинания или активации #yНалёта получите #b%d #yБлока."
+    ]
+  },
+  "FrierenMod:BoldReversalPower": {
+    "NAME": "Смелый Разворот",
+    "DESCRIPTIONS": [
+      "Следующие #b%d эффектов #yНалёта сработают дополнительный раз."
+    ]
+  },
+  "FrierenMod:FernRushdownPower": {
+    "NAME": "Натиск Ферн",
+    "DESCRIPTIONS": [
+      "После активации #yНалёта возьмите #b%d карт."
+    ]
+  },
+  "FrierenMod:ManaAffinityPower": {
+    "NAME": "Сродство с Маной",
+    "DESCRIPTIONS": [
+      "#yМана имеет #yОстаток."
+    ]
+  },
+  "FrierenMod:SocialDancingPower": {
+    "NAME": "Светский Танец",
+    "DESCRIPTIONS": [
+      "Условие для #yНалёта X меняется на X-1, X и X+1, когда у вас есть #yКонцентрация."
+    ]
+  },
+  "FrierenMod:ConfidencePower": {
+    "NAME": "Уверенность",
+    "DESCRIPTIONS": [
+      "Все эффекты #yНалёта, наносящие урон, срабатывают дополнительный раз. В начале каждого хода теряйте всю #yКонцентрацию."
+    ]
+  },
+  "FrierenMod:GamblePower": {
+    "NAME": "Азарт",
+    "DESCRIPTIONS": [
+      "После розыгрыша карты рандомизируйте #yКонцентрацию от 1 до 6. Если выпало 6 — нанесите #b%d урона всем врагам."
+    ]
+  },
+  "FrierenMod:FumeshroomFormPower": {
+    "NAME": "Форма Гриба-Дымника",
+    "DESCRIPTIONS": [
+      "Весь ваш одиночный урон также наносится незначимым врагам."
+    ]
+  },
+  "FrierenMod:RecollectionOfBenefactorPower": {
+    "NAME": "Воспоминание о Благодетеле",
+    "DESCRIPTIONS": [
+      "При получении #yСпециализированного #yАтакующего #yЗаклинания через #yЖезл #yХайтаа урон увеличивается с 2x до 4x."
+    ]
+  },
+  "FrierenMod:NextTurnConcentrationPower": {
+    "NAME": "Концентрация Следующего Хода",
+    "DESCRIPTIONS": [
+      "Получите #b%d #yКонцентрации в следующий ход."
+    ]
+  }
+}

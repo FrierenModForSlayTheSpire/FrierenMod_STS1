@@ -1,0 +1,1196 @@
+{
+  "FrierenMod:Strike_Frieren": {
+    "NAME": "Удар",
+    "DESCRIPTION": "Нанесите !D! урона."
+  },
+  "FrierenMod:Defend_Frieren": {
+    "NAME": "Защита",
+    "DESCRIPTION": "Получите !B! Защиты."
+  },
+  "FrierenMod:OrdinaryOffensiveMagic": {
+    "NAME": "Обычная Атакующая Магия",
+    "DESCRIPTION": "Нанесите урон, равный удвоенному количеству *Маны, Истощённой в этом бою.",
+    "EXTENDED_DESCRIPTION": [
+      " NL (Наносит !D! урона.)"
+    ]
+  },
+  "FrierenMod:DefensiveMagic": {
+    "NAME": "Защитная Магия",
+    "DESCRIPTION": " frierenmod:Воспевание !CX!. Получите !B! Защиты. NL Добавьте ещё одну *Защитная_Магия в руку.",
+    "UPGRADE_DESCRIPTION": " frierenmod:Воспевание !CX!. Получите !B! Защиты. NL Добавьте ещё одну *Защитная_Магия+ в руку."
+  },
+  "FrierenMod:SecondDefensiveMagic": {
+    "NAME": "Защитная Магия",
+    "DESCRIPTION": "frierenmod:Воспевание !CX!. Получите !B! Защиты. NL Истощение."
+  },
+  "FrierenMod:RapidChant": {
+    "NAME": "Быстрое Воспевание",
+    "DESCRIPTION": "frierenmod:Воспевание !CX!. Переместите одну *Ману в стопку колоды.",
+    "UPGRADE_DESCRIPTION": "Остаток. NL frierenmod:Воспевание !CX!. Переместите одну *Ману в стопку колоды."
+  },
+  "FrierenMod:Mana": {
+    "NAME": "Мана",
+    "DESCRIPTION": "frierenmod:Синхро."
+  },
+  "FrierenMod:ShavedIceSpell": {
+    "NAME": "Заклинание для Приготовления Ледяного Десерта",
+    "DESCRIPTION": "Переместите !M! *Маны в стопку колоды."
+  },
+  "FrierenMod:ManaConcealment": {
+    "NAME": "Сокрытие Маны",
+    "DESCRIPTION": "Переместите ВСЮ *Ману из стопки колоды в стопку сброса. NL Истощение. NL Эфемерная."
+  },
+  "FrierenMod:BePrepared": {
+    "NAME": "Быть Готовым",
+    "DESCRIPTION": "Истощите !M! *Маны {@@} в {!frierenmod:SlotNumber!|-1= Ошибка|0= Стопке Колоды |1= Руке|2= Стопке Сброса}. Следующая Атака наносит на !SM! больше урона.",
+    "EXTENDED_DESCRIPTION": [
+      "Истощите X *Маны из стопки, следующая Атака наносит на X+3 больше урона."
+    ]
+  },
+  "FrierenMod:MetallicizFlower": {
+    "NAME": "Чужеземное Заклинание: Цветок Металлизации",
+    "DESCRIPTION": "Истощите !M! *Маны {@@} в {!frierenmod:SlotNumber!|-1= Ошибка|0= Стопке Колоды |1= Руке|2= Стопке Сброса}. Получите !SM! Металлизации.",
+    "EXTENDED_DESCRIPTION": [
+      "Истощите X *Маны из стопки, получите X Металлизации."
+    ]
+  },
+  "FrierenMod:NatureBeauty": {
+    "NAME": "Фокус: Красота Природы",
+    "DESCRIPTION": "Истощите !M! *Маны {@@} в {!frierenmod:SlotNumber!|-1= Ошибка|0= Стопке Колоды |1= Руке|2= Стопке Сброса}. В следующий ход получите !SM! [E].",
+    "EXTENDED_DESCRIPTION": [
+      "Истощите X+1 *Маны из стопки, в следующий ход получите X [E]."
+    ]
+  },
+  "FrierenMod:IceArrows": {
+    "NAME": "Чужеземное Заклинание: Ледяные Стрелы",
+    "DESCRIPTION": "Истощите !M! *Маны {@@} в {!frierenmod:SlotNumber!|-1= Ошибка|0= Стопке Колоды |1= Руке|2= Стопке Сброса}. ВСЕ враги теряют !SM! ОЗ.",
+    "EXTENDED_DESCRIPTION": [
+      "Истощите X *Маны из стопки, все враги теряют 4X ОЗ."
+    ]
+  },
+  "FrierenMod:HighSpeedMovement": {
+    "NAME": "Чужеземное Заклинание: Высокоскоростное Движение",
+    "DESCRIPTION": "Истощите !M! *Маны {@@} в {!frierenmod:SlotNumber!|-1= Ошибка|0= Стопке Колоды |1= Руке|2= Стопке Сброса}. Получите !SM! Ловкости.",
+    "EXTENDED_DESCRIPTION": [
+      "Истощите X *Маны из стопки, получите X Ловкости."
+    ]
+  },
+  "FrierenMod:SpellBoost": {
+    "NAME": "Усиление Заклинания",
+    "DESCRIPTION": "Истощите !M! *Маны {@@} в {!frierenmod:SlotNumber!|-1= Ошибка|0= Стопке Колоды |1= Руке|2= Стопке Сброса}. Наносите Двойной Урон в следующие !SM! ход(а).",
+    "EXTENDED_DESCRIPTION": [
+      "Истощите 4X *Маны из стопки, наносите Двойной Урон в следующие X ход(а)."
+    ]
+  },
+  "FrierenMod:Hypnosis": {
+    "NAME": "Чужеземное Заклинание: Гипноз",
+    "DESCRIPTION": "Истощите !M! *Маны {@@} в {!frierenmod:SlotNumber!|-1= Ошибка|0= Стопке Колоды |1= Руке|2= Стопке Сброса}. Наложите !SM! Слабости и Уязвимости на всех врагов.",
+    "EXTENDED_DESCRIPTION": [
+      "Истощите 2X *Маны из стопки, наложите X Слабости и Уязвимости на всех врагов."
+    ]
+  },
+  "FrierenMod:PeacefulDays": {
+    "NAME": "Мирные Дни",
+    "DESCRIPTION": "Истощите !M! *Маны {@@} в {!frierenmod:SlotNumber!|-1= Ошибка|0= Стопке Колоды |1= Руке|2= Стопке Сброса}. Возьмите !SM! карту.",
+    "EXTENDED_DESCRIPTION": [
+      "Истощите X+1 *Маны из стопки, возьмите X карту."
+    ]
+  },
+  "FrierenMod:TheLivingLegend": {
+    "NAME": "Живая Легенда",
+    "DESCRIPTION": "Истощите !M! *Маны {@@} в {!frierenmod:SlotNumber!|-1= Ошибка|0= Стопке Колоды |1= Руке|2= Стопке Сброса}. Добавьте !SM! случайных frierenmod:Легендарных_Заклинаний в {!frierenmod:SlotNumber!|-1= Ошибка|0= стопку колоды|1= руку|2= стопку сброса}.",
+    "EXTENDED_DESCRIPTION": [
+      "Истощите X *Маны из стопки, добавьте X случайных frierenmod:Легендарных_Заклинаний в стопку."
+    ]
+  },
+  "FrierenMod:ImpeccableIntangible": {
+    "NAME": "Безупречная Нематериальность",
+    "DESCRIPTION": "Истощите !M! *Маны {@@} в {!frierenmod:SlotNumber!|-1= Ошибка|0= Стопке Колоды |1= Руке|2= Стопке Сброса}. Получите !SM! Нематериальности.",
+    "EXTENDED_DESCRIPTION": [
+      "Истощите 6X *Маны из стопки, получите X Нематериальности."
+    ]
+  },
+  "FrierenMod:BarrierMagic": {
+    "NAME": "Барьерная Магия",
+    "DESCRIPTION": "Истощите !M! *Маны {@@} в {!frierenmod:SlotNumber!|-1= Ошибка|0= Стопке Колоды |1= Руке|2= Стопке Сброса}. Получите !B! Защиты — он не снимается в начале следующих !SM! ход(а).",
+    "EXTENDED_DESCRIPTION": [
+      "Истощите X+1 *Маны из стопки, получите X Защиты — он не снимается в начале следующих X ход(а)."
+    ]
+  },
+  "FrierenMod:PassOnTheTorch": {
+    "NAME": "Передать Эстафету",
+    "DESCRIPTION": "Истощите !M! *Маны {@@} в {!frierenmod:SlotNumber!|-1= Ошибка|0= Стопке Колоды |1= Руке|2= Стопке Сброса}. Добавьте !SM! *Маны {@@} в {!frierenmod:SlotNumber!|-1= Ошибка|0= Руку|1= Стопку Сброса|2= Стопку Колоды}.",
+    "EXTENDED_DESCRIPTION": [
+      "Истощите X *Маны из стопки, добавьте X *Маны в следующую стопку."
+    ]
+  },
+  "FrierenMod:Transcendence": {
+    "NAME": "Трансцендентность",
+    "DESCRIPTION": "Истощите !M! *Маны {@@} в {!frierenmod:SlotNumber!|-1= Ошибка|0= Стопке Колоды |1= Руке|2= Стопке Сброса}. Получите !SM! Мантры.",
+    "EXTENDED_DESCRIPTION": [
+      "Истощите X *Маны из стопки, получите X Мантры."
+    ]
+  },
+  "FrierenMod:AdvancedDefensiveMagic": {
+    "NAME": "Продвинутая Защитная Магия",
+    "DESCRIPTION": "Истощите !M! *Маны {@@} в {!frierenmod:SlotNumber!|-1= Ошибка|0= Стопке Колоды |1= Руке|2= Стопке Сброса}. Получите !B! Защиты дважды.",
+    "EXTENDED_DESCRIPTION": [
+      "Истощите X *Маны из стопки, получите X Защиты дважды."
+    ]
+  },
+  "FrierenMod:Strategizing": {
+    "NAME": "Стратегирование",
+    "DESCRIPTION": "Истощите !M! *Маны {@@} в {!frierenmod:SlotNumber!|-1= Ошибка|0= Стопке Колоды |1= Руке|2= Стопке Сброса}. Получите !SM! [E].",
+    "EXTENDED_DESCRIPTION": [
+      "Истощите 2X *Маны из стопки, получите X [E]."
+    ]
+  },
+  "FrierenMod:BuildUpBody": {
+    "NAME": "Накопить Силу",
+    "DESCRIPTION": "Истощите !M! *Маны {@@} в {!frierenmod:SlotNumber!|-1= Ошибка|0= Стопке Колоды |1= Руке|2= Стопке Сброса}. Получите !SM! Силы.",
+    "EXTENDED_DESCRIPTION": [
+      "Истощите X *Маны из стопки, получите X Силы."
+    ]
+  },
+  "FrierenMod:MeleeMage": {
+    "NAME": "Маг Ближнего Боя",
+    "DESCRIPTION": "Истощите !M! *Маны {@@} в {!frierenmod:SlotNumber!|-1= Ошибка|0= Стопке Колоды |1= Руке|2= Стопке Сброса}. Карты, содержащие \\\"Удар\\\", наносят на !SM! больше урона.",
+    "EXTENDED_DESCRIPTION": [
+      "Истощите X *Маны из стопки, карты с \"Удар\" наносят на X+1 больше урона."
+    ]
+  },
+  "FrierenMod:GrossedOutLook": {
+    "NAME": "Взгляд Отвращения",
+    "DESCRIPTION": "Истощите !M! *Маны {@@} в {!frierenmod:SlotNumber!|-1= Ошибка|0= Стопке Колоды |1= Руке|2= Стопке Сброса}. Все враги теряют !SM! Силы в этот ход.",
+    "EXTENDED_DESCRIPTION": [
+      "Истощите X *Маны из стопки, все враги теряют X+2 Силы в этот ход."
+    ]
+  },
+  "FrierenMod:Sleeeep": {
+    "NAME": "Спааать",
+    "DESCRIPTION": "Истощите !M! *Маны {@@} в {!frierenmod:SlotNumber!|-1= Ошибка|0= Стопке Колоды |1= Руке|2= Стопке Сброса}. Возьмите !SM! карт в следующий ход.",
+    "EXTENDED_DESCRIPTION": [
+      "Истощите X *Маны из стопки, возьмите X карт в следующий ход."
+    ]
+  },
+  "FrierenMod:TransferToAlchemist": {
+    "NAME": "Передать Алхимику",
+    "DESCRIPTION": "Истощите !M! *Маны {@@} в {!frierenmod:SlotNumber!|-1= Ошибка|0= Стопке Колоды |1= Руке|2= Стопке Сброса}. Наложите !SM! Яда на ВСЕХ врагов.",
+    "EXTENDED_DESCRIPTION": [
+      "Истощите X *Маны из стопки, наложите 2X Яда на всех врагов."
+    ]
+  },
+  "FrierenMod:GreatMageComposure": {
+    "NAME": "Спокойствие Великого Мага",
+    "DESCRIPTION": "Истощите !M! *Маны {@@} в {!frierenmod:SlotNumber!|-1= Ошибка|0= Стопке Колоды |1= Руке|2= Стопке Сброса}. Следующие !SM! раз(а) frierenmod:Воспевание БЕСПЛАТНО.",
+    "EXTENDED_DESCRIPTION": [
+      "Истощите 4X *Маны из стопки, в этот ход следующие X раз(а) frierenmod:Воспевание БЕСПЛАТНО."
+    ]
+  },
+  "FrierenMod:PinchAndScrape": {
+    "NAME": "По Крохам",
+    "DESCRIPTION": "Истощите !M! *Маны {@@} в {!frierenmod:SlotNumber!|-1= Ошибка|0= Стопке Колоды |1= Руке|2= Стопке Сброса}. Следующие !SM! раз(а) frierenmod:Синхро не Истощает.",
+    "EXTENDED_DESCRIPTION": [
+      "Истощите X *Маны из стопки, следующие 2X раз(а) frierenmod:Синхро не Истощает."
+    ]
+  },
+  "FrierenMod:BluePrint": {
+    "NAME": "Чертёж",
+    "DESCRIPTION": "",
+    "EXTENDED_DESCRIPTION": [
+      "При frierenmod:Воспевании всегда КОПИРУЕТ *Магический *Фактор в следующем frierenmod:Слоте."
+    ]
+  },
+  "FrierenMod:BloodSpell": {
+    "NAME": "Кровавое Заклинание",
+    "DESCRIPTION": "Истощите !M! *Маны {@@} в {!frierenmod:SlotNumber!|-1= Ошибка|0= Стопке Колоды |1= Руке|2= Стопке Сброса}. Потеряйте !SM! ОЗ.",
+    "EXTENDED_DESCRIPTION": [
+      "Истощите X-2 *Маны из стопки, потеряйте X+2 ОЗ."
+    ]
+  },
+  "FrierenMod:BigFire": {
+    "NAME": "Большой Огонь",
+    "DESCRIPTION": "Истощите !M! *Маны {@@} в {!frierenmod:SlotNumber!|-1= Ошибка|0= Стопке Колоды |1= Руке|2= Стопке Сброса}. Добавьте !SM! *Маленький *Огонь в {!frierenmod:SlotNumber!|-1= Ошибка|0= стопку колоды|1= руку|2= стопку сброса}.",
+    "EXTENDED_DESCRIPTION": [
+      "Истощите 2X *Маны из стопки, добавьте X *Маленький *Огонь в стопку."
+    ]
+  },
+  "FrierenMod:Factor100": {
+    "NAME": "Головоломка: @ ? ? ",
+    "DESCRIPTION": "Истощите !M! *Маны {@@} в {!frierenmod:SlotNumber!|-1= Ошибка|0= Стопке Колоды |1= Руке|2= Стопке Сброса}. {@@} {!frierenmod:SlotNumber!|-1= Ошибка|0= @ |1= ?|2= ?}",
+    "EXTENDED_DESCRIPTION": [
+      "Истощите X+1 *Маны из стопки... [#e1c6ed]Фрирен[]..."
+    ]
+  },
+  "FrierenMod:Factor010": {
+    "NAME": "Головоломка: ? @ ? ",
+    "DESCRIPTION": "Истощите !M! *Маны {@@} в {!frierenmod:SlotNumber!|-1= Ошибка|0= Стопке Колоды |1= Руке|2= Стопке Сброса}. {@@} {!frierenmod:SlotNumber!|-1= Ошибка|0= ? |1= @|2= ?}",
+    "EXTENDED_DESCRIPTION": [
+      "Истощите 2X+2 *Маны из стопки... [#FFFE91]убить[]..."
+    ]
+  },
+  "FrierenMod:Factor001": {
+    "NAME": "Головоломка: ? ? @ ",
+    "DESCRIPTION": "Истощите !M! *Маны {@@} в {!frierenmod:SlotNumber!|-1= Ошибка|0= Стопке Колоды |1= Руке|2= Стопке Сброса}. {@@} {!frierenmod:SlotNumber!|-1= Ошибка|0= ? |1= ?|2= @}",
+    "EXTENDED_DESCRIPTION": [
+      "Истощите 3X+3 *Маны из стопки... [#ed1c24]монстр[]..."
+    ]
+  },
+  "FrierenMod:UnbelievableTool": {
+    "NAME": "Невероятный Инструмент",
+    "DESCRIPTION": "Выберите один [#ff4e41]Незагруженный[#ff4e41] и один [#9ffc4f]Загруженный[#9ffc4f] *Магический *Фактор — поменяйте их frierenmod:Слотами.",
+    "EXTENDED_DESCRIPTION": [
+      "Выберите один [#ff4e41]Незагруженный[#ff4e41] и один [#9ffc4f]Загруженный[#9ffc4f] *Магический *Фактор — поменяйте их frierenmod:Слотами."
+    ]
+  },
+  "FrierenMod:MysteryBox": {
+    "NAME": "Загадочная Шкатулка",
+    "DESCRIPTION": "Добавьте 2 случайных *Магических *Фактора в Магическую Колоду.",
+    "EXTENDED_DESCRIPTION": [
+      "Добавьте 2 случайных *Магических *Фактора в Магическую Колоду."
+    ]
+  },
+  "FrierenMod:SeinNote": {
+    "NAME": "Записки Зайна",
+    "DESCRIPTION": "Удалите 2 [#ff4e41]Незагруженных[#ff4e41] *Магических *Фактора или *Магических *Реквизита. Восстановите 10 ОЗ.",
+    "EXTENDED_DESCRIPTION": [
+      "Удалите 2 [#ff4e41]Незагруженных[#ff4e41] *Магических *Фактора или *Магических *Реквизита. Восстановите 10 ОЗ."
+    ]
+  },
+  "FrierenMod:MysticBox": {
+    "NAME": "Мистическая Шкатулка",
+    "DESCRIPTION": "Выберите 3 [#ff4e41]Незагруженных[#ff4e41] *Магических *Фактора — случайно поменяйте их frierenmod:Слоты с [#9ffc4f]Загруженными[#9ffc4f] *Магическими *Факторами.",
+    "EXTENDED_DESCRIPTION": [
+      "Выберите 3 [#ff4e41]Незагруженных[#ff4e41] *Магических *Фактора — случайно поменяйте их frierenmod:Слоты с [#9ffc4f]Загруженными[#9ffc4f] *Магическими *Факторами."
+    ]
+  },
+  "FrierenMod:ShadowDragonHorn": {
+    "NAME": "Рог Теневого Дракона",
+    "DESCRIPTION": "Только в бою: удалите 2 [#ff4e41]Незагруженных[#ff4e41] *Магических *Фактора или *Магических *Реквизита. Получите [E] [E].",
+    "EXTENDED_DESCRIPTION": [
+      "Только в бою: удалите 2 [#ff4e41]Незагруженных[#ff4e41] *Магических *Фактора или *Магических *Реквизита. Получите [E] [E]."
+    ]
+  },
+  "FrierenMod:TransmutationCircle": {
+    "NAME": "Некий Научный Круг Трансмутации",
+    "DESCRIPTION": "Удалите 2 *Магических *Фактора — добавьте случайные *Магические *Факторы той же редкости в их frierenmod:Слоты.",
+    "EXTENDED_DESCRIPTION": [
+      "Удалите 2 *Магических *Фактора — добавьте случайные *Магические *Факторы той же редкости в их frierenmod:Слоты."
+    ]
+  },
+  "FrierenMod:UnbelievableToolBox": {
+    "NAME": "Ящик Невероятных Инструментов",
+    "DESCRIPTION": "Удалите 2 [#ff4e41]Незагруженных[#ff4e41] *Магических *Фактора или *Магических *Реквизита. Получите 2 *Невероятных *Инструмента.",
+    "EXTENDED_DESCRIPTION": [
+      "Удалите 2 [#ff4e41]Незагруженных[#ff4e41] *Магических *Фактора или *Магических *Реквизита. Получите 2 *Невероятных *Инструмента."
+    ]
+  },
+  "FrierenMod:CrystalBall": {
+    "NAME": "Хрустальный Шар",
+    "DESCRIPTION": "Выберите 2 [#9ffc4f]Загруженных[#9ffc4f] *Магических *Фактора — поменяйте их frierenmod:Слотами.",
+    "EXTENDED_DESCRIPTION": [
+      "Выберите 2 [#9ffc4f]Загруженных[#9ffc4f] *Магических *Фактора — поменяйте их frierenmod:Слотами."
+    ]
+  },
+  "FrierenMod:Tutorial": {
+    "NAME": "Обучение Магической Колоде",
+    "DESCRIPTION": "Магические предметы случайно выпадают в Наградах. NL Нажмите ПКМ по реквизиту, затем ЛКМ по цели, чтобы активировать эффект реквизита.",
+    "EXTENDED_DESCRIPTION": [
+      "Магические предметы случайно выпадают в Наградах. NL Нажмите ПКМ по реквизиту, затем ЛКМ по цели, чтобы активировать эффект реквизита."
+    ]
+  },
+  "FrierenMod:SwampSpell": {
+    "NAME": "Заклинание для Выбирания из Болота",
+    "DESCRIPTION": "Возьмите !M! *Маны."
+  },
+  "FrierenMod:MoldSpell": {
+    "NAME": "Заклинание от Плесени",
+    "DESCRIPTION": "frierenmod:Легендарное_Заклинание. NL Нанесите !D! урона !M! раз(а)."
+  },
+  "FrierenMod:Perpetual": {
+    "NAME": "Вечность",
+    "DESCRIPTION": "В начале хода переместите 2 *Маны в стопку сброса.",
+    "UPGRADE_DESCRIPTION": "Врождённая. NL В начале хода переместите 2 *Маны в стопку сброса."
+  },
+  "FrierenMod:BackFlow": {
+    "NAME": "Обратный Поток",
+    "DESCRIPTION": "Возьмите !M! *Маны из стопки сброса.",
+    "UPGRADE_DESCRIPTION": "Возьмите !M! *Маны из стопки сброса."
+  },
+  "FrierenMod:Disperse": {
+    "NAME": "Рассеять",
+    "DESCRIPTION": "Переместите *Ману в стопку колоды. NL Добавьте 2 *Маны в руку. NL Переместите 3 *Маны в стопку сброса. NL Истощение.",
+    "UPGRADE_DESCRIPTION": "Переместите *Ману в стопку колоды. NL Добавьте 2 *Маны в руку. NL Переместите 3 *Маны в стопку сброса."
+  },
+  "FrierenMod:Flow": {
+    "NAME": "Поток",
+    "DESCRIPTION": "Нанесите !D! урона. NL Переместите по одной *Мане из стопки колоды и стопки сброса в руку."
+  },
+  "FrierenMod:FlyingMagic": {
+    "NAME": "Летающая Магия",
+    "DESCRIPTION": "Получите 3 Нематериальности. NL В конце хода Истощите !M! *Маны из стопки сброса."
+  },
+  "FrierenMod:FolkGrimoire": {
+    "NAME": "Народный Гримуар",
+    "DESCRIPTION": "Добавьте случайную карту frierenmod:Воспевания и случайное frierenmod:Легендарное_Заклинание в руку. В этот ход они стоят на !M! меньше. NL Истощение."
+  },
+  "FrierenMod:Outpouring": {
+    "NAME": "Излияние",
+    "DESCRIPTION": "Каждый раз, когда вы frierenmod:Синхро с *Маной в этот ход, получайте !M! Силы. NL Истощение.",
+    "UPGRADE_DESCRIPTION": "Остаток. NL Каждый раз, когда вы frierenmod:Синхро с *Маной в этот ход, получайте !M! Силы. NL Истощение."
+  },
+  "FrierenMod:ContinualChant": {
+    "NAME": "Непрерывное Воспевание",
+    "DESCRIPTION": "frierenmod:Легендарное_Заклинание. NL Переместите !M! *Маны в стопку колоды. NL frierenmod:Воспевание !CX!."
+  },
+  "FrierenMod:Simmering": {
+    "NAME": "Тлеющий Огонь",
+    "DESCRIPTION": "После frierenmod:Воспевания возьмите frierenmod:Легендарное_Заклинание."
+  },
+  "FrierenMod:PajamasForm": {
+    "NAME": "Форма Пижамы",
+    "DESCRIPTION": "В конце хода Истощите ВСЮ *Ману и нанесите всем врагам урон, равный 4-кратному количеству Истощённой *Маны."
+  },
+  "FrierenMod:PreparedPosture": {
+    "NAME": "Готовая Стойка",
+    "DESCRIPTION": "Нанесите !D! урона. NL Возьмите карту frierenmod:Воспевания."
+  },
+  "FrierenMod:Trick": {
+    "NAME": "Трюк",
+    "DESCRIPTION": "В начале хода добавьте *СокрытиеМаны в руку."
+  },
+  "FrierenMod:FlowerFieldSpell": {
+    "NAME": "Заклинание для Создания Цветочных Полей",
+    "DESCRIPTION": "frierenmod:Воспевание !CX!. NL Добавьте *Лунный_Сорняк в руку.",
+    "UPGRADE_DESCRIPTION": "frierenmod:Воспевание !CX!. NL Добавьте *Лунный_Сорняк+ в руку."
+  },
+  "FrierenMod:ClearMind": {
+    "NAME": "Ясный Разум",
+    "DESCRIPTION": "Добавьте !M! *Маны в руку. В этот ход frierenmod:Синхро меняется на frierenmod:Акцел_Синхро."
+  },
+  "FrierenMod:AccessoriesSpell": {
+    "NAME": "Заклинание для Поиска Потерянных Украшений",
+    "DESCRIPTION": "Врождённая. Эфемерная. NL frierenmod:Легендарное_Заклинание. NL В конце боя получите случайную реликвию."
+  },
+  "FrierenMod:OilSpell": {
+    "NAME": "Заклинание для Удаления Стойких Масляных Пятен",
+    "DESCRIPTION": "frierenmod:Легендарное_Заклинание. NL Нанесите !D! урона ВСЕМ врагам. Если ни один враг не погиб, нанесите ещё !M! урона."
+  },
+  "FrierenMod:ApexMagic": {
+    "NAME": "Вершина Магии",
+    "DESCRIPTION": "Если в руке, стопке колоды и стопке сброса ровно по 4 *Маны, установите ОЗ всех врагов на 0.",
+    "UPGRADE_DESCRIPTION": "Остаток. NL Если в руке, стопке колоды и стопке сброса ровно по 4 *Маны, установите ОЗ всех врагов на 0."
+  },
+  "FrierenMod:PancakeSpell": {
+    "NAME": "Заклинание для Идеального Переворачивания Блинчиков",
+    "DESCRIPTION": "Обменяйте !M! *Маны в руке на одну карту из стопки колоды."
+  },
+  "FrierenMod:TongueTwisterSpell": {
+    "NAME": "Заклинание для Произнесения Скороговорок",
+    "DESCRIPTION": "Возьмите !M! карту. NL Получите !B! Защиты за каждую *Ману в руке."
+  },
+  "FrierenMod:MultipleOffensiveMagic": {
+    "NAME": "Множественная Атакующая Магия",
+    "DESCRIPTION": "Нанесите X+4 урона случайному врагу X раз. Добавьте X *Маны в руку.",
+    "UPGRADE_DESCRIPTION": "Нанесите X+4 урона случайному врагу X+1 раз. Добавьте X *Маны в руку.",
+    "EXTENDED_DESCRIPTION": [
+      " NL (Нанесите !D! урона",
+      "раз)"
+    ]
+  },
+  "FrierenMod:RitesPreparation": {
+    "NAME": "Подготовка Ритуала",
+    "DESCRIPTION": "Следующие !M! *Маны, которые вы frierenmod:Синхро, нанесут 5 урона всем врагам."
+  },
+  "FrierenMod:FireSpell": {
+    "NAME": "Заклинание для Розжига Огня",
+    "DESCRIPTION": "Добавьте *Маленькую *Искру в руку за каждого врага в комнате. NL Истощение.",
+    "UPGRADE_DESCRIPTION": "Добавьте *Маленькую *Искру+ в руку за каждого врага в комнате. NL Истощение."
+  },
+  "FrierenMod:Laziness": {
+    "NAME": "Лень",
+    "DESCRIPTION": "Нельзя разыграть. NL Воспойте один раз, чтобы Истощить эту карту. NL В конце хода переместите копию этой карты в стопку сброса."
+  },
+  "FrierenMod:Recall": {
+    "NAME": "Воспоминание",
+    "DESCRIPTION": "Возьмите !M! карту из стопки Истощения в руку с Остатком. NL Истощение."
+  },
+  "FrierenMod:RustCleanMagic": {
+    "NAME": "Заклинание Защиты от Коррозии",
+    "DESCRIPTION": "frierenmod:Легендарное_Заклинание. NL Снимите один бафф с не-босс врага и один ваш дебафф. NL Истощение."
+  },
+  "FrierenMod:RedAppleSpell": {
+    "NAME": "Заклинание для Превращения Красного ЯЗащиты в Зелёное",
+    "DESCRIPTION": "Поменяйте местами Силу и Ловкость, добавьте *Яблоко в руку. NL В конце хода поменяйте обратно.",
+    "UPGRADE_DESCRIPTION": "Поменяйте местами Силу и Ловкость, добавьте *Яблоко+ в руку. NL В конце хода поменяйте обратно."
+  },
+  "FrierenMod:GreenApple": {
+    "NAME": "Зелёное Яблоко",
+    "DESCRIPTION": "Получите !B! Защиты дважды. NL Истощение."
+  },
+  "FrierenMod:LightningMagic": {
+    "NAME": "Магия Разрушительной Молнии",
+    "DESCRIPTION": "frierenmod:Легендарное_Заклинание. NL Берите *Ману из стопки колоды и стопки сброса, пока рука не заполнится. frierenmod:Синхро меняется на frierenmod:Лимит_Овер_Синхро до конца боя."
+  },
+  "FrierenMod:BlueMoonWeed": {
+    "NAME": "BlueMoonWeed",
+    "DESCRIPTION": "Остаток. NL Возьмите !M! карт. NL Истощение."
+  },
+  "FrierenMod:GrapeSpell": {
+    "NAME": "Заклинание для Превращения Сладкого Винограда в Кислый",
+    "DESCRIPTION": "Выберите 2 карты в руке и Истощите их, затем добавьте 2 *Маны в руку. NL Истощение."
+  },
+  "FrierenMod:BabySleeping": {
+    "NAME": "Сон Младенца",
+    "DESCRIPTION": "Получите !B! Защиты. Сохраните 1 карту в руке. Если в стопке сброса нет *Маны, сохраните всю руку."
+  },
+  "FrierenMod:SerieGrimoire": {
+    "NAME": "Гримуар Серии",
+    "DESCRIPTION": "Создайте frierenmod:Легендарное_Заклинание! NL Истощение.",
+    "UPGRADE_DESCRIPTION": "Создайте frierenmod:Легендарное_Заклинание! У вас будет больше вариантов. NL Истощение."
+  },
+  "FrierenMod:LittleFire": {
+    "NAME": "Маленькая Искра",
+    "DESCRIPTION": "frierenmod:Отдача. Нанесите !D! урона и увеличьте урон ВСЕХ *МаленькихИскр на !M! в этом бою. NL Каждый раз, когда вы frierenmod:Синхро, верните эту карту из стопки сброса в руку."
+  },
+  "FrierenMod:FullAhead": {
+    "NAME": "Полный Вперёд",
+    "DESCRIPTION": "После первого frierenmod:Воспевания каждый ход получайте 1 Силы и 1 Ловкости."
+  },
+  "FrierenMod:LockTarget": {
+    "NAME": "Захватить Цель",
+    "DESCRIPTION": "Нанесите !D! урона, возьмите карту. NL Если *Маны в стопке колоды не меньше, чем в стопке сброса, атакуйте ещё раз."
+  },
+  "FrierenMod:FiveMinutesMore": {
+    "NAME": "Ещё Пять Минут",
+    "DESCRIPTION": "Получите [E] [E]. Добавьте *Лень в стопку колоды.",
+    "UPGRADE_DESCRIPTION": "Получите [E] [E]. Добавьте *Лень в руку."
+  },
+  "FrierenMod:CustomLegendarySpell": {
+    "NAME": "Создать Заклинание",
+    "DESCRIPTION": "frierenmod:Легендарное_Заклинание."
+  },
+  "FrierenMod:Cost0": {
+    "NAME": "Наименьший Размер",
+    "DESCRIPTION": "Не требует [E]."
+  },
+  "FrierenMod:Cost1": {
+    "NAME": "Малый Размер",
+    "DESCRIPTION": " [E] "
+  },
+  "FrierenMod:Cost2": {
+    "NAME": "Большой Размер",
+    "DESCRIPTION": " [E] [E] "
+  },
+  "FrierenMod:Cost3": {
+    "NAME": "Наибольший Размер",
+    "DESCRIPTION": " [E] [E] [E] "
+  },
+  "FrierenMod:DrawOption": {
+    "NAME": "Звезда",
+    "DESCRIPTION": "Возьмите !M! карту/карт.",
+    "EXTENDED_DESCRIPTION": [
+      "Возьмите 1/2/3 карту/карт."
+    ]
+  },
+  "FrierenMod:ManaInDiscardOption": {
+    "NAME": "Луна",
+    "DESCRIPTION": "Переместите !M! *Маны в стопку сброса.",
+    "EXTENDED_DESCRIPTION": [
+      "Переместите 2/4/6/8 *Маны в стопку сброса."
+    ]
+  },
+  "FrierenMod:ManaInHandOption": {
+    "NAME": "Солнце",
+    "DESCRIPTION": "Добавьте !M! *Маны в руку.",
+    "EXTENDED_DESCRIPTION": [
+      "Добавьте 2/3/4/5 *Маны в руку."
+    ]
+  },
+  "FrierenMod:ManaInDrawOption": {
+    "NAME": "Шут",
+    "DESCRIPTION": "Переместите !M! *Маны в стопку колоды.",
+    "EXTENDED_DESCRIPTION": [
+      "Переместите 2/4/6/8 *Маны в стопку колоды."
+    ]
+  },
+  "FrierenMod:ScryOption": {
+    "NAME": "Верховная Жрица",
+    "DESCRIPTION": "Предвидение !M!.",
+    "EXTENDED_DESCRIPTION": [
+      "Предвидение 2/3/4."
+    ]
+  },
+  "FrierenMod:CostZeroOption": {
+    "NAME": "Пентакли",
+    "DESCRIPTION": "Снизьте стоимость !M! случайной карты в руке до 0 в этот ход.",
+    "EXTENDED_DESCRIPTION": [
+      "Снизьте стоимость 1/2 карты/карт в руке до 0 в этот ход."
+    ]
+  },
+  "FrierenMod:SelfRetainOption": {
+    "NAME": "Умеренность",
+    "DESCRIPTION": "Сохраните !M! карту в руке.",
+    "EXTENDED_DESCRIPTION": [
+      "Сохраните 1/2 карты в руке."
+    ]
+  },
+  "FrierenMod:GainRandomCardOption": {
+    "NAME": "Колесо Фортуны",
+    "DESCRIPTION": "Добавьте !M! случайную обычную карту в руку. В этот ход она стоит 0.",
+    "EXTENDED_DESCRIPTION": [
+      "Добавьте 1/2 случайную обычную карту/карты в руку. В этот ход они стоят 0."
+    ]
+  },
+  "FrierenMod:DamageOption": {
+    "NAME": "Справедливость",
+    "DESCRIPTION": "Нанесите !D! урона.",
+    "EXTENDED_DESCRIPTION": [
+      "Нанесите 6/10 урона."
+    ]
+  },
+  "FrierenMod:DamageThirdOption": {
+    "NAME": "Дьявол",
+    "DESCRIPTION": "Нанесите !D! урона 3 раза.",
+    "EXTENDED_DESCRIPTION": [
+      "Нанесите 5/7 урона 3 раза."
+    ]
+  },
+  "FrierenMod:DamageAllOption": {
+    "NAME": "Смерть",
+    "DESCRIPTION": "Нанесите !D! урона ВСЕМ врагам.",
+    "EXTENDED_DESCRIPTION": [
+      "Нанесите 4/8/12/16 урона всем врагам."
+    ]
+  },
+  "FrierenMod:BlockOption": {
+    "NAME": "Отшельник",
+    "DESCRIPTION": "Получите !B! Защиты.",
+    "EXTENDED_DESCRIPTION": [
+      "Получите 4/8/12/16 Защиты."
+    ]
+  },
+  "FrierenMod:EnergyOption": {
+    "NAME": "Влюблённые",
+    "DESCRIPTION": "В следующий ход получите !M! [E].",
+    "EXTENDED_DESCRIPTION": [
+      "В следующий ход получите 1/2/3 [E]."
+    ]
+  },
+  "FrierenMod:ExtinguishOption": {
+    "NAME": "Суд",
+    "DESCRIPTION": "Если у врага !M! или меньше ОЗ, установите его ОЗ на 0.",
+    "EXTENDED_DESCRIPTION": [
+      "Если у врага 30/40 или меньше ОЗ, установите его ОЗ на 0."
+    ]
+  },
+  "FrierenMod:DexterityOption": {
+    "NAME": "Маг",
+    "DESCRIPTION": "Получите !M! Ловкости. NL Истощение.",
+    "EXTENDED_DESCRIPTION": [
+      "Получите 2/3/4 Ловкости. NL Истощение."
+    ]
+  },
+  "FrierenMod:ChantOption": {
+    "NAME": "Кубки",
+    "DESCRIPTION": "frierenmod:Воспевание !CX!.",
+    "EXTENDED_DESCRIPTION": [
+      "frierenmod:Воспевание 2/3/4."
+    ]
+  },
+  "FrierenMod:IntangibleOption": {
+    "NAME": "Повешенный",
+    "DESCRIPTION": "Получите !M! Нематериальности. NL Истощение.",
+    "EXTENDED_DESCRIPTION": [
+      "Получите 1/2 Нематериальности. NL Истощение."
+    ]
+  },
+  "FrierenMod:StrengthOption": {
+    "NAME": "Императрица",
+    "DESCRIPTION": "Удвойте вашу Силу. NL Истощение."
+  },
+  "FrierenMod:VulnerableOption": {
+    "NAME": "Иерофант",
+    "DESCRIPTION": "Наложите !M! Уязвимости на ВСЕХ врагов.",
+    "EXTENDED_DESCRIPTION": [
+      "Наложите 1/2/3 Уязвимости на всех врагов."
+    ]
+  },
+  "FrierenMod:UpgradeOption": {
+    "NAME": "Башня",
+    "DESCRIPTION": "Улучшите все карты в руке до конца боя."
+  },
+  "FrierenMod:UpgradeAllOption": {
+    "NAME": "Мир",
+    "DESCRIPTION": "Улучшите ВСЕ карты до конца боя. NL Истощение."
+  },
+  "FrierenMod:RemoveDebuffOption": {
+    "NAME": "Жезлы",
+    "DESCRIPTION": "Снимите ВСЕ дебаффы, наложенные на вас."
+  },
+  "FrierenMod:PreciseChant": {
+    "NAME": "Точное Воспевание",
+    "DESCRIPTION": "frierenmod:Воспевание ВСЕЙ *Маны в соответствующей стопке, насколько возможно. NL Истощение.",
+    "UPGRADE_DESCRIPTION": "frierenmod:Воспевание ВСЕЙ *Маны в соответствующей стопке, насколько возможно."
+  },
+  "FrierenMod:ManaExpansion": {
+    "NAME": "Расширение Маны",
+    "DESCRIPTION": "УДВОЙТЕ количество вашей *Маны. NL Истощение."
+  },
+  "FrierenMod:DoubleManaInDrawPile": {
+    "NAME": "Удвоение из Стопки Колоды",
+    "DESCRIPTION": "Удвойте *Ману в стопке колоды."
+  },
+  "FrierenMod:DoubleManaInHand": {
+    "NAME": "Удвоение из Руки",
+    "DESCRIPTION": "Удвойте *Ману в руке."
+  },
+  "FrierenMod:DoubleManaInDiscardPile": {
+    "NAME": "Удвоение из Стопки Сброса",
+    "DESCRIPTION": "Удвойте *Ману в стопке сброса."
+  },
+  "FrierenMod:ManaDetection": {
+    "NAME": "Обнаружение Маны",
+    "DESCRIPTION": "Нанесите !D! урона. NL Каждый раз при атаке переместите !M! *Маны в стопку сброса. NL Истощение."
+  },
+  "FrierenMod:TimeConcept": {
+    "NAME": "Концепция Времени Эльфа",
+    "DESCRIPTION": "Отправьте всё своё состояние на два хода в будущее. Через два хода добавьте *Сожаление в руку.",
+    "UPGRADE_DESCRIPTION": "Отправьте всё своё состояние на два хода в будущее."
+  },
+  "FrierenMod:Imagination": {
+    "NAME": "Магия и Воображение",
+    "DESCRIPTION": "В этот ход ваши карты не тратят [E], а тратят равное количество *Маны. Вы НЕ МОЖЕТЕ получать новую *Ману с карт. frierenmod:Воспевание активируется БЕСПЛАТНО. NL Истощение.",
+    "UPGRADE_DESCRIPTION": "Остаток. В этот ход ваши карты не тратят [E], а тратят равное количество *Маны. Вы НЕ МОЖЕТЕ получать новую *Ману с карт. frierenmod:Воспевание активируется БЕСПЛАТНО. NL Истощение."
+  },
+  "FrierenMod:ContinuousShooting": {
+    "NAME": "Непрерывная Стрельба",
+    "DESCRIPTION": "Нанесите !D! урона 3 раза ВСЕМ врагам. Истощите эту карту, если в стопке колоды есть *Мана."
+  },
+  "FrierenMod:PerfectDefensiveMagic": {
+    "NAME": "Совершенная Защитная Магия",
+    "DESCRIPTION": "frierenmod:Воспевание !CX!. NL Получите 1 frierenmod:буфер, затем получите !B! Защиты.",
+    "UPGRADE_DESCRIPTION": "frierenmod:Воспевание !CX!. NL Получите 1 frierenmod:буфер, затем получите !B! Защиты."
+  },
+  "FrierenMod:MageStyleFinisher": {
+    "NAME": "Финишер в Стиле Мага",
+    "DESCRIPTION": "Нанесите !D! урона за каждую *Ману, разыгранную в этот ход.",
+    "EXTENDED_DESCRIPTION": [
+      " NL (",
+      " *Маны разыграно.)"
+    ]
+  },
+  "FrierenMod:BreaksBarriersSpell": {
+    "NAME": "Заклинание для Разрушения Барьеров",
+    "DESCRIPTION": "Отсортируйте стопку колоды по стоимости от меньшей к большей. NL Возьмите !M! карт."
+  },
+  "FrierenMod:ManaParcel": {
+    "NAME": "Посылка с Маной",
+    "DESCRIPTION": "Нельзя разыграть. NL Когда вы тянете эту карту, добавьте !M! *Маны в руку и Истощите."
+  },
+  "FrierenMod:FinalChant": {
+    "NAME": "Финальное Воспевание",
+    "DESCRIPTION": "frierenmod:Воспевание ВСЕЙ *Маны, где бы она ни находилась."
+  },
+  "FrierenMod:Kiss": {
+    "NAME": "Поцелуй (смертельно опасен!)",
+    "DESCRIPTION": "Наложите 99 Уязвимости и 99 Слабости. NL Истощение. NL Эфемерная."
+  },
+  "FrierenMod:RestraintMagic": {
+    "NAME": "Сдерживающая Магия",
+    "DESCRIPTION": "Наложите frierenmod:Замедление, цель теряет 3 Силы. NL Истощение."
+  },
+  "FrierenMod:SeeThroughPhantom": {
+    "NAME": "Видеть Сквозь Иллюзию",
+    "DESCRIPTION": "Нанесите !D! урона. Если враг намеревается атаковать, наложите !M! Слабости; иначе наложите !M! Уязвимости."
+  },
+  "FrierenMod:TrueColours": {
+    "NAME": "Истинные Цвета",
+    "DESCRIPTION": "frierenmod:Воспевание !CX!. NL Получите [E] [E] [E], возьмите 3 карты, переместите 3 *Маны в стопку колоды, руку и стопку сброса. NL Истощение."
+  },
+  "FrierenMod:OpenTheWaygate": {
+    "NAME": "Открыть Врата",
+    "DESCRIPTION": "После !M! НЕПРЕРЫВНЫХ frierenmod:Синхро за один ход получите дополнительный ход и снимите эту силу."
+  },
+  "FrierenMod:GrandCross": {
+    "NAME": "Гранд Крест",
+    "DESCRIPTION": "Нанесите !D! урона. NL Стоит 0, если вы активировали эффект frierenmod:Воспевания в этот ход."
+  },
+  "FrierenMod:HalfTheSky": {
+    "NAME": "Зависть",
+    "DESCRIPTION": "Нанесите !D! урона. NL Каждый раз, когда вы frierenmod:Воспеваете, верните эту карту из стопки сброса в руку."
+  },
+  "FrierenMod:Recycle": {
+    "NAME": "Переработка",
+    "DESCRIPTION": "Переместите в стопку колоды столько *Маны, сколько её в стопке сброса. NL Истощение."
+  },
+  "FrierenMod:AirSlash": {
+    "NAME": "Воздушный Удар",
+    "DESCRIPTION": "Нанесите !D! урона. В этот ход frierenmod:Синхро меняется на frierenmod:Акцел_Синхро. NL Вы НЕ МОЖЕТЕ получать новую *Ману с карт."
+  },
+  "FrierenMod:Apprehend": {
+    "NAME": "Захват",
+    "DESCRIPTION": "Нанесите !D! урона. NL Возьмите !M! карт. NL Сбросьте взятую *Ману."
+  },
+  "FrierenMod:Free": {
+    "NAME": "Свобода",
+    "DESCRIPTION": "Сбросьте не-*Мана карты из руки. NL Нанесите !D! урона и получите !B! Защиты за каждую сброшенную карту."
+  },
+  "FrierenMod:MageStyleChoke": {
+    "NAME": "Удушение в Стиле Мага",
+    "DESCRIPTION": "Нанесите !D! урона. NL Каждый раз, когда вы frierenmod:Синхро с *Маной в этот ход, враг теряет !M! ОЗ."
+  },
+  "FrierenMod:RingletForm": {
+    "NAME": "Форма Кудрей",
+    "DESCRIPTION": "Каждый раз, когда вы Истощаете *Ману, получайте !M! Защиты."
+  },
+  "FrierenMod:Himmel": {
+    "NAME": "Химмель",
+    "DESCRIPTION": "Фрирен... NL Эфемерная."
+  },
+  "FrierenMod:Repent": {
+    "NAME": "Слишком Поздно Раскаиваться",
+    "DESCRIPTION": "Остаток. NL Выберите !M! карт из стопки сброса и верните в руку. В этот ход они стоят 0. NL Истощение."
+  },
+  "FrierenMod:HellFireSummoning": {
+    "NAME": "Вызов Огненного Ада",
+    "DESCRIPTION": "frierenmod:Печать. frierenmod:Отдача. NL Нанесите !D! урона дважды за каждую разыгранную карту frierenmod:Воспевания в этот ход.",
+    "EXTENDED_DESCRIPTION": [
+      " NL (Нанесите ",
+      " раз.)"
+    ]
+  },
+  "FrierenMod:RockGolemSpell": {
+    "NAME": "Заклинание для Управления Каменным Големом",
+    "DESCRIPTION": "frierenmod:Анализ 10: frierenmod:Синхро 2 *Маны NL *Награда: Нанесите !D! урона случайному врагу и переключитесь в Режим Защиты. NL (Прогресс:0/2)."
+  },
+  "FrierenMod:LureTheEnemyInDeep": {
+    "NAME": "Заманить Врага Вглубь",
+    "DESCRIPTION": "frierenmod:Воспевание !CX!. Получите [E] [E]. NL Если вы frierenmod:Воспеваете из руки, верните эту карту в руку.",
+    "UPGRADE_DESCRIPTION": "frierenmod:Воспевание !CX!. Получите [E]. NL Если вы frierenmod:Воспеваете из руки, верните эту карту в руку."
+  },
+  "FrierenMod:ManaCollapse": {
+    "NAME": "Коллапс Маны",
+    "DESCRIPTION": "Нанесите !D! урона. NL Если в этот ход разыграно менее 10 карт, добавьте !M! *Маны в руку и верните эту карту в стопку колоды."
+  },
+  "FrierenMod:Elegance": {
+    "NAME": "Элегантность",
+    "DESCRIPTION": "Нанесите !D! урона, получите !B! Защиты, возьмите !M! карту. NL Если убиваете, увеличьте урон и Блок на 2; если убиваете Элиту или Босса, увеличьте количество взятых карт на 1. NL Истощение.",
+    "UPGRADE_DESCRIPTION": "Нанесите !D! урона, получите !B! Защиты, возьмите !M! карту. NL Если убиваете, увеличьте урон и Блок на 2; если убиваете Элиту или Босса, увеличьте количество взятых карт на 1."
+  },
+  "FrierenMod:Confrontation": {
+    "NAME": "Противостояние",
+    "DESCRIPTION": "Получите !B! Защиты. NL Если вы frierenmod:Воспеваете, пока эта карта в руке, увеличьте её Блок на 3 в этом бою."
+  },
+  "FrierenMod:Famehameha": {
+    "NAME": "Волна Фамехамеха",
+    "DESCRIPTION": "frierenmod:Легендарное_Заклинание. NL Стоит на 1 меньше за каждое frierenmod:Воспевание в этот ход. NL Нанесите !D! урона. NL [#A4EBFA]КА-МЕ-ХА-МЕ-ХА![]"
+  },
+  "FrierenMod:ManaBarricade": {
+    "NAME": "Мана-Баррикада",
+    "DESCRIPTION": "frierenmod:Воспевание !CX!. NL Если вы frierenmod:Воспеваете из стопки колоды, получите !B! Защиты."
+  },
+  "FrierenMod:ElementsBombing": {
+    "NAME": "Стихийная Бомбардировка",
+    "DESCRIPTION": "Истощите руку, добавьте случайную *Стихийную карту за каждую истощённую карту. NL Истощение.",
+    "UPGRADE_DESCRIPTION": "Истощите руку, добавьте случайную улучшенную *Стихийную карту за каждую истощённую карту. NL Истощение."
+  },
+  "FrierenMod:Fire": {
+    "NAME": "Стихия Огня",
+    "DESCRIPTION": "Нанесите !D! урона дважды. NL Истощение. NL Эфемерная."
+  },
+  "FrierenMod:Ice": {
+    "NAME": "Стихия Льда",
+    "DESCRIPTION": "Получите !B! Защиты. NL Истощение. NL Эфемерная."
+  },
+  "FrierenMod:Light": {
+    "NAME": "Стихия Света",
+    "DESCRIPTION": "Восстановите !M! ОЗ. NL Истощение. NL Эфемерная."
+  },
+  "FrierenMod:Thunder": {
+    "NAME": "Стихия Грома",
+    "DESCRIPTION": "Нанесите !D! урона ВСЕМ врагам. NL Истощение. NL Эфемерная."
+  },
+  "FrierenMod:Dark": {
+    "NAME": "Стихия Тьмы",
+    "DESCRIPTION": "Возьмите !M! карт. NL Истощение. NL Эфемерная."
+  },
+  "FrierenMod:SayThinkingSpell": {
+    "NAME": "Заклинание для Высказывания Мыслей Вслух",
+    "DESCRIPTION": "Истощите всю *Ману в руке. Разыграйте !M! случайных карт из стопки колоды за каждую истощённую *Ману."
+  },
+  "FrierenMod:FrierenSuitcase": {
+    "NAME": "Чемодан Фрирен",
+    "DESCRIPTION": "Увеличьте максимальный размер руки до 13 в этом бою. NL Если после розыгрыша карты рука заполнена, получите !M! Защиты."
+  },
+  "FrierenMod:FairyTaleEnd": {
+    "NAME": "Конец Сказки",
+    "DESCRIPTION": "frierenmod:Легендарное_Заклинание. NL Нанесите !D! урона. Удвойте базовый урон за каждый вид *Легендарного *Заклинания в мастер-колоде. NL Истощение.",
+    "EXTENDED_DESCRIPTION": [
+      " NL (",
+      " видов в мастер-колоде.)"
+    ]
+  },
+  "FrierenMod:HotTeaSpell": {
+    "NAME": "Заклинание для Заваривания Горячего Чая",
+    "DESCRIPTION": "frierenmod:Легендарное_Заклинание. NL Получите !B! Защиты. NL (Дополнительно увеличивает Блок на общее количество *Маны)"
+  },
+  "FrierenMod:ButtSlam": {
+    "NAME": "Удар Пятой Точкой",
+    "DESCRIPTION": "За каждые 10 Защиты нанесите !D! урона и переместите 2 *Маны в стопку колоды.",
+    "EXTENDED_DESCRIPTION": [
+      " NL (%d раз)"
+    ]
+  },
+  "FrierenMod:HighDensityMana": {
+    "NAME": "Высококонцентрированная Мана",
+    "DESCRIPTION": "После 3 НЕПРЕРЫВНЫХ frierenmod:Синхро за ход перейдите из стопки колоды в руку. NL При Истощении получите [E]. NL frierenmod:Синхро.",
+    "UPGRADE_DESCRIPTION": "После 3 НЕПРЕРЫВНЫХ frierenmod:Синхро за ход перейдите из стопки колоды в руку. NL При Истощении получите [E] [E]. NL frierenmod:Синхро."
+  },
+  "FrierenMod:PaperPlaneSpell": {
+    "NAME": "Заклинание, Заставляющее Бумажный Самолётик Летать Дальше",
+    "DESCRIPTION": "frierenmod:Легендарное_Заклинание. NL Каждые 4 НЕПРЕРЫВНЫХ frierenmod:Синхро следующая Атака наносит двойной урон."
+  },
+  "FrierenMod:FrushDown": {
+    "NAME": "Стремительный Спуск",
+    "DESCRIPTION": "После каждых 2 НЕПРЕРЫВНЫХ frierenmod:Синхро возьмите !M! карт и сбросьте !M! карт с крайнего левого края руки."
+  },
+  "FrierenMod:UpsideDown": {
+    "NAME": "Вверх Дном",
+    "DESCRIPTION": "Нельзя разыграть. NL После frierenmod:Синхро 1 *Маны поменяйте местами стопку колоды и стопку сброса и потеряйте 2 ОЗ."
+  },
+  "FrierenMod:EmergencyFood": {
+    "NAME": "Экстренная Еда",
+    "DESCRIPTION": "Остаток. NL Восстановите !M! ОЗ. NL Истощение."
+  },
+  "FrierenMod:BirdCapturingSpell": {
+    "NAME": "Заклинание Поимки Птиц",
+    "DESCRIPTION": "*Оглушите птицу или птицеподобного врага на 3 хода. NL Истощение.",
+    "UPGRADE_DESCRIPTION": "Врождённая. NL *Оглушите птицу или птицеподобного врага на 3 хода. NL Истощение.",
+    "EXTENDED_DESCRIPTION": [
+      "Это не птица и не птицеподобный враг"
+    ]
+  },
+  "FrierenMod:LongevityPain": {
+    "NAME": "Боль Долголетия",
+    "DESCRIPTION": "Нельзя разыграть. NL После 10 НЕПРЕРЫВНЫХ frierenmod:Синхро добавьте ^Фатализм в руку. NL От этого *Проклятия не убежать.",
+    "EXTENDED_DESCRIPTION": [
+      " NL (Осталось %d раз)"
+    ]
+  },
+  "FrierenMod:Fatalism": {
+    "NAME": "Фатализм",
+    "DESCRIPTION": "Каждый персонаж теряет 999 ОЗ."
+  },
+  "FrierenMod:Strike_Fern": {
+    "NAME": "Удар",
+    "DESCRIPTION": "Нанесите !D! урона."
+  },
+  "FrierenMod:Defend_Fern": {
+    "NAME": "Защита",
+    "DESCRIPTION": "Получите !B! Защиты."
+  },
+  "FrierenMod:LieInWait": {
+    "NAME": "Засада",
+    "DESCRIPTION": "Получите !B! Защиты. NL Добавьте !M! *Маны в руку."
+  },
+  "FrierenMod:CriticalHit": {
+    "NAME": "Критический Удар",
+    "DESCRIPTION": "frierenmod:Налёт !R!: Нанесите !D! урона. NL frierenmod:Слияние: Нанесите !D! урона."
+  },
+  "FrierenMod:ChargeUp": {
+    "NAME": "Зарядка",
+    "DESCRIPTION": "Нанесите !D! урона. NL В следующий ход получите !M! frierenmod:Концентрации."
+  },
+  "FrierenMod:SpecializedOffensiveMagic": {
+    "NAME": "Специализированная Атакующая Магия",
+    "DESCRIPTION": "Нанесите ? урона. NL Эфемерная. Истощение."
+  },
+  "FrierenMod:AggrieveStrike": {
+    "NAME": "Удар с Обидой",
+    "DESCRIPTION": "Нанесите !D! урона. NL frierenmod:Налёт !R!: Верните эту карту в руку."
+  },
+  "FrierenMod:Backstab": {
+    "NAME": "Удар в Спину",
+    "DESCRIPTION": "Нанесите !D! урона всем врагам. Если ни один враг не погиб, получите [E].",
+    "UPGRADE_DESCRIPTION": "Нанесите !D! урона всем врагам. Если ни один враг не погиб, получите [E] и 3 frierenmod:Концентрации."
+  },
+  "FrierenMod:FlyOnTheWall": {
+    "NAME": "Незаметный Наблюдатель",
+    "DESCRIPTION": "Получите !B! Защиты. NL frierenmod:Налёт !R!: Нанесите !D! урона."
+  },
+  "FrierenMod:Swoop": {
+    "NAME": "Пике",
+    "DESCRIPTION": "frierenmod:Слияние: Нанесите !D! урона, возьмите !M! карт."
+  },
+  "FrierenMod:SeeThroughClothSpell": {
+    "NAME": "Заклинание для Видения Сквозь Одежду",
+    "DESCRIPTION": "Нанесите !D! урона. NL frierenmod:Слияние: Наложите !M! Слабости и Уязвимости."
+  },
+  "FrierenMod:CloseRaid": {
+    "NAME": "Ближний Налёт",
+    "DESCRIPTION": "frierenmod:Налёт !R!: frierenmod:Слияние: Нанесите !D! урона."
+  },
+  "FrierenMod:FusionSlash": {
+    "NAME": "Удар Слияния",
+    "DESCRIPTION": "Можно разыграть только если в этот ход была разыграна *Специализированная *Атакующая *Магия. NL frierenmod:Слияние: Нанесите !D! урона.",
+    "EXTENDED_DESCRIPTION": [
+      " #yСпециализированная #yАтакующая #yМагия не была разыграна."
+    ]
+  },
+  "FrierenMod:Fight": {
+    "NAME": "Бой",
+    "DESCRIPTION": "Получите !M! frierenmod:Энергии_Жезла. NL frierenmod:Слияние: Нанесите !D! урона."
+  },
+  "FrierenMod:HuddleForWarmth": {
+    "NAME": "Согреться Вместе",
+    "DESCRIPTION": "Получите !B! Защиты. NL frierenmod:Налёт !R!: Блок не снимается в начале следующего хода."
+  },
+  "FrierenMod:SkimReading": {
+    "NAME": "Беглое Чтение",
+    "DESCRIPTION": "Возьмите 3 карты. frierenmod:Налёт !R!: Возьмите ещё 1 карту."
+  },
+  "FrierenMod:RaidPreparation": {
+    "NAME": "Подготовка к Налёту",
+    "DESCRIPTION": "Возьмите 1 карту frierenmod:Налёта. NL frierenmod:Налёт !R!: Возьмите 1 карту frierenmod:Слияния."
+  },
+  "FrierenMod:EmergencyDefense": {
+    "NAME": "Экстренная Защита",
+    "DESCRIPTION": "frierenmod:Скорость. NL Получите !B! Защиты. NL frierenmod:Налёт !R!: Получите [E]. NL Истощение."
+  },
+  "FrierenMod:CounterAttack": {
+    "NAME": "Контратака",
+    "DESCRIPTION": "frierenmod:Скорость. NL Выбор: Получите 3 frierenmod:Концентрации и нанесите !D! урона, или потеряйте 3 *Концентрации и получите !B! Защиты."
+  },
+  "FrierenMod:FocusOnAttack": {
+    "NAME": "Сосредоточиться на Атаке",
+    "DESCRIPTION": "Получите 3 frierenmod:Концентрации и нанесите !D! урона."
+  },
+  "FrierenMod:FocusOnDefense": {
+    "NAME": "Сосредоточиться на Защите",
+    "DESCRIPTION": "Потеряйте 3 frierenmod:Концентрации и получите !B! Защиты."
+  },
+  "FrierenMod:MysticEye": {
+    "NAME": "Магический Взгляд в Упор",
+    "DESCRIPTION": "Нанесите !D! урона. NL Каждый раз, когда цель атакуют, получайте !M! frierenmod:Концентрации. NL Истощение."
+  },
+  "FrierenMod:Glaring": {
+    "NAME": "Пристальный Взгляд",
+    "DESCRIPTION": "Нанесите !D! урона. NL (Получите бонус frierenmod:Концентрации !M! раз). NL Истощение."
+  },
+  "FrierenMod:ColdBlood": {
+    "NAME": "Холодная Кровь",
+    "DESCRIPTION": "Нанесите !D! урона. NL Стоит 0, если последняя разыгранная карта frierenmod:Налёта в этом бою активировала *Налёт."
+  },
+  "FrierenMod:FernFixFrieren": {
+    "NAME": "Ферн Помогает Фрирен",
+    "DESCRIPTION": "Нанесите !D! урона. Пока в руке, каждый раз при активации эффекта frierenmod:Налёта урон увеличивается на !M! в этом бою."
+  },
+  "FrierenMod:RaidRace": {
+    "NAME": "Гонка Налётов",
+    "DESCRIPTION": "frierenmod:Скорость. NL Каждый раз при активации frierenmod:Налёта в этот ход стоимость снижается на 1 [E]. NL Нанесите !D! урона."
+  },
+  "FrierenMod:SeriousSeriesSpell": {
+    "NAME": "Серьёзная Серия, Серьёзное Заклинание",
+    "DESCRIPTION": "Нанесите !D! урона. NL frierenmod:Налёт !R!: Измените на нанесение !D! урона всем врагам."
+  },
+  "FrierenMod:Surveillance": {
+    "NAME": "Наблюдение",
+    "DESCRIPTION": "Возьмите 1 карту. NL frierenmod:Налёт !R!: Получите 1 frierenmod:Энергии_Жезла. NL frierenmod:Слияние: Нанесите !D! урона."
+  },
+  "FrierenMod:SorryICant": {
+    "NAME": "Извините, Не Могу",
+    "DESCRIPTION": "frierenmod:Скорость. NL Истощите всю *Ману. Получите Блок и frierenmod:Концентрацию в равном количестве. NL Истощение.",
+    "UPGRADE_DESCRIPTION": "frierenmod:Скорость. NL Истощите всю *Ману. Получите Блок и frierenmod:Концентрацию в равном количестве.",
+    "EXTENDED_DESCRIPTION": [
+      " NL (Получите !B! Защиты и !M! frierenmod:Концентрации)"
+    ]
+  },
+  "FrierenMod:FusionRaid": {
+    "NAME": "Тройной Налёт",
+    "DESCRIPTION": "frierenmod:Налёт 1: Возьмите !M! карт. NL frierenmod:Налёт 2: Нанесите !D! урона. NL frierenmod:Налёт 3: Получите [E] [E]."
+  },
+  "FrierenMod:SaturationOffensiveMagic": {
+    "NAME": "Насыщенная Атакующая Магия",
+    "DESCRIPTION": "Нанесите !D! урона !M! раз. NL frierenmod:Налёт !R!: Количество атак и значение frierenmod:Налёта увеличиваются на 1 в этом бою. NL Эфемерная."
+  },
+  "FrierenMod:LittlePunch": {
+    "NAME": "Маленький Удар",
+    "DESCRIPTION": "Нанесите !D! урона всем врагам и наложите 1 Уязвимости X раз. При каждом незаблокированном уроне получите !B! Защиты."
+  },
+  "FrierenMod:SoSmall": {
+    "NAME": "Такой Маленький",
+    "DESCRIPTION": "За каждый *Атрибут цели, меньший вашего, добавьте !M! *Маны в руку и получите !B! Защиты. NL Истощение."
+  },
+  "FrierenMod:Meditation": {
+    "NAME": "Медитация",
+    "DESCRIPTION": "Нельзя разыграть. NL Когда вы тянете эту карту, получите !M! frierenmod:Концентрации и возьмите 1 карту, затем Истощите."
+  },
+  "FrierenMod:InjuryTime": {
+    "NAME": "Добавленное Время",
+    "DESCRIPTION": "frierenmod:Скорость. NL Получите [E] [E] и !M! frierenmod:Концентрации. NL Истощение."
+  },
+  "FrierenMod:StudyTime": {
+    "NAME": "Время Учёбы",
+    "DESCRIPTION": "Добавьте !M! *Маны в руку. frierenmod:Слияние: Поместите копию этой карты в стопку сброса.",
+    "UPGRADE_DESCRIPTION": "Добавьте !M! *Маны в руку. frierenmod:Слияние: Поместите копию этой карты в стопку сброса. NL Истощение."
+  },
+  "FrierenMod:OneInHundred": {
+    "NAME": "Один из Ста",
+    "DESCRIPTION": "Добавьте !M! случайных карт frierenmod:Слияния в руку. Если у вас нет frierenmod:Энергии_Жезла, в этот ход они стоят 0. NL Истощение."
+  },
+  "FrierenMod:PureMind": {
+    "NAME": "Чистый Разум",
+    "DESCRIPTION": "Переместите 2 *Маны в стопку колоды. Если в этот ход разыграно 2 карты frierenmod:Скорости, добавьте 1 *Ясный *Разум в руку.",
+    "UPGRADE_DESCRIPTION": "frierenmod:Скорость. NL Переместите 2 *Маны в стопку колоды. Если в этот ход разыграно 2 карты frierenmod:Скорости, добавьте 1 *Ясный *Разум в руку."
+  },
+  "FrierenMod:TrainingByEating": {
+    "NAME": "Тренировка через Еду",
+    "DESCRIPTION": "Получите Силу, равную frierenmod:Концентрации, затем потеряйте всю frierenmod:Концентрацию. NL frierenmod:Налёт !R!: frierenmod:Скорость. NL Истощение.",
+    "UPGRADE_DESCRIPTION": "Получите Силу, равную frierenmod:Концентрации, затем потеряйте всю frierenmod:Концентрацию. NL frierenmod:Налёт !R!: frierenmod:Скорость."
+  },
+  "FrierenMod:GirlishHeart": {
+    "NAME": "Девичье Сердце",
+    "DESCRIPTION": "Сбросьте 1 карту, возьмите !M! карт. NL frierenmod:Слияние: Получите 2 frierenmod:Концентрации."
+  },
+  "FrierenMod:DinnerTime": {
+    "NAME": "Время Ужина",
+    "DESCRIPTION": "frierenmod:Скорость. NL Добавьте 1 *Яблоко в руку. NL frierenmod:Налёт !R!: Получите !M! frierenmod:Временной_Ловкости."
+  },
+  "FrierenMod:MasterHelpApprentice": {
+    "NAME": "Учитель Помогает Ученику",
+    "DESCRIPTION": "Выберите 1 из 3 карт frierenmod:Двухцветной и добавьте в руку. NL Истощение.",
+    "UPGRADE_DESCRIPTION": "Выберите 1 из 3 карт frierenmod:Двухцветной и добавьте в руку. В этот ход она стоит 0. NL Истощение."
+  },
+  "FrierenMod:MoodyGirl": {
+    "NAME": "Капризная Девушка",
+    "DESCRIPTION": "Переместите 1 *Надутость в стопку колоды и 1 *Поддержку в стопку сброса соответственно. NL Истощение."
+  },
+  "FrierenMod:Pouting": {
+    "NAME": "Надутость",
+    "DESCRIPTION": "Нанесите !D! урона — все *Поддержки увеличивают это значение. NL Эфемерная."
+  },
+  "FrierenMod:Cheering": {
+    "NAME": "Поддержка",
+    "DESCRIPTION": "Получите !B! Защиты — все *Надутости увеличивают это значение. NL Эфемерная."
+  },
+  "FrierenMod:Rewind": {
+    "NAME": "Перемотка",
+    "DESCRIPTION": "frierenmod:Налёт !R!: Добавьте копию последней разыгранной *Специализированной *Атакующей *Магии в этот ход в руку. NL Истощение.",
+    "UPGRADE_DESCRIPTION": "frierenmod:Налёт !R!: Добавьте копию последней разыгранной *Специализированной *Атакующей *Магии в руку. NL Истощение."
+  },
+  "FrierenMod:Reviewing": {
+    "NAME": "Повторение",
+    "DESCRIPTION": "Получите !B! Защиты. NL Каждый раз при розыгрыше не-*Мана карты в этот ход получайте 1 frierenmod:Концентрации.",
+    "UPGRADE_DESCRIPTION": "frierenmod:Скорость. NL Получите !B! Защиты. NL Каждый раз при розыгрыше не-*Мана карты в этот ход получайте 1 frierenmod:Концентрации.",
+    "EXTENDED_DESCRIPTION": [
+      " NL (Получите %d frierenmod:Концентрации)"
+    ]
+  },
+  "FrierenMod:Snuggle": {
+    "NAME": "Прижаться",
+    "DESCRIPTION": "Выбор: Сбросьте до !M! *Маны, чтобы получить столько же [E], или добавьте 1 *Ману в руку."
+  },
+  "FrierenMod:Snuggle1": {
+    "NAME": "Прижаться к Фрирен",
+    "DESCRIPTION": "Сбросьте до !M! *Маны, чтобы получить столько же [E]."
+  },
+  "FrierenMod:Snuggle2": {
+    "NAME": "Прижаться к Штарку",
+    "DESCRIPTION": "Добавьте !M! *Маны в руку."
+  },
+  "FrierenMod:WithNoStop": {
+    "NAME": "Без Остановок",
+    "DESCRIPTION": "frierenmod:Скорость. NL После розыгрыша следующих 3 карт получите 2 frierenmod:Концентрации."
+  },
+  "FrierenMod:MasterAndApprentice": {
+    "NAME": "Учитель и Ученик",
+    "DESCRIPTION": "В начале хода добавьте случайную frierenmod:Двухцветную карту в руку."
+  },
+  "FrierenMod:SkilledMage": {
+    "NAME": "Опытный Маг",
+    "DESCRIPTION": "После розыгрыша карт frierenmod:Слияния, frierenmod:Скорости, *Специализированной *Атакующей *Магии или активации frierenmod:Налёта получите !M! Защиты."
+  },
+  "FrierenMod:BoldReversal": {
+    "NAME": "Смелый Разворот",
+    "DESCRIPTION": "Следующие !M! эффектов frierenmod:Налёта сработают дважды."
+  },
+  "FrierenMod:FernRushdown": {
+    "NAME": "Натиск Ферн",
+    "DESCRIPTION": "После активации frierenmod:Налёта возьмите 2 карты."
+  },
+  "FrierenMod:ManaAffinity": {
+    "NAME": "Сродство с Маной",
+    "DESCRIPTION": "*Мана имеет Остаток."
+  },
+  "FrierenMod:CleanClothSpell": {
+    "NAME": "Заклинание для Чистки Одежды",
+    "DESCRIPTION": "frierenmod:Налёт !R!: Нанесите !D! урона всем врагам."
+  },
+  "FrierenMod:Sit": {
+    "NAME": "Присесть",
+    "DESCRIPTION": "Нанесите !D! урона. NL Если убиваете, навсегда получите !M! максимальной frierenmod:Энергии_Жезла. NL stslib:Мимолётная."
+  },
+  "FrierenMod:Catwalk": {
+    "NAME": "Кэтвок",
+    "DESCRIPTION": "frierenmod:Слияние: frierenmod:Слияние: Получите !M! Силы. NL Истощение.",
+    "UPGRADE_DESCRIPTION": "frierenmod:Слияние: frierenmod:Слияние: Получите !M! Силы."
+  },
+  "FrierenMod:NoMercy": {
+    "NAME": "Без Пощады",
+    "DESCRIPTION": "Нанесите !D! урона. NL За каждую *Специализированную *Атакующую *Магию в стопке Истощения повторите ещё раз.",
+    "EXTENDED_DESCRIPTION": [
+      " NL (Всего %d раз)"
+    ]
+  },
+  "FrierenMod:SleepingBeauty": {
+    "NAME": "Спящая Красавица",
+    "DESCRIPTION": "Потеряйте 1 frierenmod:Концентрацию, затем получите [E] или возьмите 1 карту. Повторите до !M! раз. NL Истощение."
+  },
+  "FrierenMod:ContinuousOffensiveMagic": {
+    "NAME": "Непрерывная Атакующая Магия",
+    "DESCRIPTION": "Получите *Специализированную *Атакующую *Магию со значением урона !M!. NL frierenmod:Налёт !R!: Получите 1 копию."
+  },
+  "FrierenMod:Metamorphose": {
+    "NAME": "Метаморфоза",
+    "DESCRIPTION": "Удвойте количество всех frierenmod:Слияний. NL В следующий ход погибнете. NL Истощение.",
+    "UPGRADE_DESCRIPTION": "Остаток. NL Удвойте количество всех frierenmod:Слияний. NL В следующий ход погибнете. NL Истощение."
+  },
+  "FrierenMod:GetSick": {
+    "NAME": "Заболеть",
+    "DESCRIPTION": "Потеряйте всю frierenmod:Концентрацию, получите !B! Защиты, завершите ход. Переместите *Выздоровление в стопку колоды. NL Истощение."
+  },
+  "FrierenMod:GetWell": {
+    "NAME": "Выздороветь",
+    "DESCRIPTION": "Остаток. NL Снимите все отрицательные эффекты, восстановите 7 ОЗ. NL Истощение."
+  },
+  "FrierenMod:SpellToMapADungeon": {
+    "NAME": "Заклинание для Картографирования Подземелья",
+    "DESCRIPTION": "Если предыдущая локация — *Магазин, получите !M! золота. NL Если предыдущая локация — *Костёр, улучшите случайную карту в колоде. NL Эфемерная. Истощение."
+  },
+  "FrierenMod:MemoryOfChildhood": {
+    "NAME": "Воспоминание о Детстве",
+    "DESCRIPTION": "Разыграйте все копии *Специализированной *Атакующей *Магии из стопки Истощения повторно, цели случайные. NL Истощение.",
+    "UPGRADE_DESCRIPTION": "Остаток. NL Разыграйте все копии *Специализированной *Атакующей *Магии из стопки Истощения повторно, цели случайные. NL Истощение."
+  },
+  "FrierenMod:SocialDancing": {
+    "NAME": "Светский Танец",
+    "DESCRIPTION": "Условие для frierenmod:Налёта X меняется на X-1, X и X+1, когда у вас есть frierenmod:Концентрация."
+  },
+  "FrierenMod:Confidence": {
+    "NAME": "Уверенность",
+    "DESCRIPTION": "Все эффекты frierenmod:Налёта, наносящие урон, срабатывают дополнительный раз. NL В начале каждого хода теряйте всю frierenmod:Концентрацию. NL Эфемерная."
+  },
+  "FrierenMod:Gamble": {
+    "NAME": "Азарт",
+    "DESCRIPTION": "После розыгрыша карты рандомизируйте frierenmod:Концентрацию от 1 до 6. Если выпало 6 — нанесите 10 урона всем врагам."
+  },
+  "FrierenMod:FumeshroomForm": {
+    "NAME": "Форма Гриба-Дымника",
+    "DESCRIPTION": "Весь ваш одиночный урон также наносится незначимым врагам."
+  },
+  "FrierenMod:RecollectionOfBenefactor": {
+    "NAME": "Воспоминание о Благодетеле",
+    "DESCRIPTION": "При получении *Специализированной *Атакующей *Магии через *Жезл *Хайтаа урон увеличивается с 2x до 4x."
+  }
+}
