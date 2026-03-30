@@ -309,8 +309,8 @@
   },
   "FrierenMod:Perpetual": {
     "NAME": "Perpetual",
-    "DESCRIPTION": "At the start of the turn, shuffle 2 *Mana in your discard pile.",
-    "UPGRADE_DESCRIPTION": "Innate. NL At the start of the turn, shuffle 2 *Mana in your discard pile."
+    "DESCRIPTION": "At the start of the turn, shuffle 2 *Mana into your discard pile.",
+    "UPGRADE_DESCRIPTION": "Innate. NL At the start of the turn, shuffle 2 *Mana into your discard pile."
   },
   "FrierenMod:BackFlow": {
     "NAME": "Back flow",
