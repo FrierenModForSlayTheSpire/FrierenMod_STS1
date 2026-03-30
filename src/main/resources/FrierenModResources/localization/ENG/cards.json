@@ -825,7 +825,7 @@
   },
   "FrierenMod:FairyTaleEnd": {
     "NAME": "The end of Fairy Tale",
-    "DESCRIPTION": "frierenmod:Legendary_Spell. NL Deal !D! damage. Double base damage of this card for every kinds of *Legendary *Spell in master deck. NL Exhaust.",
+    "DESCRIPTION": "frierenmod:Legendary_Spell. NL Deal !D! damage. Double base damage of this card for every kind of *Legendary *Spell in master deck. NL Exhaust.",
     "EXTENDED_DESCRIPTION": [
       " NL (",
       " kinds in master deck.)"
