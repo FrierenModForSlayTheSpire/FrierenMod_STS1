@@ -13,6 +13,7 @@ public class Snuggle2 extends AbstractBaseCard {
 
     public Snuggle2() {
         super(info);
+        this.magicNumber = this.baseMagicNumber = 1;
     }
 
     @Override

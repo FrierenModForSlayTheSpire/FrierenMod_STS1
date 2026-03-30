@@ -271,7 +271,7 @@
   "FrierenMod:CopySelfToDiscardFusionPower": {
     "NAME": "复制融合",
     "DESCRIPTIONS": [
-      "下一张获得的 #y特化普攻魔法 将附加： NL 在弃牌堆放入 #b%d1 张本牌的复制品。"
+      "下一张获得的 #y特化普攻魔法 将附加： NL 在弃牌堆放入 #b%d 张本牌的复制品。"
     ]
   },
   "FrierenMod:ConcentrationFusionPower": {

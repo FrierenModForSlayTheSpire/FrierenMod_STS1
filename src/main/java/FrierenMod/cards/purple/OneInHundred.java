@@ -4,13 +4,12 @@ import FrierenMod.cards.AbstractBaseCard;
 import FrierenMod.enums.CardEnums;
 import FrierenMod.gameHelpers.ActionHelper;
 import FrierenMod.gameHelpers.CardPoolHelper;
-import FrierenMod.powers.FusionPower.AbstractFusionPower;
+import FrierenMod.ui.panels.FernPanel;
 import FrierenMod.utils.CardInfo;
 import FrierenMod.utils.ModInformation;
 import com.megacrit.cardcrawl.actions.common.MakeTempCardInHandAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
-import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 
 public class OneInHundred extends AbstractBaseCard {
@@ -37,7 +36,7 @@ public class OneInHundred extends AbstractBaseCard {
 
     @Override
     public void triggerOnGlowCheck() {
-        if (AbstractDungeon.player.powers.stream().noneMatch(power -> power instanceof AbstractFusionPower)) {
+        if (FernPanel.getCurrentEnergy() == 0) {
             this.glowColor = AbstractCard.GOLD_BORDER_GLOW_COLOR;
         } else
             this.glowColor = AbstractCard.BLUE_BORDER_GLOW_COLOR;
@@ -48,7 +47,7 @@ public class OneInHundred extends AbstractBaseCard {
         ActionHelper.addToBotAbstract(() -> {
             for (int i = 0; i < this.magicNumber; i++) {
                 AbstractCard c = CardPoolHelper.getRandomCard(CardPoolHelper.PoolType.FUSION);
-                if (AbstractDungeon.player.powers.stream().noneMatch(power -> power instanceof AbstractFusionPower)) {
+                if (FernPanel.getCurrentEnergy() == 0) {
                     c.setCostForTurn(0);
                 }
                 this.addToBot(new MakeTempCardInHandAction(c));

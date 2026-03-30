@@ -133,11 +133,11 @@
       "每个回合开始时，获得 #b1 层 #y专注 。 NL 每个回合结束时，消耗所有 #y魔力 ，每消耗 #b1 张就获得 #b1 层 #y专注 。"
     ]
   },
-  "FrierenMod:ExchangeRelic": {
-    "NAME": "",
+  "FrierenMod:StarkRelic": {
+    "NAME": "初始遗物",
     "FLAVOR": "",
     "DESCRIPTIONS": [
-      ""
+      "每场战斗中打出的第 #b1 张牌获得 #y战印 。"
     ]
   }
 }

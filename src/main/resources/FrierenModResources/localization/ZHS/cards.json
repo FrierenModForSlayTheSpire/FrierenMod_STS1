@@ -832,9 +832,9 @@
   },
   "FrierenMod:FairyTaleEnd": {
     "NAME": "童话的结尾",
-    "DESCRIPTION": " frierenmod:传说魔法 。 NL 造成 !D! 点伤害。本场战斗中你每使用过一种 *传说魔法 ，此牌的基础伤害就翻一倍。",
+    "DESCRIPTION": " frierenmod:传说魔法 。 NL 造成 !D! 点伤害。牌组中每一种 *传说魔法 ，此牌的基础伤害就翻一倍。 NL 消耗 。",
     "EXTENDED_DESCRIPTION": [
-      " NL （已使用",
+      " NL （牌组中有",
       " 种。）"
     ]
   },
@@ -951,7 +951,7 @@
   },
   "FrierenMod:HuddleForWarmth": {
     "NAME": "抱团取暖",
-    "DESCRIPTION": "获得 !B! 点 格挡 。 NL frierenmod:奇袭 !R! ：你的下一回合开始时 格挡 不会消失。 NL 虚无 。"
+    "DESCRIPTION": "获得 !B! 点 格挡 。 NL frierenmod:奇袭 !R! ：你的下一回合开始时 格挡 不会消失。"
   },
   "FrierenMod:SkimReading": {
     "NAME": "快速检阅",
@@ -987,8 +987,7 @@
   },
   "FrierenMod:ColdBlood": {
     "NAME": "冷酷无情",
-    "DESCRIPTION": "如果本场战斗中打出的上一张牌触发了 frierenmod:奇袭 ，造成 !D! 点伤害。 NL frierenmod:奇袭 !R! ：造成 !D! 点伤害。",
-    "UPGRADE_DESCRIPTION": "如果本场战斗中打出的上一张 frierenmod:奇袭 牌触发了 *奇袭 ，造成 !D! 点伤害。 NL frierenmod:奇袭 !R! ：造成 !D! 点伤害。"
+    "DESCRIPTION": "造成 !D! 点伤害。 NL 如果本场战斗中打出的上一张 frierenmod:奇袭 牌触发了 *奇袭 ，这张牌在本回合耗能变为0。"
   },
   "FrierenMod:FernFixFrieren": {
     "NAME": "富妇抚芙服",
@@ -1008,15 +1007,15 @@
   },
   "FrierenMod:SorryICant": {
     "NAME": "对不起，做不到",
-    "DESCRIPTION": "失去所有 frierenmod:专注 ，将失去数的 *魔力 放入抽牌堆，造成失去数的伤害。 NL 消耗 。",
-    "UPGRADE_DESCRIPTION": "失去所有 frierenmod:专注 ，将失去数的 *魔力 放入抽牌堆，造成失去数的伤害。",
+    "DESCRIPTION": " frierenmod:疾速 。 NL 消耗 所有 *魔力 ，获得消耗数的 格挡 和 frierenmod:专注 。 NL 消耗 。",
+    "UPGRADE_DESCRIPTION": " frierenmod:疾速 。 NL 消耗 所有 *魔力 ，获得消耗数的 格挡 和 frierenmod:专注 。",
     "EXTENDED_DESCRIPTION": [
-      " NL （造成 !D! 点伤害，放入 !M! 张 *魔力 。）"
+      " NL （获得 !B! 点 格挡 和 !M! 点 frierenmod:专注 ）"
     ]
   },
   "FrierenMod:FusionRaid": {
     "NAME": "奇袭的三击",
-    "DESCRIPTION": "frierenmod:奇袭 1： frierenmod:融合 ：获得 !M! 点 frierenmod:专注 。 NL  frierenmod:奇袭 2： frierenmod:融合 ：造成 !D! 点伤害。 NL frierenmod:奇袭 3： frierenmod:融合 ：抽2张牌。"
+    "DESCRIPTION": " frierenmod:奇袭 1：抽 !M! 张牌 。 NL frierenmod:奇袭 2：造成 !D! 点伤害。 NL frierenmod:奇袭 3：获得 [E] [E] 。"
   },
   "FrierenMod:SaturationOffensiveMagic": {
     "NAME": "饱和攻击魔法",
@@ -1045,7 +1044,7 @@
   },
   "FrierenMod:OneInHundred": {
     "NAME": "百里挑一",
-    "DESCRIPTION": "将 !M! 张随机 frierenmod:融合 牌放入手中。如果你没有任何 frierenmod:融合 ，这些牌在本回合耗能为0。 NL 消耗 。"
+    "DESCRIPTION": "将 !M! 张随机 frierenmod:融合 牌放入手中。如果你没有 frierenmod:法杖充能 ，这些牌在本回合耗能为0。 NL 消耗 。"
   },
   "FrierenMod:PureMind": {
     "NAME": "明镜止水之心",
@@ -1076,7 +1075,7 @@
   },
   "FrierenMod:Pouting": {
     "NAME": "气嘟嘟",
-    "DESCRIPTION": "对所有敌人造成 !D! 点伤害，所有 *乐呵呵 增加此数值。 NL 虚无 。"
+    "DESCRIPTION": "造成 !D! 点伤害，所有 *乐呵呵 增加此数值。 NL 虚无 。"
   },
   "FrierenMod:Cheering": {
     "NAME": "乐呵呵",
@@ -1187,7 +1186,7 @@
   },
   "FrierenMod:Confidence": {
     "NAME": "胸有成竹",
-    "DESCRIPTION": "所有造成伤害的 frierenmod:奇袭 效果会额外触发一次。 NL 每回合开始后失去所有 frierenmod:专注 。"
+    "DESCRIPTION": "所有造成伤害的 frierenmod:奇袭 效果会额外触发一次。 NL 每回合开始后失去所有 frierenmod:专注 。 NL 虚无 。"
   },
   "FrierenMod:Gamble": {
     "NAME": "豪赌",
@@ -1200,5 +1199,13 @@
   "FrierenMod:RecollectionOfBenefactor": {
     "NAME": "心系故人",
     "DESCRIPTION": "通过 *海塔留下的法杖 获得 *特化普攻魔法 时，伤害从2倍改为4倍。"
+  },
+  "FrierenMod:Strike_Stark": {
+    "NAME": "打击",
+    "DESCRIPTION": "造成 !D! 点伤害。"
+  },
+  "FrierenMod:Defend_Defend": {
+    "NAME": "防御",
+    "DESCRIPTION": "获得 !B! 点 格挡 。"
   }
 }

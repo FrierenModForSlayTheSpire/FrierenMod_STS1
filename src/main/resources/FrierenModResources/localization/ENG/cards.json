@@ -825,10 +825,10 @@
   },
   "FrierenMod:FairyTaleEnd": {
     "NAME": "The end of Fairy Tale",
-    "DESCRIPTION": "frierenmod:Legendary_Spell. NL Deal !D! damage. Double base damage of this card after you played a new kind of *Legendary *Spell this combat.",
+    "DESCRIPTION": "frierenmod:Legendary_Spell. NL Deal !D! damage. Double base damage of this card for every kinds of *Legendary *Spell in master deck. NL Exhaust.",
     "EXTENDED_DESCRIPTION": [
-      " NL （Have played",
-      " kinds.）"
+      " NL (",
+      " kinds in master deck.)"
     ]
   },
   "FrierenMod:HotTeaSpell": {
@@ -944,7 +944,7 @@
   },
   "FrierenMod:HuddleForWarmth": {
     "NAME": "Huddle For Warmth",
-    "DESCRIPTION": "Gain !B! Block. NL frierenmod:Raid !R! :Block will not be removed at the start of your next turn. NL Ethereal."
+    "DESCRIPTION": "Gain !B! Block. NL frierenmod:Raid !R! :Block will not be removed at the start of your next turn."
   },
   "FrierenMod:SkimReading": {
     "NAME": "Skim Reading",
@@ -980,8 +980,7 @@
   },
   "FrierenMod:ColdBlood": {
     "NAME": "Cold Blood",
-    "DESCRIPTION": "If the last card played in this battle triggered frierenmod:Raid, deal !D! damage. NL frierenmod:Raid !R! :Deal !D! damage.",
-    "UPGRADE_DESCRIPTION": "If the last frierenmod:Raid card played in this battle triggered *Raid, deal !D! damage. NL frierenmod:Raid !R! :Deal !D! damage."
+    "DESCRIPTION": "Deal !D! damage. NL Costs 0 if the last frierenmod:Raid card played in this battle triggered *Raid."
   },
   "FrierenMod:FernFixFrieren": {
     "NAME": "Fern Fix Frieren",
@@ -1001,15 +1000,15 @@
   },
   "FrierenMod:SorryICant": {
     "NAME": "Sorry I Can't",
-    "DESCRIPTION": "Lose all frierenmod:Concentration, put the lost amount of *Mana into the draw pile, deal damage equal to the lost amount. NL Exhaust.",
-    "UPGRADE_DESCRIPTION": "Lose all frierenmod:Concentration, put the lost amount of *Mana into the draw pile, deal damage equal to the lost amount.",
+    "DESCRIPTION": "frierenmod:Speed. NL Exhaust all *Mana ,gain Block and frierenmod:Concentration with the same amount. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "frierenmod:Speed. NL Exhaust all *Mana ,gain Block and frierenmod:Concentration with the same amount.",
     "EXTENDED_DESCRIPTION": [
-      " NL (Deal !D! damage, put !M! *Mana.)"
+      " NL (Gain !B! Block and !M! frierenmod:Concentration )"
     ]
   },
   "FrierenMod:FusionRaid": {
-    "NAME": "Fusion Raid Triple Strike",
-    "DESCRIPTION": "frierenmod:Raid 1: frierenmod:Fusion :Gain !M! frierenmod:Concentration. NL frierenmod:Raid 2: frierenmod:Fusion :Deal !D! damage. NL frierenmod:Raid 3: frierenmod:Fusion :Draw 2 cards."
+    "NAME": "Triple Raid",
+    "DESCRIPTION": "frierenmod:Raid 1:Draw !M! cards. NL frierenmod:Raid 2:Deal !D! damage. NL frierenmod:Raid 3:Gain [E] [E] ."
   },
   "FrierenMod:SaturationOffensiveMagic": {
     "NAME": "Saturation Offensive Magic",
@@ -1038,7 +1037,7 @@
   },
   "FrierenMod:OneInHundred": {
     "NAME": "One In Hundred",
-    "DESCRIPTION": "Add !M! random frierenmod:Fusion cards into your hand. If you have no frierenmod:Fusion, these cards cost 0 this turn. NL Exhaust."
+    "DESCRIPTION": "Add !M! random frierenmod:Fusion cards into your hand. If you have no frierenmod:Wand_Energy, these cards cost 0 this turn. NL Exhaust."
   },
   "FrierenMod:PureMind": {
     "NAME": "Pure Mind",
@@ -1069,7 +1068,7 @@
   },
   "FrierenMod:Pouting": {
     "NAME": "Pouting",
-    "DESCRIPTION": "Deal !D! damage to all enemies, all *Cheering increase this value. NL Ethereal."
+    "DESCRIPTION": "Deal !D! damage, all *Cheering increase this value. NL Ethereal."
   },
   "FrierenMod:Cheering": {
     "NAME": "Cheering",
@@ -1180,7 +1179,7 @@
   },
   "FrierenMod:Confidence": {
     "NAME": "Confidence",
-    "DESCRIPTION": "All frierenmod:Raid effects that deal damage will trigger an additional time. NL At the start of each turn, lose all frierenmod:Concentration."
+    "DESCRIPTION": "All frierenmod:Raid effects that deal damage will trigger an additional time. NL At the start of each turn, lose all frierenmod:Concentration. NL Ethereal."
   },
   "FrierenMod:Gamble": {
     "NAME": "Gamble",

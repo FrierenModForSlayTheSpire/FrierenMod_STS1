@@ -8,4 +8,6 @@ public class CharacterEnums {
     public static AbstractPlayer.PlayerClass FRIEREN;
     @SpireEnum
     public static AbstractPlayer.PlayerClass FERN;
+    @SpireEnum
+    public static AbstractPlayer.PlayerClass STARK;
 }

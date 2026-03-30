@@ -23,6 +23,7 @@ import FrierenMod.variables.ChantXVariable;
 import FrierenMod.variables.RaidVariable;
 import FrierenMod.variables.SecondMagicNumberVariable;
 import basemod.BaseMod;
+import basemod.eventUtil.AddEventParams;
 import basemod.patches.com.megacrit.cardcrawl.cards.AbstractCard.DynamicTextBlocks;
 import com.badlogic.gdx.graphics.Color;
 import com.evacipated.cardcrawl.modthespire.lib.SpireConfig;
@@ -132,10 +133,35 @@ public class RegisterHelper {
 
     public static void registerEvents() {
         Log.logger.info("Adding events...");
-        BaseMod.addEvent(FoodEvent.ID, FoodEvent.class);
-        BaseMod.addEvent(KraftGift.ID, KraftGift.class, TheCity.ID, TheBeyond.ID);
-        BaseMod.addEvent(AnimalWell.ID, AnimalWell.class);
-        BaseMod.addEvent(MimicFight.ID, MimicFight.class, TheCity.ID);
+
+        AddEventParams foodEventParams = new AddEventParams();
+        foodEventParams.playerClasses.add(CharacterEnums.FRIEREN);
+        foodEventParams.eventID = FoodEvent.ID;
+        foodEventParams.eventClass = FoodEvent.class;
+        BaseMod.addEvent(foodEventParams);
+
+        AddEventParams kraftGiftEventParams = new AddEventParams();
+        kraftGiftEventParams.playerClasses.add(CharacterEnums.FRIEREN);
+        kraftGiftEventParams.eventID = KraftGift.ID;
+        kraftGiftEventParams.eventClass = KraftGift.class;
+        kraftGiftEventParams.dungeonIDs.add(TheCity.ID);
+        kraftGiftEventParams.dungeonIDs.add(TheBeyond.ID);
+        BaseMod.addEvent(kraftGiftEventParams);
+
+        AddEventParams animalWellEventParams = new AddEventParams();
+        animalWellEventParams.playerClasses.add(CharacterEnums.FRIEREN);
+        animalWellEventParams.eventID = AnimalWell.ID;
+        animalWellEventParams.eventClass = AnimalWell.class;
+        BaseMod.addEvent(animalWellEventParams);
+
+        AddEventParams mimicFightEventParams = new AddEventParams();
+        mimicFightEventParams.playerClasses.add(CharacterEnums.FRIEREN);
+        mimicFightEventParams.eventID = MimicFight.ID;
+        mimicFightEventParams.eventClass = MimicFight.class;
+        mimicFightEventParams.endsWithRewardsUI = true;
+        mimicFightEventParams.dungeonIDs.add(TheCity.ID);
+        BaseMod.addEvent(mimicFightEventParams);
+
         Log.logger.info("Done adding events");
     }
 

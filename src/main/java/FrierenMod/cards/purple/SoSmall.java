@@ -2,10 +2,12 @@ package FrierenMod.cards.purple;
 
 import FrierenMod.actions.MakeManaInHandAction;
 import FrierenMod.cards.AbstractBaseCard;
+import FrierenMod.effects.PlaySFXEffect;
 import FrierenMod.enums.CardEnums;
 import FrierenMod.gameHelpers.ActionHelper;
 import FrierenMod.utils.CardInfo;
 import FrierenMod.utils.ModInformation;
+import com.megacrit.cardcrawl.actions.animations.VFXAction;
 import com.megacrit.cardcrawl.actions.common.GainBlockAction;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
@@ -36,6 +38,7 @@ public class SoSmall extends AbstractBaseCard {
 
     @Override
     public void use(AbstractPlayer p, AbstractMonster m) {
+        this.addToBot(new VFXAction(p, new PlaySFXEffect("SoSmall.mp3"),0.1F));
         ActionHelper.addToBotAbstract(() -> {
             int times = 1;
             if (p.currentHealth >= m.currentHealth)

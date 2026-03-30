@@ -1,15 +1,15 @@
 package FrierenMod.cards.purple;
 
-import FrierenMod.actions.MakeManaInDrawPileAction;
+import FrierenMod.actions.ExhaustAllManaAction;
 import FrierenMod.cards.AbstractBaseCard;
 import FrierenMod.cards.tempCards.Mana;
 import FrierenMod.enums.CardEnums;
 import FrierenMod.gameHelpers.CombatHelper;
+import FrierenMod.powers.ConcentrationPower;
 import FrierenMod.utils.CardInfo;
 import FrierenMod.utils.ModInformation;
-import com.megacrit.cardcrawl.actions.AbstractGameAction;
-import com.megacrit.cardcrawl.actions.common.DamageAction;
-import com.megacrit.cardcrawl.cards.DamageInfo;
+import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
+import com.megacrit.cardcrawl.actions.common.GainBlockAction;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.core.CardCrawlGame;
 import com.megacrit.cardcrawl.localization.CardStrings;
@@ -18,7 +18,7 @@ import com.megacrit.cardcrawl.monsters.AbstractMonster;
 public class SorryICant extends AbstractBaseCard {
     public static final String ID = ModInformation.makeID(SorryICant.class.getSimpleName());
     private static final CardStrings cardStrings = CardCrawlGame.languagePack.getCardStrings(ID);
-    public static final CardInfo info = new CardInfo(ID, 1, CardType.ATTACK, CardEnums.FERN_CARD, CardRarity.UNCOMMON, CardTarget.ENEMY);
+    public static final CardInfo info = new CardInfo(ID, 0, CardType.SKILL, CardEnums.FERN_CARD, CardRarity.UNCOMMON, CardTarget.SELF);
 
     public SorryICant() {
         super(info);
@@ -28,6 +28,7 @@ public class SorryICant extends AbstractBaseCard {
     public void initializeSpecifiedAttributes() {
         this.cardsToPreview = new Mana();
         this.exhaust = true;
+        this.tags.add(Enum.SPEED);
     }
 
     @Override
@@ -42,8 +43,9 @@ public class SorryICant extends AbstractBaseCard {
 
     @Override
     public void use(AbstractPlayer p, AbstractMonster m) {
-        this.addToBot(new DamageAction(m, new DamageInfo(p, this.damage, this.damageTypeForTurn), AbstractGameAction.AttackEffect.SLASH_DIAGONAL));
-        this.addToBot(new MakeManaInDrawPileAction(this.magicNumber));
+        this.addToBot(new ExhaustAllManaAction());
+        this.addToBot(new GainBlockAction(p, this.block));
+        this.addToBot(new ApplyPowerAction(p, p, new ConcentrationPower(this.magicNumber)));
     }
 
     public void onMoveToDiscard() {
@@ -52,8 +54,8 @@ public class SorryICant extends AbstractBaseCard {
     }
 
     public void calculateCardDamage(AbstractMonster mo) {
-        int amount = CombatHelper.getConcentrationPowerAmt();
-        this.magicNumber = this.baseMagicNumber = this.baseDamage = amount;
+        int amount = CombatHelper.getAllManaNum();
+        this.magicNumber = this.baseMagicNumber = this.baseBlock = amount;
         super.calculateCardDamage(mo);
         this.rawDescription = cardStrings.DESCRIPTION;
         if (amount > 0)
@@ -62,8 +64,8 @@ public class SorryICant extends AbstractBaseCard {
     }
 
     public void applyPowers() {
-        int amount = CombatHelper.getConcentrationPowerAmt();
-        this.magicNumber = this.baseMagicNumber = this.baseDamage = amount;
+        int amount = CombatHelper.getAllManaNum();
+        this.magicNumber = this.baseMagicNumber = this.baseBlock = amount;
         super.applyPowers();
         this.rawDescription = cardStrings.DESCRIPTION;
         if (amount > 0)

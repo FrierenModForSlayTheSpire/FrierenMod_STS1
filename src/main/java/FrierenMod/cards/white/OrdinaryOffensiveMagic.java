@@ -1,7 +1,7 @@
 package FrierenMod.cards.white;
 
 import FrierenMod.cards.AbstractBaseCard;
-import FrierenMod.effects.NormalAttackEffect;
+import FrierenMod.effects.PlaySFXEffect;
 import FrierenMod.enums.CardEnums;
 import FrierenMod.gameHelpers.CombatHelper;
 import FrierenMod.gameHelpers.SlotBgHelper;
@@ -72,7 +72,7 @@ public class OrdinaryOffensiveMagic extends AbstractBaseCard {
         this.calculateCardDamage(m);
         if (this.damage >= 100)
             SlotBgHelper.unlockANewSlot("4008");
-        this.addToTop(new VFXAction(p, new NormalAttackEffect(), 0.1F, true));
+        this.addToTop(new VFXAction(p, new PlaySFXEffect("normal_attack.mp3"), 0.1F, true));
         this.addToBot(new VFXAction(p, new MindblastEffect(p.dialogX, p.dialogY, p.flipHorizontal), 0.1F));
         this.addToBot(new DamageAction(m, new DamageInfo(p, this.damage, this.damageTypeForTurn)));
     }

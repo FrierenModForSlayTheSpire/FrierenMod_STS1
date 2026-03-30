@@ -1,0 +1,62 @@
+
+Fern.png
+size: 345,421
+format: RGBA8888
+filter: MipMapLinearNearest,MipMapLinearNearest
+repeat: none
+body
+  rotate: true
+  xy: 2, 224
+  size: 195, 341
+  orig: 195, 341
+  offset: 0, 0
+  index: -1
+decoration
+  rotate: false
+  xy: 288, 52
+  size: 9, 50
+  orig: 223, 220
+  offset: 172, 124
+  index: -1
+hair1
+  rotate: false
+  xy: 322, 118
+  size: 17, 104
+  orig: 17, 104
+  offset: 0, 0
+  index: -1
+hair2
+  rotate: false
+  xy: 322, 48
+  size: 18, 68
+  orig: 18, 83
+  offset: 0, 0
+  index: -1
+hair3
+  rotate: false
+  xy: 227, 90
+  size: 59, 132
+  orig: 60, 133
+  offset: 0, 0
+  index: -1
+left_hand
+  rotate: true
+  xy: 227, 38
+  size: 50, 59
+  orig: 52, 59
+  offset: 2, 0
+  index: -1
+right_hand
+  rotate: false
+  xy: 288, 104
+  size: 32, 118
+  orig: 33, 118
+  offset: 0, 0
+  index: -1
+wand
+  rotate: false
+  xy: 2, 2
+  size: 223, 220
+  orig: 223, 220
+  offset: 0, 0
+  index: -1

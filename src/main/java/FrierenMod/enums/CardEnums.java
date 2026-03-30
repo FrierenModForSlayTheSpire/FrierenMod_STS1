@@ -13,6 +13,10 @@ public class CardEnums {
     public static AbstractCard.CardColor FERN_CARD;
     @SpireEnum(name = "FERN_CARD")
     public static CardLibrary.LibraryType FERN_LIBRARY;
+    @SpireEnum(name = "STARK_CARD")
+    public static AbstractCard.CardColor STARK_CARD;
+    @SpireEnum(name = "STARK_CARD")
+    public static CardLibrary.LibraryType STARK_LIBRARY;
     @SpireEnum(name = "MAGIC_ITEM")
     public static AbstractCard.CardColor MAGIC_ITEM;
     @SpireEnum(name = "MAGIC_ITEM")

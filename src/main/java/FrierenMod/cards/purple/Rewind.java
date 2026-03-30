@@ -17,7 +17,7 @@ import java.util.ArrayList;
 
 public class Rewind extends AbstractBaseCard {
     public static final String ID = ModInformation.makeID(Rewind.class.getSimpleName());
-    public static final CardInfo info = new CardInfo(ID, 0, CardType.SKILL, CardEnums.FERN_CARD, CardRarity.BASIC, CardTarget.SELF);
+    public static final CardInfo info = new CardInfo(ID, 0, CardType.SKILL, CardEnums.FERN_CARD, CardRarity.COMMON, CardTarget.SELF);
 
     public Rewind() {
         super(info);

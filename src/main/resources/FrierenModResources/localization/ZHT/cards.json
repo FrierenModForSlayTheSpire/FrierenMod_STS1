@@ -411,8 +411,8 @@
   },
   "FrierenMod:FireSpell": {
     "NAME": "放出火焰的魔法",
-    "DESCRIPTION": "當前每有一個敵人，將1張 *小小火花 放入你的手牌。 NL 消耗 。",
-    "UPGRADE_DESCRIPTION": "當前每有一個敵人，將1張 *小小火花+ 放入你的手牌。 NL 消耗 。"
+    "DESCRIPTION": "目前每有一個敵人，將1張 *小小火花 放入你的手牌。 NL 消耗 。",
+    "UPGRADE_DESCRIPTION": "目前每有一個敵人，將1張 *小小火花+ 放入你的手牌。 NL 消耗 。"
   },
   "FrierenMod:Laziness": {
     "NAME": "懶懶散散",
@@ -453,8 +453,8 @@
   },
   "FrierenMod:SerieGrimoire": {
     "NAME": "賽莉耶的魔導書",
-    "DESCRIPTION": "創建一張自訂 frierenmod:傳說魔法 。 NL  消耗 。",
-    "UPGRADE_DESCRIPTION": "創建一張自訂 frierenmod:傳說魔法 ，創建時你擁有更多選項。 NL  消耗 。"
+    "DESCRIPTION": "建立一張自訂 frierenmod:傳說魔法 。 NL  消耗 。",
+    "UPGRADE_DESCRIPTION": "建立一張自訂 frierenmod:傳說魔法 ，建立時你擁有更多選項。 NL  消耗 。"
   },
   "FrierenMod:LittleFire": {
     "NAME": "小小火花",
@@ -662,8 +662,8 @@
   },
   "FrierenMod:TimeConcept": {
     "NAME": "精靈的時間觀念",
-    "DESCRIPTION": "將你當前的一切送入兩回合後的未來。兩回合後，將一張 *悔恨 放入手中。",
-    "UPGRADE_DESCRIPTION": "將你當前的一切送入兩回合後的未來。"
+    "DESCRIPTION": "將你目前的一切送入兩回合後的未來。兩回合後，將一張 *悔恨 放入手中。",
+    "UPGRADE_DESCRIPTION": "將你目前的一切送入兩回合後的未來。"
   },
   "FrierenMod:Imagination": {
     "NAME": "魔法&想像力",
@@ -724,7 +724,7 @@
     "DESCRIPTION": " 造成!D!點傷害。如果你本回合 frierenmod:詠唱 過，這張牌在本回合耗能變為0。"
   },
   "FrierenMod:HalfTheSky": {
-    "NAME": "一眼盯砧，鑒定為芙了",
+    "NAME": "一眼盯砧，鑑定為芙了",
     "DESCRIPTION": " 造成!D!點傷害。你每次 frierenmod:詠唱 時， 將這張牌從棄牌堆放回你的手牌。"
   },
   "FrierenMod:Recycle": {
@@ -740,7 +740,7 @@
     "DESCRIPTION": "造成 !D! 點傷害。 NL 抽 !M! 張牌。 NL 丟棄其中的 *魔力 。"
   },
   "FrierenMod:Free": {
-    "NAME": "物理超度",
+    "NAME": "物理超渡",
     "DESCRIPTION": "丟棄所有非 *魔力 牌。 NL 每丟棄一張牌，造成 !D! 點傷害，獲得 !B! 點 格擋 。"
   },
   "FrierenMod:MageStyleChoke": {
@@ -748,7 +748,7 @@
     "DESCRIPTION": "造成 !D! 點傷害。 NL 你在這個回合每 frierenmod:同調 一次，該名敵人失去 !M! 點生命"
   },
   "FrierenMod:RingletForm": {
-    "NAME": "卷發形態",
+    "NAME": "卷髮形態",
     "DESCRIPTION": "你每 消耗 一張 *魔力 ，獲得 !M! 點 格擋 。"
   },
   "FrierenMod:Himmel": {
@@ -769,7 +769,7 @@
   },
   "FrierenMod:RockGolemSpell": {
     "NAME": "操縱石像的魔法",
-    "DESCRIPTION": " frierenmod:解析 10： frierenmod:同調 2張魔力 NL *獎勵： 隨機造成 !D! 點傷害，切換至防禦形態。 NL (當前進度0/2)。"
+    "DESCRIPTION": " frierenmod:解析 10： frierenmod:同調 2張魔力 NL *獎勵： 隨機造成 !D! 點傷害，切換至防禦形態。 NL (目前進度0/2)。"
   },
   "FrierenMod:LureTheEnemyInDeep": {
     "NAME": "誘敵深入",
@@ -832,9 +832,9 @@
   },
   "FrierenMod:FairyTaleEnd": {
     "NAME": "童話的結尾",
-    "DESCRIPTION": " frierenmod:傳說魔法 。 NL 造成 !D! 點傷害。本場戰鬥中你每使用過一種 *傳說魔法 ，此牌的基礎傷害就翻一倍。",
+    "DESCRIPTION": " frierenmod:傳說魔法 。 NL 造成 !D! 點傷害。牌組中每有一種 *傳說魔法 ，此牌的基礎傷害就翻一倍。 NL 消耗 。",
     "EXTENDED_DESCRIPTION": [
-      " NL （已使用",
+      " NL （牌組中有",
       " 種。）"
     ]
   },
@@ -907,7 +907,7 @@
   },
   "FrierenMod:ChargeUp": {
     "NAME": "普通蓄力",
-    "DESCRIPTION": "造成 !D! 點傷害。 NL 在下一回合獲得 !M! 點 frierenmod:專註 。"
+    "DESCRIPTION": "造成 !D! 點傷害。 NL 在下一回合獲得 !M! 點 frierenmod:專注 。"
   },
   "FrierenMod:SpecializedOffensiveMagic": {
     "NAME": "特化普攻魔法",
@@ -920,7 +920,7 @@
   "FrierenMod:Backstab": {
     "NAME": "背刺",
     "DESCRIPTION": "對所有敵人造成 !D! 點傷害，如果沒有敵人死亡，獲得 [E] 。",
-    "UPGRADE_DESCRIPTION": "對所有敵人造成 !D! 點傷害，如果沒有敵人死亡，獲得 [E] 和3點 frierenmod:專註 。"
+    "UPGRADE_DESCRIPTION": "對所有敵人造成 !D! 點傷害，如果沒有敵人死亡，獲得 [E] 和3點 frierenmod:專注 。"
   },
   "FrierenMod:FlyOnTheWall": {
     "NAME": "暗中觀察",
@@ -951,7 +951,7 @@
   },
   "FrierenMod:HuddleForWarmth": {
     "NAME": "抱團取暖",
-    "DESCRIPTION": "獲得 !B! 點 格擋 。 NL frierenmod:奇襲 !R! ：你的下一回合開始時 格擋 不會消失。 NL 虛無 。"
+    "DESCRIPTION": "獲得 !B! 點 格擋 。 NL frierenmod:奇襲 !R! ：你的下一回合開始時 格擋 不會消失。"
   },
   "FrierenMod:SkimReading": {
     "NAME": "快速檢閱",
@@ -967,28 +967,27 @@
   },
   "FrierenMod:CounterAttack": {
     "NAME": "防禦反擊",
-    "DESCRIPTION": " frierenmod:疾速 。 NL 選擇：獲得3點 frierenmod:專註 並造成 !D! 點傷害，失去3的 *專註 並獲得 !B! 點 格擋 。"
+    "DESCRIPTION": " frierenmod:疾速 。 NL 選擇：獲得3點 frierenmod:專注 並造成 !D! 點傷害，失去3的 *專注 並獲得 !B! 點 格擋 。"
   },
   "FrierenMod:FocusOnAttack": {
-    "NAME": "專註於攻擊",
-    "DESCRIPTION": "獲得3點 frierenmod:專註 並造成 !D! 點傷害。"
+    "NAME": "專注於攻擊",
+    "DESCRIPTION": "獲得3點 frierenmod:專注 並造成 !D! 點傷害。"
   },
   "FrierenMod:FocusOnDefense": {
-    "NAME": "專註於防禦",
-    "DESCRIPTION": "失去3點 frierenmod:專註 並獲得 !B! 點 格擋 。"
+    "NAME": "專注於防禦",
+    "DESCRIPTION": "失去3點 frierenmod:專注 並獲得 !B! 點 格擋 。"
   },
   "FrierenMod:MysticEye": {
     "NAME": "直視的魔眼",
-    "DESCRIPTION": "造成 !D! 點傷害。 NL 每當目標敵人受到攻擊時，你獲得 !M! 點 frierenmod:專註 。 NL  消耗 。"
+    "DESCRIPTION": "造成 !D! 點傷害。 NL 每當目標敵人受到攻擊時，你獲得 !M! 點 frierenmod:專注 。 NL  消耗 。"
   },
   "FrierenMod:Glaring": {
     "NAME": "眩光",
-    "DESCRIPTION": "造成 !D! 點傷害 。 NL （受到 !M! 倍 frierenmod:專註 加成） NL 消耗 。"
+    "DESCRIPTION": "造成 !D! 點傷害 。 NL （受到 !M! 倍 frierenmod:專注 加成） NL 消耗 。"
   },
   "FrierenMod:ColdBlood": {
     "NAME": "冷酷無情",
-    "DESCRIPTION": "如果本場戰鬥中打出的上一張牌觸發了 frierenmod:奇襲 ，造成 !D! 點傷害。 NL frierenmod:奇襲 !R! ：造成 !D! 點傷害。",
-    "UPGRADE_DESCRIPTION": "如果本場戰鬥中打出的上一張 frierenmod:奇襲 牌觸發了 *奇襲 ，造成 !D! 點傷害。 NL frierenmod:奇襲 !R! ：造成 !D! 點傷害。"
+    "DESCRIPTION": "造成 !D! 點傷害。 NL 如果本場戰鬥中打出的上一張 frierenmod:奇襲 牌觸發了 *奇襲 ，這張牌在本回合耗能變為0。"
   },
   "FrierenMod:FernFixFrieren": {
     "NAME": "富婦撫芙服",
@@ -1008,15 +1007,15 @@
   },
   "FrierenMod:SorryICant": {
     "NAME": "對不起，做不到",
-    "DESCRIPTION": "失去所有 frierenmod:專註 ，將失去數的 *魔力 放入抽牌堆，造成失去數的傷害。 NL 消耗 。",
-    "UPGRADE_DESCRIPTION": "失去所有 frierenmod:專註 ，將失去數的 *魔力 放入抽牌堆，造成失去數的傷害。",
+    "DESCRIPTION": " frierenmod:疾速 。 NL 消耗 所有 *魔力 ，獲得消耗數的 格擋 和 frierenmod:專注 。 NL 消耗 。",
+    "UPGRADE_DESCRIPTION": " frierenmod:疾速 。 NL 消耗 所有 *魔力 ，獲得消耗數的 格擋 和 frierenmod:專注 。",
     "EXTENDED_DESCRIPTION": [
-      " NL （造成 !D! 點傷害，放入 !M! 張 *魔力 。）"
+      " NL （獲得 !B! 點 格擋 和 !M! 點 frierenmod:專注 ）"
     ]
   },
   "FrierenMod:FusionRaid": {
     "NAME": "奇襲的三擊",
-    "DESCRIPTION": "frierenmod:奇襲 1： frierenmod:融合 ：獲得 !M! 點 frierenmod:專註 。 NL  frierenmod:奇襲 2： frierenmod:融合 ：造成 !D! 點傷害。 NL frierenmod:奇襲 3： frierenmod:融合 ：抽2張牌。"
+    "DESCRIPTION": " frierenmod:奇襲 1：抽 !M! 張牌 。 NL frierenmod:奇襲 2：造成 !D! 點傷害。 NL frierenmod:奇襲 3：獲得 [E] [E] 。"
   },
   "FrierenMod:SaturationOffensiveMagic": {
     "NAME": "飽和攻擊魔法",
@@ -1032,20 +1031,20 @@
   },
   "FrierenMod:Meditation": {
     "NAME": "冥想",
-    "DESCRIPTION": " 不能被打出 。 NL 當你抽到這張牌時，獲得 !M! 點 frierenmod:專註 並抽1張牌，然後 消耗 。"
+    "DESCRIPTION": " 不能被打出 。 NL 當你抽到這張牌時，獲得 !M! 點 frierenmod:專注 並抽1張牌，然後 消耗 。"
   },
   "FrierenMod:InjuryTime": {
     "NAME": "傷停補時",
-    "DESCRIPTION": " frierenmod:疾速 。 NL 獲得 [E] [E] 和 !M! 點 frierenmod:專註 。 NL 消耗 。"
+    "DESCRIPTION": " frierenmod:疾速 。 NL 獲得 [E] [E] 和 !M! 點 frierenmod:專注 。 NL 消耗 。"
   },
   "FrierenMod:StudyTime": {
     "NAME": "請蓮大學習",
-    "DESCRIPTION": "將 !M! 張 *魔力 放入手中。 frierenmod:融合 ：在棄牌堆放入1張本牌的復製品。",
-    "UPGRADE_DESCRIPTION": "將 !M! 張 *魔力 放入手中。 frierenmod:融合 ：在棄牌堆放入1張本牌的復製品。 NL 消耗 。"
+    "DESCRIPTION": "將 !M! 張 *魔力 放入手中。 frierenmod:融合 ：在棄牌堆放入1張本牌的複製品。",
+    "UPGRADE_DESCRIPTION": "將 !M! 張 *魔力 放入手中。 frierenmod:融合 ：在棄牌堆放入1張本牌的複製品。 NL 消耗 。"
   },
   "FrierenMod:OneInHundred": {
-    "NAME": "百裏挑一",
-    "DESCRIPTION": "將 !M! 張隨機 frierenmod:融合 牌放入手中。如果你沒有任何 frierenmod:融合 ，這些牌在本回合耗能為0。 NL 消耗 。"
+    "NAME": "百裡挑一",
+    "DESCRIPTION": "將 !M! 張隨機 frierenmod:融合 牌放入手中。如果你沒有 frierenmod:法杖充能 ，這些牌在本回合耗能為0。 NL 消耗 。"
   },
   "FrierenMod:PureMind": {
     "NAME": "明鏡止水之心",
@@ -1054,12 +1053,12 @@
   },
   "FrierenMod:TrainingByEating": {
     "NAME": "加練一組甜點",
-    "DESCRIPTION": "獲得 frierenmod:專註 數的力量，失去所有 frierenmod:專註 。 NL frierenmod:奇襲 !R! ： frierenmod:疾速 。 NL 消耗 。",
-    "UPGRADE_DESCRIPTION": "獲得 frierenmod:專註 數的力量，失去所有 frierenmod:專註 。 NL frierenmod:奇襲 !R! ： frierenmod:疾速 。"
+    "DESCRIPTION": "獲得 frierenmod:專注 數的力量，失去所有 frierenmod:專注 。 NL frierenmod:奇襲 !R! ： frierenmod:疾速 。 NL 消耗 。",
+    "UPGRADE_DESCRIPTION": "獲得 frierenmod:專注 數的力量，失去所有 frierenmod:專注 。 NL frierenmod:奇襲 !R! ： frierenmod:疾速 。"
   },
   "FrierenMod:GirlishHeart": {
     "NAME": "少女心",
-    "DESCRIPTION": "丟棄1張牌，抽 !M! 張牌。 NL frierenmod:融合 ：獲得2點 frierenmod:專註 。"
+    "DESCRIPTION": "丟棄1張牌，抽 !M! 張牌。 NL frierenmod:融合 ：獲得2點 frierenmod:專注 。"
   },
   "FrierenMod:DinnerTime": {
     "NAME": "晚餐時間",
@@ -1076,7 +1075,7 @@
   },
   "FrierenMod:Pouting": {
     "NAME": "氣嘟嘟",
-    "DESCRIPTION": "對所有敵人造成 !D! 點傷害，所有 *樂呵呵 增加此數值。 NL 虛無 。"
+    "DESCRIPTION": "造成 !D! 點傷害，所有 *樂呵呵 增加此數值。 NL 虛無 。"
   },
   "FrierenMod:Cheering": {
     "NAME": "樂呵呵",
@@ -1084,15 +1083,15 @@
   },
   "FrierenMod:Rewind": {
     "NAME": "倒帶",
-    "DESCRIPTION": " frierenmod:奇襲 !R! :將本回合上一張打出的 *特化普攻魔法 的復製放入手中。 NL 消耗 。",
-    "UPGRADE_DESCRIPTION": " frierenmod:奇襲 !R! :將上一張打出的 *特化普攻魔法 的復製放入手中。 NL 消耗 。"
+    "DESCRIPTION": " frierenmod:奇襲 !R! :將本回合上一張打出的 *特化普攻魔法 的複製放入手中。 NL 消耗 。",
+    "UPGRADE_DESCRIPTION": " frierenmod:奇襲 !R! :將上一張打出的 *特化普攻魔法 的複製放入手中。 NL 消耗 。"
   },
   "FrierenMod:Reviewing": {
     "NAME": "復盤",
-    "DESCRIPTION": "獲得 !B! 點 格擋 。 NL 本回合中你每打出過1張非 *魔力 牌，就獲得1點 frierenmod:專註 。",
-    "UPGRADE_DESCRIPTION": " frierenmod:疾速 。 NL 獲得 !B! 點 格擋 。 NL 本回合中你每打出過1張非 *魔力 牌，就獲得1點 frierenmod:專註 。",
+    "DESCRIPTION": "獲得 !B! 點 格擋 。 NL 本回合中你每打出過1張非 *魔力 牌，就獲得1點 frierenmod:專注 。",
+    "UPGRADE_DESCRIPTION": " frierenmod:疾速 。 NL 獲得 !B! 點 格擋 。 NL 本回合中你每打出過1張非 *魔力 牌，就獲得1點 frierenmod:專注 。",
     "EXTENDED_DESCRIPTION": [
-      " NL （獲得 %d 點專註）"
+      " NL （獲得 %d 點專注）"
     ]
   },
   "FrierenMod:Snuggle": {
@@ -1109,7 +1108,7 @@
   },
   "FrierenMod:WithNoStop": {
     "NAME": "疾速飛馳",
-    "DESCRIPTION": " frierenmod:疾速 。 NL 下3張牌打出後獲得2點 frierenmod:專註 。"
+    "DESCRIPTION": " frierenmod:疾速 。 NL 下3張牌打出後獲得2點 frierenmod:專注 。"
   },
   "FrierenMod:MasterAndApprentice": {
     "NAME": "師與徒",
@@ -1146,18 +1145,18 @@
   },
   "FrierenMod:NoMercy": {
     "NAME": "毫不留情",
-    "DESCRIPTION": "造成 !D! 點傷害。 NL 消耗堆中每有一張 *特化普攻魔法 ，就重復一次。",
+    "DESCRIPTION": "造成 !D! 點傷害。 NL 消耗堆中每有一張 *特化普攻魔法 ，就重複一次。",
     "EXTENDED_DESCRIPTION": [
       " NL （共造成 %d 次）"
     ]
   },
   "FrierenMod:SleepingBeauty": {
     "NAME": "睡美人",
-    "DESCRIPTION": "失去1點 frierenmod:專註 ，依次獲得 [E] 或抽1張牌。重復觸發以上效果至多 !M! 次。 NL 消耗 。"
+    "DESCRIPTION": "失去1點 frierenmod:專注 ，依次獲得 [E] 或抽1張牌。重複觸發以上效果至多 !M! 次。 NL 消耗 。"
   },
   "FrierenMod:ContinuousOffensiveMagic": {
     "NAME": "連環普攻魔法",
-    "DESCRIPTION": "獲得一張傷害值為 !M! 的 *特化普攻魔法 。 NL frierenmod:奇襲 !R! ：再獲得1張復製。"
+    "DESCRIPTION": "獲得一張傷害值為 !M! 的 *特化普攻魔法 。 NL frierenmod:奇襲 !R! ：再獲得1張複製。"
   },
   "FrierenMod:Metamorphose": {
     "NAME": "化蝶",
@@ -1166,7 +1165,7 @@
   },
   "FrierenMod:GetSick": {
     "NAME": "發燒了！",
-    "DESCRIPTION": "失去所有 frierenmod:專註 ，獲得 !B! 點 格擋 ，結束你的回合。將一張 *治好了！ 放入抽牌堆。 NL 消耗 。"
+    "DESCRIPTION": "失去所有 frierenmod:專注 ，獲得 !B! 點 格擋 ，結束你的回合。將一張 *治好了！ 放入抽牌堆。 NL 消耗 。"
   },
   "FrierenMod:GetWell": {
     "NAME": "治好了！",
@@ -1178,27 +1177,27 @@
   },
   "FrierenMod:MemoryOfChildhood": {
     "NAME": "童年的回憶",
-    "DESCRIPTION": "再次打出消耗堆中所有 *特化普攻魔法 的復製，目標隨機而定。 NL 消耗 。",
-    "UPGRADE_DESCRIPTION": " 保留 。 NL 再次打出消耗堆中所有 *特化普攻魔法 的復製，目標隨機而定。 NL 消耗 。"
+    "DESCRIPTION": "再次打出消耗堆中所有 *特化普攻魔法 的複製，目標隨機而定。 NL 消耗 。",
+    "UPGRADE_DESCRIPTION": " 保留 。 NL 再次打出消耗堆中所有 *特化普攻魔法 的複製，目標隨機而定。 NL 消耗 。"
   },
   "FrierenMod:SocialDancing": {
     "NAME": "交際舞",
-    "DESCRIPTION": "當你擁有 frierenmod:專註 時， frierenmod:奇襲 X的判定條件改為X-1、X 、X+1均可觸發。"
+    "DESCRIPTION": "當你擁有 frierenmod:專注 時， frierenmod:奇襲 X的判定條件改為X-1、X 、X+1均可觸發。"
   },
   "FrierenMod:Confidence": {
     "NAME": "胸有成竹",
-    "DESCRIPTION": "所有造成傷害的 frierenmod:奇襲 效果會額外觸發一次。 NL 每回合開始後失去所有 frierenmod:專註 。"
+    "DESCRIPTION": "所有造成傷害的 frierenmod:奇襲 效果會額外觸發一次。 NL 每回合開始後失去所有 frierenmod:專注 。 NL 虛無 。"
   },
   "FrierenMod:Gamble": {
     "NAME": "豪賭",
-    "DESCRIPTION": "打出卡牌後，隨機化你的 frierenmod:專註 數為1～6。若為6，對所有敵人造成10點傷害。"
+    "DESCRIPTION": "打出卡牌後，隨機化你的 frierenmod:專注 數為1～6。若為6，對所有敵人造成10點傷害。"
   },
   "FrierenMod:FumeshroomForm": {
     "NAME": "大噴菇形態",
     "DESCRIPTION": "你的所有單體傷害也將對未指向的敵人造成傷害。"
   },
   "FrierenMod:RecollectionOfBenefactor": {
-    "NAME": "心系故人",
+    "NAME": "心繫故人",
     "DESCRIPTION": "通過 *海塔留下的法杖 獲得 *特化普攻魔法 時，傷害從2倍改為4倍。"
   }
 }

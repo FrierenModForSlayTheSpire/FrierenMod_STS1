@@ -29,6 +29,7 @@ public class ConfigPanel extends ModPanel {
     public static SpireConfig makeConfig() {
         Properties properties = new Properties();
         properties.setProperty("ALLOW_SPECIAL_SFX", Boolean.toString(Config.ALLOW_SPECIAL_SFX));
+        properties.setProperty("ALLOW_SPECIAL_BGM", Boolean.toString(Config.ALLOW_SPECIAL_BGM));
         properties.setProperty("SHOW_SLOT_TYPE", Boolean.toString(Config.SHOW_SLOT_TYPE));
         properties.setProperty("ALLOW_ACHIEVEMENT", Boolean.toString(Config.ALLOW_ACHIEVEMENT));
         properties.setProperty("ALLOW_PUZZLE_FACTOR_DROP", Boolean.toString(Config.ALLOW_PUZZLE_FACTOR_DROP));
@@ -52,6 +53,7 @@ public class ConfigPanel extends ModPanel {
             return;
         }
         Config.ALLOW_SPECIAL_SFX = config.getBool("ALLOW_SPECIAL_SFX");
+        Config.ALLOW_SPECIAL_BGM = config.getBool("ALLOW_SPECIAL_BGM");
         Config.SHOW_SLOT_TYPE = config.getBool("SHOW_SLOT_TYPE");
         Config.ALLOW_ACHIEVEMENT = config.getBool("ALLOW_ACHIEVEMENT");
         Config.ALLOW_PUZZLE_FACTOR_DROP = config.getBool("ALLOW_PUZZLE_FACTOR_DROP");
@@ -101,7 +103,15 @@ public class ConfigPanel extends ModPanel {
             config.setBool("ALLOW_SPECIAL_SFX", Config.ALLOW_SPECIAL_SFX);
             save(config);
         });
-        ModLabeledToggleButton showSlotType = new ModLabeledToggleButton(TEXT[1], BASE_X_POSE, BASE_Y_POSE - GAP, Color.WHITE.cpy(), FontHelper.charDescFont, Config.SHOW_SLOT_TYPE, settings, l -> {
+        ModLabeledToggleButton allowBGM = new ModLabeledToggleButton(TEXT[1], BASE_X_POSE, BASE_Y_POSE - GAP, Color.WHITE.cpy(), FontHelper.charDescFont, Config.ALLOW_SPECIAL_BGM, settings, l -> {
+        }, btn -> {
+            Config.ALLOW_SPECIAL_BGM = btn.enabled;
+            SpireConfig config = makeConfig();
+            assert config != null;
+            config.setBool("ALLOW_SPECIAL_BGM", Config.ALLOW_SPECIAL_BGM);
+            save(config);
+        });
+        ModLabeledToggleButton showSlotType = new ModLabeledToggleButton(TEXT[2], BASE_X_POSE, BASE_Y_POSE - GAP * 2, Color.WHITE.cpy(), FontHelper.charDescFont, Config.SHOW_SLOT_TYPE, settings, l -> {
         }, btn -> {
             Config.SHOW_SLOT_TYPE = btn.enabled;
             SpireConfig config = makeConfig();
@@ -109,7 +119,7 @@ public class ConfigPanel extends ModPanel {
             config.setBool("SHOW_SLOT_TYPE", Config.SHOW_SLOT_TYPE);
             save(config);
         });
-        ModLabeledToggleButton allowAchievement = new ModLabeledToggleButton(TEXT[2], BASE_X_POSE, BASE_Y_POSE - GAP * 2, Color.WHITE.cpy(), FontHelper.charDescFont, Config.ALLOW_ACHIEVEMENT, settings, l -> {
+        ModLabeledToggleButton allowAchievement = new ModLabeledToggleButton(TEXT[3], BASE_X_POSE, BASE_Y_POSE - GAP * 3, Color.WHITE.cpy(), FontHelper.charDescFont, Config.ALLOW_ACHIEVEMENT, settings, l -> {
         }, btn -> {
             Config.ALLOW_ACHIEVEMENT = btn.enabled;
             SpireConfig config = makeConfig();
@@ -117,7 +127,7 @@ public class ConfigPanel extends ModPanel {
             config.setBool("ALLOW_ACHIEVEMENT", Config.ALLOW_ACHIEVEMENT);
             save(config);
         });
-        ModLabeledToggleButton allowPuzzleFactorDrop = new ModLabeledToggleButton(TEXT[3], BASE_X_POSE, BASE_Y_POSE - GAP * 3, Color.WHITE.cpy(), FontHelper.charDescFont, Config.ALLOW_PUZZLE_FACTOR_DROP, settings, l -> {
+        ModLabeledToggleButton allowPuzzleFactorDrop = new ModLabeledToggleButton(TEXT[4], BASE_X_POSE, BASE_Y_POSE - GAP * 4, Color.WHITE.cpy(), FontHelper.charDescFont, Config.ALLOW_PUZZLE_FACTOR_DROP, settings, l -> {
         }, btn -> {
             Config.ALLOW_PUZZLE_FACTOR_DROP = btn.enabled;
             SpireConfig config = makeConfig();
@@ -125,7 +135,7 @@ public class ConfigPanel extends ModPanel {
             config.setBool("ALLOW_PUZZLE_FACTOR_DROP", Config.ALLOW_PUZZLE_FACTOR_DROP);
             save(config);
         });
-        ModLabeledToggleButton removeVelvetChoker = new ModLabeledToggleButton(TEXT[4], BASE_X_POSE, BASE_Y_POSE - GAP * 4, Color.WHITE.cpy(), FontHelper.charDescFont, Config.REMOVE_VELVET_CHOKER, settings, l -> {
+        ModLabeledToggleButton removeVelvetChoker = new ModLabeledToggleButton(TEXT[5], BASE_X_POSE, BASE_Y_POSE - GAP * 5, Color.WHITE.cpy(), FontHelper.charDescFont, Config.REMOVE_VELVET_CHOKER, settings, l -> {
         }, btn -> {
             Config.REMOVE_VELVET_CHOKER = btn.enabled;
             SpireConfig config = makeConfig();
@@ -133,7 +143,7 @@ public class ConfigPanel extends ModPanel {
             config.setBool("REMOVE_VELVET_CHOKER", Config.REMOVE_VELVET_CHOKER);
             save(config);
         });
-        ModLabeledToggleButton removeDeadBranch = new ModLabeledToggleButton(TEXT[5], BASE_X_POSE, BASE_Y_POSE - GAP * 5, Color.WHITE.cpy(), FontHelper.charDescFont, Config.REMOVE_DEAD_BRANCH, settings, l -> {
+        ModLabeledToggleButton removeDeadBranch = new ModLabeledToggleButton(TEXT[6], BASE_X_POSE, BASE_Y_POSE - GAP * 6, Color.WHITE.cpy(), FontHelper.charDescFont, Config.REMOVE_DEAD_BRANCH, settings, l -> {
         }, btn -> {
             Config.REMOVE_DEAD_BRANCH = btn.enabled;
             SpireConfig config = makeConfig();
@@ -141,7 +151,7 @@ public class ConfigPanel extends ModPanel {
             config.setBool("REMOVE_DEAD_BRANCH", Config.REMOVE_DEAD_BRANCH);
             save(config);
         });
-        ModLabeledToggleButton removeStrangeSpoon = new ModLabeledToggleButton(TEXT[6], BASE_X_POSE, BASE_Y_POSE - GAP * 6, Color.WHITE.cpy(), FontHelper.charDescFont, Config.REMOVE_STRANGE_SPOON, settings, l -> {
+        ModLabeledToggleButton removeStrangeSpoon = new ModLabeledToggleButton(TEXT[7], BASE_X_POSE, BASE_Y_POSE - GAP * 7, Color.WHITE.cpy(), FontHelper.charDescFont, Config.REMOVE_STRANGE_SPOON, settings, l -> {
         }, btn -> {
             Config.REMOVE_STRANGE_SPOON = btn.enabled;
             SpireConfig config = makeConfig();
@@ -149,7 +159,7 @@ public class ConfigPanel extends ModPanel {
             config.setBool("REMOVE_STRANGE_SPOON", Config.REMOVE_STRANGE_SPOON);
             save(config);
         });
-        ModLabeledToggleButton encounterSpiegel = new ModLabeledToggleButton(TEXT[7], BASE_X_POSE, BASE_Y_POSE - GAP * 7, Color.WHITE.cpy(), FontHelper.charDescFont, Config.ENCOUNTER_SPIEGEL, settings, l -> {
+        ModLabeledToggleButton encounterSpiegel = new ModLabeledToggleButton(TEXT[8], BASE_X_POSE, BASE_Y_POSE - GAP * 8, Color.WHITE.cpy(), FontHelper.charDescFont, Config.ENCOUNTER_SPIEGEL, settings, l -> {
         }, btn -> {
             Config.ENCOUNTER_SPIEGEL = btn.enabled;
             SpireConfig config = makeConfig();
@@ -157,7 +167,7 @@ public class ConfigPanel extends ModPanel {
             config.setBool("ENCOUNTER_SPIEGEL", Config.ENCOUNTER_SPIEGEL);
             save(config);
         });
-        ModLabeledToggleButton removeTimeEater = new ModLabeledToggleButton(TEXT[8], BASE_X_POSE, BASE_Y_POSE - GAP * 8, Color.WHITE.cpy(), FontHelper.charDescFont, Config.REMOVE_TIME_EATER, settings, l -> {
+        ModLabeledToggleButton removeTimeEater = new ModLabeledToggleButton(TEXT[9], BASE_X_POSE, BASE_Y_POSE - GAP * 9, Color.WHITE.cpy(), FontHelper.charDescFont, Config.REMOVE_TIME_EATER, settings, l -> {
         }, btn -> {
             Config.REMOVE_TIME_EATER = btn.enabled;
             SpireConfig config = makeConfig();
@@ -166,6 +176,7 @@ public class ConfigPanel extends ModPanel {
             save(config);
         });
         settings.addUIElement(allowSFX);
+        settings.addUIElement(allowBGM);
         settings.addUIElement(showSlotType);
         settings.addUIElement(allowAchievement);
         settings.addUIElement(allowPuzzleFactorDrop);

@@ -6,10 +6,10 @@ import FrierenMod.enums.CardEnums;
 import FrierenMod.powers.ConcentrationPower;
 import FrierenMod.utils.CardInfo;
 import FrierenMod.utils.ModInformation;
-import com.megacrit.cardcrawl.actions.common.EndTurnAction;
 import com.megacrit.cardcrawl.actions.common.GainBlockAction;
 import com.megacrit.cardcrawl.actions.common.MakeTempCardInDrawPileAction;
 import com.megacrit.cardcrawl.actions.common.RemoveSpecificPowerAction;
+import com.megacrit.cardcrawl.actions.watcher.PressEndTurnButtonAction;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 
@@ -25,6 +25,7 @@ public class GetSick extends AbstractBaseCard {
     public void initializeSpecifiedAttributes() {
         this.block = baseBlock = 20;
         this.cardsToPreview = new GetWell();
+        this.exhaust = true;
     }
 
     @Override
@@ -40,7 +41,7 @@ public class GetSick extends AbstractBaseCard {
     public void use(AbstractPlayer p, AbstractMonster m) {
         this.addToBot(new RemoveSpecificPowerAction(p, p, ConcentrationPower.POWER_ID));
         this.addToBot(new GainBlockAction(p, p, this.block));
-        this.addToBot(new EndTurnAction());
+        this.addToBot(new PressEndTurnButtonAction());
         this.addToBot(new MakeTempCardInDrawPileAction(this.cardsToPreview, 1, true, true));
     }
 }

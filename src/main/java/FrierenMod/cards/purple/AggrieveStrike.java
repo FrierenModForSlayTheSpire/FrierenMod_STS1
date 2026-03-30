@@ -25,6 +25,7 @@ public class AggrieveStrike extends AbstractBaseCard {
         this.damage = this.baseDamage = 5;
         this.raidNumber = this.baseRaidNumber = 1;
         this.tags.add(Enum.RAID);
+        this.tags.add(CardTags.STRIKE);
     }
 
     @Override

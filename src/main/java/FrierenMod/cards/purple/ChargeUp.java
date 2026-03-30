@@ -24,7 +24,6 @@ public class ChargeUp extends AbstractBaseCard {
     public void initializeSpecifiedAttributes() {
         this.damage = this.baseDamage = 8;
         this.magicNumber = this.baseMagicNumber = 3;
-        this.tags.add(Enum.FUSION);
     }
 
     @Override

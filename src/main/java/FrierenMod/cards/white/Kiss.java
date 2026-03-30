@@ -1,7 +1,7 @@
 package FrierenMod.cards.white;
 
 import FrierenMod.cards.AbstractBaseCard;
-import FrierenMod.effects.KissEffect;
+import FrierenMod.effects.PlaySFXEffect;
 import FrierenMod.enums.CardEnums;
 import FrierenMod.utils.CardInfo;
 import FrierenMod.utils.ModInformation;
@@ -40,7 +40,7 @@ public class Kiss extends AbstractBaseCard {
 
     @Override
     public void use(AbstractPlayer p, AbstractMonster m) {
-        this.addToBot(new VFXAction(p, new KissEffect(), 0.1F));
+        this.addToBot(new VFXAction(p, new PlaySFXEffect("kiss.mp3"), 0.1F));
         this.addToBot(new ApplyPowerAction(m, p, new VulnerablePower(m, 99, false), 99));
         this.addToBot(new ApplyPowerAction(m, p, new WeakPower(m, 99, false), 99));
     }

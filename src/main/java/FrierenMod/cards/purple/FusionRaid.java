@@ -3,16 +3,12 @@ package FrierenMod.cards.purple;
 import FrierenMod.cards.AbstractBaseCard;
 import FrierenMod.enums.CardEnums;
 import FrierenMod.gameHelpers.CombatHelper;
-import FrierenMod.powers.ConcentrationPower;
-import FrierenMod.powers.FusionPower.ConcentrationFusionPower;
-import FrierenMod.powers.FusionPower.DamageFusionPower;
-import FrierenMod.powers.FusionPower.DrawCardFusionPower;
 import FrierenMod.utils.CardInfo;
 import FrierenMod.utils.ModInformation;
 import com.megacrit.cardcrawl.actions.AbstractGameAction;
-import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
 import com.megacrit.cardcrawl.actions.common.DamageAction;
 import com.megacrit.cardcrawl.actions.common.DrawCardAction;
+import com.megacrit.cardcrawl.actions.common.GainEnergyAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.cards.DamageInfo;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
@@ -28,18 +24,17 @@ public class FusionRaid extends AbstractBaseCard {
 
     @Override
     public void initializeSpecifiedAttributes() {
-        this.damage = this.baseDamage = 8;
+        this.damage = this.baseDamage = 9;
         this.raidNumber = this.baseRaidNumber = 2;
         this.magicNumber = this.baseMagicNumber = 2;
         this.tags.add(Enum.RAID);
-        this.tags.add(Enum.FUSION);
     }
 
     @Override
     public void upgrade() {
         if (!this.upgraded) {
             this.upgradeName();
-            this.upgradeDamage(2);
+            this.upgradeDamage(3);
             this.upgradeMagicNumber(1);
         }
     }
@@ -56,16 +51,13 @@ public class FusionRaid extends AbstractBaseCard {
     @Override
     public void use(AbstractPlayer p, AbstractMonster m) {
         boolean triggered1 = CombatHelper.triggerRaid(1, () -> {
-            this.addToBot(new ApplyPowerAction(p, p, new ConcentrationPower(this.magicNumber)));
-            this.addToBot(new ApplyPowerAction(p, p, new ConcentrationFusionPower(this.magicNumber)));
+            this.addToBot(new DrawCardAction(this.magicNumber));
         });
         boolean triggered2 = CombatHelper.triggerRaid(2, true, () -> {
             this.addToBot(new DamageAction(m, new DamageInfo(p, this.damage, this.damageTypeForTurn), AbstractGameAction.AttackEffect.SLASH_DIAGONAL));
-            this.addToBot(new ApplyPowerAction(p, p, new DamageFusionPower(this.damage)));
         });
         boolean triggered3 = CombatHelper.triggerRaid(3, () -> {
-            this.addToBot(new DrawCardAction(2));
-            this.addToBot(new ApplyPowerAction(p, p, new DrawCardFusionPower(2)));
+            this.addToBot(new GainEnergyAction(2));
         });
         this.isRaidTriggered = triggered1 || triggered2 || triggered3;
     }

@@ -23,6 +23,7 @@ public class CounterAttack extends AbstractBaseCard {
 
     @Override
     public void initializeSpecifiedAttributes() {
+        this.tags.add(Enum.SPEED);
         this.damage = this.baseDamage = 9;
         this.block = this.baseBlock = 9;
     }
@@ -44,6 +45,8 @@ public class CounterAttack extends AbstractBaseCard {
         focusOnAttack.target = m;
         focusOnAttack.damage = focusOnAttack.baseDamage = this.damage;
         focusOnDefense.block = focusOnDefense.baseBlock = this.baseBlock;
+        focusOnAttack.applyPowers();
+        focusOnDefense.applyPowers();
         options.add(focusOnAttack);
         options.add(focusOnDefense);
         this.addToBot(new ChooseOneAction(options));

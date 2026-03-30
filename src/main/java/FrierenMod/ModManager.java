@@ -3,6 +3,7 @@ package FrierenMod;
 
 import FrierenMod.Characters.Fern;
 import FrierenMod.Characters.Frieren;
+import FrierenMod.Characters.Stark;
 import FrierenMod.cards.AbstractBaseCard;
 import FrierenMod.enums.CardEnums;
 import FrierenMod.enums.CharacterEnums;
@@ -140,6 +141,11 @@ public class ModManager implements EditCardsSubscriber, EditStringsSubscriber, E
             Log.logger.info("Beginning to edit characters. Add {}", CharacterEnums.FERN.toString());
             BaseMod.addCharacter(new Fern(CardCrawlGame.playerName), FernRes.CHARACTER_BUTTON, FernRes.CHARACTER_PORTRAIT, CharacterEnums.FERN);
             Log.logger.info("Added {}", CharacterEnums.FERN.toString());
+        }
+        if (Config.STARK_ENABLE) {
+            Log.logger.info("Beginning to edit characters. Add {}", CharacterEnums.FERN.toString());
+            BaseMod.addCharacter(new Stark(CardCrawlGame.playerName), StarkRes.CHARACTER_BUTTON, StarkRes.CHARACTER_PORTRAIT, CharacterEnums.STARK);
+            Log.logger.info("Added {}", CharacterEnums.STARK.toString());
         }
     }
 

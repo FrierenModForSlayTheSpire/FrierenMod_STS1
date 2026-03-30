@@ -21,10 +21,9 @@ public class HuddleForWarmth extends AbstractBaseCard {
 
     @Override
     public void initializeSpecifiedAttributes() {
-        this.block = baseBlock = 12;
+        this.block = baseBlock = 8;
         this.raidNumber = baseRaidNumber = 2;
         this.tags.add(Enum.RAID);
-        this.isEthereal = true;
     }
 
     @Override

@@ -24,7 +24,7 @@ public class Swoop extends AbstractBaseCard {
 
     @Override
     public void initializeSpecifiedAttributes() {
-        this.damage = this.baseDamage = 6;
+        this.damage = this.baseDamage = 5;
         this.magicNumber = this.baseMagicNumber = 1;
         this.tags.add(Enum.FUSION);
     }
@@ -33,7 +33,7 @@ public class Swoop extends AbstractBaseCard {
     public void upgrade() {
         if (!this.upgraded) {
             this.upgradeName();
-            this.upgradeMagicNumber(1);
+            this.upgradeDamage(2);
         }
     }
 

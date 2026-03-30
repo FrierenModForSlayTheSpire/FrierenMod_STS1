@@ -1,6 +1,9 @@
 package FrierenMod.Characters;
 
-import FrierenMod.cards.purple.*;
+import FrierenMod.cards.purple.CriticalHit;
+import FrierenMod.cards.purple.Defend_Fern;
+import FrierenMod.cards.purple.LieInWait;
+import FrierenMod.cards.purple.Strike_Fern;
 import FrierenMod.enums.CardEnums;
 import FrierenMod.enums.CharacterEnums;
 import FrierenMod.relics.HairAccessory;
@@ -9,6 +12,8 @@ import FrierenMod.utils.ModInformation;
 import basemod.abstracts.CustomPlayer;
 import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.graphics.g2d.BitmapFont;
+import com.badlogic.gdx.math.MathUtils;
+import com.esotericsoftware.spine.AnimationState;
 import com.megacrit.cardcrawl.actions.AbstractGameAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
@@ -38,7 +43,7 @@ public class Fern extends CustomPlayer {
 
         // 初始化你的人物，如果你的人物只有一张图，那么第一个参数填写你人物图片的路径。
         this.initializeClass(
-                FernRes.CHARACTER_IMG, // 人物图片
+                null, // 人物图片
                 FernRes.SHOULDER_1, FernRes.SHOULDER_2,
                 FernRes.CORPSE_IMAGE, // 人物死亡图像
                 this.getLoadout(),
@@ -48,13 +53,10 @@ public class Fern extends CustomPlayer {
         );
 
 
-        // 如果你的人物没有动画，那么这些不需要写
-        // this.loadAnimation("FrierenModResources/img/char/character.atlas", "FrierenModResources/img/char/character.json", 1.8F);
-        // AnimationState.TrackEntry e = this.state.setAnimation(0, "Idle", true);
-        // e.setTime(e.getEndTime() * MathUtils.random());
-        // e.setTimeScale(1.2F);
-
-
+        this.loadAnimation(FernRes.CHARACTER_ATLAS, FernRes.CHARACTER_ATLAS_JSON, 1.04F);
+        AnimationState.TrackEntry e = this.state.setAnimation(0, "idle", true);
+        e.setTime(e.getEndTime() * MathUtils.random());
+        e.setTimeScale(1.2F);
     }
 
     // 初始卡组的ID，可直接写或引用变量

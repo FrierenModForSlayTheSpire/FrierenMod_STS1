@@ -1,6 +1,7 @@
 package FrierenMod.patches;
 
 import FrierenMod.enums.CharacterEnums;
+import FrierenMod.utils.Config;
 import FrierenMod.utils.Log;
 import FrierenMod.utils.ModInformation;
 import com.badlogic.gdx.audio.Music;
@@ -21,7 +22,6 @@ import javassist.expr.ExprEditor;
 import javassist.expr.MethodCall;
 
 import java.util.HashMap;
-import java.util.Objects;
 
 import static com.megacrit.cardcrawl.audio.MainMusic.newMusic;
 
@@ -47,38 +47,37 @@ public class AudioPatch {
     public static class PatchGetSongInTempMusic {
         @SpireInsertPatch(rloc = 0, localvars = {"key"})
         public static SpireReturn<Music> Insert(TempMusic __instance, String key) {
-            if (Objects.equals(key, "Frieren_The_Slayer")) {
-                return SpireReturn.Return(newMusic(ModInformation.makeAudioPath("sound/Frieren_The_Slayer.mp3")));
-            }
-            if (Objects.equals(key, "Frieren_DeathStinger")) {
-                return SpireReturn.Return(newMusic(ModInformation.makeAudioPath("sound/Frieren_DeathStinger.mp3")));
-            }
-            if (canReplaceMusic()) {
-                switch (key) {
-                    case "SHOP":
-                        if (AbstractDungeon.miscRng.random(1) == 0){
-                        return SpireReturn.Return(newMusic(ModInformation.makeAudioPath("sound/STS_Merchant_NewMix_v1.ogg")));
-                        }
-                        else return SpireReturn.Return(newMusic(ModInformation.makeAudioPath("sound/STS_Merchant_NewMix_v2.mp3")));
-                    case "SHRINE":
-                        return SpireReturn.Return(newMusic(ModInformation.makeAudioPath("sound/STS_Shrine_NewMix_v1.ogg")));
-                    case "MINDBLOOM":
-                        return SpireReturn.Return(newMusic(ModInformation.makeAudioPath("sound/STS_Boss1MindBloom_v1.ogg")));
-                    case "BOSS_BOTTOM":
-                        return SpireReturn.Return(newMusic(ModInformation.makeAudioPath("sound/STS_Boss1_NewMix_v1.mp3")));
-                    case "BOSS_CITY":
-                        return SpireReturn.Return(newMusic(ModInformation.makeAudioPath("sound/STS_Boss2_NewMix_v1.mp3")));
-                    case "BOSS_BEYOND":
-                        //未替换
-                        return SpireReturn.Return(newMusic(ModInformation.makeAudioPath("sound/STS_Boss3_NewMix_v1.ogg")));
-                    case "BOSS_ENDING":
-                        //未替换
-                        return SpireReturn.Return(newMusic(ModInformation.makeAudioPath("sound/STS_Boss4_v6.mp3")));
-                    case "ELITE":
-                        return SpireReturn.Return(newMusic(ModInformation.makeAudioPath("sound/STS_EliteBoss_NewMix_v1.ogg")));
-                    case "CREDITS":
-                        // 未替换
-                        return SpireReturn.Return(newMusic(ModInformation.makeAudioPath("sound/STS_Credits_v5.ogg")));
+            if (key != null) {
+                if (key.equals("Frieren_The_Slayer")) {
+                    return SpireReturn.Return(newMusic(ModInformation.makeAudioPath("sound/Frieren_The_Slayer.mp3")));
+                }
+                if (key.equals("Frieren_DeathStinger")) {
+                    return SpireReturn.Return(newMusic(ModInformation.makeAudioPath("sound/Frieren_DeathStinger.mp3")));
+                }
+                if (canReplaceMusic()) {
+                    switch (key) {
+                        case "SHOP":
+                            return SpireReturn.Return(newMusic(ModInformation.makeAudioPath("sound/STS_Merchant_NewMix_v1.ogg")));
+                        case "SHRINE":
+                            return SpireReturn.Return(newMusic(ModInformation.makeAudioPath("sound/STS_Shrine_NewMix_v1.ogg")));
+                        case "MINDBLOOM":
+                            return SpireReturn.Return(newMusic(ModInformation.makeAudioPath("sound/STS_Level1_NewMix_v1.mp3")));
+                        case "BOSS_BOTTOM":
+                            return SpireReturn.Return(newMusic(ModInformation.makeAudioPath("sound/STS_Boss1_NewMix_v1.mp3")));
+                        case "BOSS_CITY":
+                            return SpireReturn.Return(newMusic(ModInformation.makeAudioPath("sound/STS_Boss2_NewMix_v1.mp3")));
+                        case "BOSS_BEYOND":
+                            //未替换
+                            return SpireReturn.Return(newMusic(ModInformation.makeAudioPath("sound/STS_Boss3_NewMix_v1.ogg")));
+                        case "BOSS_ENDING":
+                            //未替换
+                            return SpireReturn.Return(newMusic(ModInformation.makeAudioPath("sound/STS_Boss4_v6.mp3")));
+                        case "ELITE":
+                            return SpireReturn.Return(newMusic(ModInformation.makeAudioPath("sound/STS_EliteBoss_NewMix_v1.ogg")));
+                        case "CREDITS":
+                            // 未替换
+                            return SpireReturn.Return(newMusic(ModInformation.makeAudioPath("sound/STS_Credits_v5.ogg")));
+                    }
                 }
             }
             return SpireReturn.Continue();
@@ -94,13 +93,13 @@ public class AudioPatch {
                     case "Exordium":
                         if (AbstractDungeon.miscRng.random(1) == 0) {
                             return SpireReturn.Return(newMusic(ModInformation.makeAudioPath("sound/STS_Level1_NewMix_v1.mp3")));
-                        }
-                        else return SpireReturn.Return(newMusic(ModInformation.makeAudioPath("sound/STS_Level1-2_v2.MP3")));
+                        } else
+                            return SpireReturn.Return(newMusic(ModInformation.makeAudioPath("sound/STS_Level1-2_v2.mp3")));
                     case "TheCity":
                         if (AbstractDungeon.miscRng.random(1) == 0) {
                             return SpireReturn.Return(newMusic(ModInformation.makeAudioPath("sound/STS_Level2_NewMix_v1.mp3")));
-                        }
-                        else return SpireReturn.Return(newMusic(ModInformation.makeAudioPath("sound/STS_Level2-2_v2.MP3")));
+                        } else
+                            return SpireReturn.Return(newMusic(ModInformation.makeAudioPath("sound/STS_Level2-2_v2.mp3")));
                     case "TheBeyond":
                         if (AbstractDungeon.miscRng.random(1) == 0) {
                             return SpireReturn.Return(newMusic(ModInformation.makeAudioPath("sound/STS_Level3_v2.mp3")));
@@ -155,7 +154,8 @@ public class AudioPatch {
     private static void load(SoundMaster instance, HashMap<String, Sfx> ___map, String key) {
         ___map.put(key, new Sfx(ModInformation.makeAudioPath("sound/" + key), false));
     }
-    private static boolean canReplaceMusic(){
-        return AbstractDungeon.player != null && (AbstractDungeon.player.chosenClass == CharacterEnums.FRIEREN || AbstractDungeon.player.chosenClass == CharacterEnums.FERN);
+
+    private static boolean canReplaceMusic() {
+        return Config.ALLOW_SPECIAL_BGM && AbstractDungeon.player != null && (AbstractDungeon.player.chosenClass == CharacterEnums.FRIEREN || AbstractDungeon.player.chosenClass == CharacterEnums.FERN);
     }
 }

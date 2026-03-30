@@ -21,6 +21,8 @@ public class FernRes {
     public static final String SHOULDER_2 = ModInformation.makeCharResPath(CHARACTER_NAME,"shoulder2");
     public static final String CORPSE_IMAGE = ModInformation.makeCharResPath(CHARACTER_NAME,"corpse_character");
     public static final String CHARACTER_IMG = ModInformation.makeCharResPath(CHARACTER_NAME,"character");
+    public static final String CHARACTER_ATLAS = ModInformation.getCharPath() + CHARACTER_NAME + "/" + "Fern.atlas";
+    public static final String CHARACTER_ATLAS_JSON = ModInformation.getCharPath() + CHARACTER_NAME + "/" + "Fern.json";
     public static final String VICTORY_1 = ModInformation.makeCharResPath(CHARACTER_NAME,"Victory1");
     public static final String VICTORY_2 = ModInformation.makeCharResPath(CHARACTER_NAME,"Victory2");
     public static final String VICTORY_3 = ModInformation.makeCharResPath(CHARACTER_NAME,"Victory3");

@@ -452,6 +452,7 @@
   "FrierenMod:ConfigPanel": {
     "TEXT": [
       "Special VFX",
+      "Special BGM",
       "Show Slot Type hint",
       "Allow unlock new Slog Background",
       "Allow drop puzzle factor in combat reward",

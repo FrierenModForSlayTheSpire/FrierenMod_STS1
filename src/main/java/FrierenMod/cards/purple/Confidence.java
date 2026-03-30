@@ -11,17 +11,22 @@ import com.megacrit.cardcrawl.monsters.AbstractMonster;
 
 public class Confidence extends AbstractBaseCard {
     public static final String ID = ModInformation.makeID(Confidence.class.getSimpleName());
-    public static final CardInfo info = new CardInfo(ID, 2, CardType.POWER, CardEnums.FERN_CARD, CardRarity.RARE);
+    public static final CardInfo info = new CardInfo(ID, 3, CardType.POWER, CardEnums.FERN_CARD, CardRarity.RARE);
 
     public Confidence() {
         super(info);
     }
 
     @Override
+    public void initializeSpecifiedAttributes() {
+        this.isEthereal = true;
+    }
+
+    @Override
     public void upgrade() {
         if (!this.upgraded) {
             this.upgradeName();
-            this.upgradeBaseCost(1);
+            this.upgradeBaseCost(2);
         }
     }
 
