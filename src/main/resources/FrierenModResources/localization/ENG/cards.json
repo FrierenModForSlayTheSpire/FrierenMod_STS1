@@ -313,7 +313,7 @@
     "UPGRADE_DESCRIPTION": "Innate. NL At the start of the turn, shuffle 2 *Mana into your discard pile."
   },
   "FrierenMod:BackFlow": {
-    "NAME": "Back flow",
+    "NAME": "Backflow",
     "DESCRIPTION": "Draw !M! *Mana from your discard pile.",
     "UPGRADE_DESCRIPTION": "Draw !M! *Mana from your discard pile."
   },
@@ -504,7 +504,7 @@
     "NAME": "The Sun",
     "DESCRIPTION": "Add !M! *Mana into your hand.",
     "EXTENDED_DESCRIPTION": [
-      "add 2/3/4/5 *Mana into your hand."
+      "Add 2/3/4/5 *Mana into your hand."
     ]
   },
   "FrierenMod:ManaInDrawOption": {
@@ -730,7 +730,7 @@
   },
   "FrierenMod:Apprehend": {
     "NAME": "Apprehend",
-    "DESCRIPTION": "Deal !D! damage. NL Draw !M! cards. NL Discard *Mana you drawn."
+    "DESCRIPTION": "Deal !D! damage. NL Draw !M! cards. NL Discard *Mana you drew."
   },
   "FrierenMod:Free": {
     "NAME": "Free",
@@ -766,8 +766,8 @@
   },
   "FrierenMod:LureTheEnemyInDeep": {
     "NAME": "Lure The Enemy In Deep",
-    "DESCRIPTION": "frierenmod:Chant !CX!. Gain [E] [E] . NL If you frierenmod:Chant from hand, return it to your hand.",
-    "UPGRADE_DESCRIPTION": "frierenmod:Chant !CX!. Gain [E] . NL If you frierenmod:Chant from hand, return it to your hand."
+    "DESCRIPTION": "frierenmod:Chant !CX!. Gain [E] [E] . NL If you frierenmod:Chant from hand, return this card to your hand.",
+    "UPGRADE_DESCRIPTION": "frierenmod:Chant !CX!. Gain [E] . NL If you frierenmod:Chant from hand, return this card to your hand."
   },
   "FrierenMod:ManaCollapse": {
     "NAME": "Mana Collapse",
@@ -788,7 +788,7 @@
   },
   "FrierenMod:ManaBarricade": {
     "NAME": "Mana Barricade",
-    "DESCRIPTION": "frierenmod:Chant !CX! . NL If you *Chant from draw pile, gain !B! Block."
+    "DESCRIPTION": "frierenmod:Chant !CX! . NL If you frierenmod:Chant from draw pile, gain !B! Block."
   },
   "FrierenMod:ElementsBombing": {
     "NAME": "Elemental Bombing",
