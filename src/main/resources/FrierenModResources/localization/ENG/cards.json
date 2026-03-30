@@ -714,7 +714,7 @@
   },
   "FrierenMod:GrandCross": {
     "NAME": "Grand Cross",
-    "DESCRIPTION": " Deal !D! damage. NL Costs 0 if you have activated a frierenmod:Chant effect this turn,"
+    "DESCRIPTION": " Deal !D! damage. NL Costs 0 if you have activated a frierenmod:Chant effect this turn."
   },
   "FrierenMod:HalfTheSky": {
     "NAME": "Envy",
