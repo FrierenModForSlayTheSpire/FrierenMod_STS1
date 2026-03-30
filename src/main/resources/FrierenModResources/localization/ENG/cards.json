@@ -722,7 +722,7 @@
   },
   "FrierenMod:Recycle": {
     "NAME": "Recycle",
-    "DESCRIPTION": "Shuffle *Mana as the amount of *Mana in discard pile into your draw pile. NL Exhaust."
+    "DESCRIPTION": "Shuffle a number of *Mana equal to the amount of *Mana in discard pile into your draw pile. NL Exhaust."
   },
   "FrierenMod:AirSlash": {
     "NAME": "Air Slash",
