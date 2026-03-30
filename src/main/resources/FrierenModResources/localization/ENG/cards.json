@@ -374,7 +374,7 @@
   },
   "FrierenMod:OilSpell": {
     "NAME": "Spell to Remove Tough Oil Stains",
-    "DESCRIPTION": "frierenmod:Legendary_Spell. NL Deal !D! damage to ALL enemies. If no one get killed by this, deal !M! damage once more."
+    "DESCRIPTION": "frierenmod:Legendary_Spell. NL Deal !D! damage to ALL enemies. If no enemy is killed by this, deal !M! damage once more."
   },
   "FrierenMod:ApexMagic": {
     "NAME": "The Apex of Magic",
