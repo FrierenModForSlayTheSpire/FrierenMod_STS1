@@ -1,0 +1,309 @@
+{
+  "FrierenMod:PerpetualPower": {
+    "NAME": "영속",
+    "DESCRIPTIONS": ["당신의 턴 시작 시 #y마나 를 #b%d 장 버린 카드 더미에 넣습니다."]
+  },
+  "FrierenMod:OutpouringPower": {
+    "NAME": "분출",
+    "DESCRIPTIONS": ["#y마나 를 #y동조 할 때마다 #y힘 을 #b%d 얻습니다."]
+  },
+  "FrierenMod:PajamasFormPower": {
+    "NAME": "잠옷 형태",
+    "DESCRIPTIONS": [
+      "턴 종료 시 모든 #y마나 를 소멸시키고, 소멸한 #y마나 수만큼 적 전체에게 피해를 #b%d 배로 줍니다. NL （#b%d 의 피해를 줍니다）."
+    ]
+  },
+  "FrierenMod:TrickPower": {
+    "NAME": "마족을 속이는 잔꾀",
+    "DESCRIPTIONS": ["당신의 턴 시작 시 손패에 #y마나 은폐 를 1장 추가합니다."]
+  },
+  "FrierenMod:GainRelicPower": {
+    "NAME": "잃어버린 장식품을 찾는 마법",
+    "DESCRIPTIONS": ["전투 종료 시 무작위 유물을 #b%d 개 획득합니다."]
+  },
+  "FrierenMod:RitesPreparationPower": {
+    "NAME": "의식 준비",
+    "DESCRIPTIONS": ["다음 #b%d 번의 #y동조 시 #y마나 가 적 전체에게 피해를 6 줍니다."]
+  },
+  "FrierenMod:SwitchStrengthAndDexterityPower": {
+    "NAME": "교환",
+    "DESCRIPTIONS": ["당신의 턴 종료 시 #y힘 과 #y민첩 의 중첩 수를 서로 교환합니다."]
+  },
+  "FrierenMod:TimeTravelPower": {
+    "NAME": "엘프의 시간 감각",
+    "DESCRIPTIONS": ["현재의 모든 것을 #b%d 턴 후의 미래로 보냅니다."]
+  },
+  "FrierenMod:ThunderPower": {
+    "NAME": "파멸의 뇌격",
+    "DESCRIPTIONS": ["이번 전투 동안 #y동조 가 #y궁극의 동조 로 변경됩니다."]
+  },
+  "FrierenMod:AccelerateFlowPower": {
+    "NAME": "가속 흐름",
+    "DESCRIPTIONS": ["이번 턴 동안 #y동조 가 #y가속 동조 로 변경됩니다."]
+  },
+  "FrierenMod:ManaReturnPower": {
+    "NAME": "마나 환원",
+    "DESCRIPTIONS": ["플레이어가 적을 공격할 때마다 #y마나 를 #b%d 장 버린 카드 더미에 넣습니다."]
+  },
+  "FrierenMod:ChantWithoutManaPower": {
+    "NAME": "마법",
+    "DESCRIPTIONS": ["이번 턴 동안 #y영창 이 #y마나 를 소모하지 않습니다."]
+  },
+  "FrierenMod:ChantWithoutManaTimesPower": {
+    "NAME": "마나 선불",
+    "DESCRIPTIONS": ["이번 턴 동안 다음 #b%d 번의 #y영창 이 #y마나 를 소모하지 않습니다."]
+  },
+  "FrierenMod:SynchroWithoutManaPower": {
+    "NAME": "마나 회수",
+    "DESCRIPTIONS": ["다음 #b%d 번의 #y동조 가 #y마나 를 소모하지 않습니다."]
+  },
+  "FrierenMod:BanManaGainPower": {
+    "NAME": "&",
+    "DESCRIPTIONS": ["이번 턴 동안 카드로부터 #y마나 를 획득할 수 없습니다."]
+  },
+  "FrierenMod:ManaInsteadOfEnergyPower": {
+    "NAME": "상상력",
+    "DESCRIPTIONS": ["이번 턴 동안 카드를 사용할 때 [E] 대신 같은 수의 #y마나 를 소모합니다."]
+  },
+  "FrierenMod:MageStyleChokePower": {
+    "NAME": "마법사식 목 조르기",
+    "DESCRIPTIONS": ["플레이어가 #y마나 를 #y동조 할 때마다 피해를 #b%d 받습니다."]
+  },
+  "FrierenMod:RingletFormPower": {
+    "NAME": "곱슬 형태",
+    "DESCRIPTIONS": ["#y마나 를 #y소멸 할 때마다 방어도를 #b%d 얻습니다."]
+  },
+  "FrierenMod:SealPower": {
+    "NAME": "봉인",
+    "DESCRIPTIONS": [
+      "한 턴 안에 #y영창 을 #b%d 번 하면 봉인이 해제되며, #y지옥의 업화 마법 을 #b%d 장 손패에 추가합니다."
+    ]
+  },
+  "FrierenMod:ManaBarricadePower": {
+    "NAME": "마나 장벽",
+    "DESCRIPTIONS": [
+      "턴 종료 시 #y마나 총수가 5 이상이면 #y장벽 을 얻습니다. 그렇지 않으면 #y장벽 을 잃습니다."
+    ]
+  },
+  "FrierenMod:FullAheadPower": {
+    "NAME": "전속력",
+    "DESCRIPTIONS": ["매 턴 첫 #y영창 후 #y힘 을 #b%d , #y민첩 을 #b%d 얻습니다."]
+  },
+  "FrierenMod:FrierenSuitcasePower": {
+    "NAME": "프리렌의 여행 가방",
+    "DESCRIPTIONS": [
+      "이번 전투 동안 손패 상한이 13으로 증가합니다. NL 카드를 사용한 후 손패가 가득 차면 방어도를 #b%d 얻습니다."
+    ]
+  },
+  "FrierenMod:SimmeringPower": {
+    "NAME": "잠재된 흐름",
+    "DESCRIPTIONS": ["#y영창 후 #y전설마법 을 #b%d 장 뽑습니다."]
+  },
+  "FrierenMod:FlyingMagicPower": {
+    "NAME": "비행 마법",
+    "DESCRIPTIONS": ["턴 종료 시 버린 카드 더미의 #y마나 를 #b%d 장 #y소멸 시킵니다."]
+  },
+  "FrierenMod:OpenTheWaygatePower": {
+    "NAME": "시공의 문 열기",
+    "DESCRIPTIONS": [
+      "한 턴 안에 #y마나 를 연속으로 #b%d 번 #y동조 하면 턴을 종료하고 추가 턴을 얻으며, 이 효과는 제거됩니다."
+    ]
+  },
+  "FrierenMod:CopyPower": {
+    "NAME": "복제체",
+    "DESCRIPTIONS": [
+      "방어도를 뚫은 피해를 받을 때 같은 수의 #r마나 중첩을 얻습니다. NL 플레이어가 #y방어도 를 얻을 때 같은 수의 #y방어도 를 얻습니다. NL 체력이 100 이하가 되면 복제체의 전력을 이끌어 냅니다!"
+    ]
+  },
+  "FrierenMod:EnemyManaPower": {
+    "NAME": "마력",
+    "DESCRIPTIONS": ["#r마법 을 사용하면 해당 중첩 수만큼 잃습니다."]
+  },
+  "FrierenMod:SpellCasterPower": {
+    "NAME": "마법 정통",
+    "DESCRIPTIONS": [
+      "보고를 지키는 마법 NL ",
+      "#r마력 을 #b%d 중첩 소모해 #y장벽 과 방어도를 #b%d 얻습니다. NL ",
+      "고속 영창SP NL ",
+      "#r마력 을 #b%d 중첩 소모해 #y의식 을 #b%d 중첩 얻습니다. NL ",
+      "석상 조종 마법SP NL ",
+      "#r마력 을 #b%d 중첩 소모해 #y인공물 을 #b%d 중첩 얻습니다. NL ",
+      "지옥의 업화 마법SP NL ",
+      "#r마력 을 #b%d 중첩 소모해 적의 뽑을 카드 더미에 #y화상 을 #b%d 장 넣습니다. NL ",
+      "파멸의 뇌격 마법SP NL ",
+      "#r마력 을 #b%d 중첩 소모해 적에게 #y취약 과 #y약화 를 #b%d 중첩 부여합니다. NL ",
+      "방어 마법 완전체SP NL ",
+      "#r마력 을 #b%d 중첩 소모해 #y완충 을 #b%d 중첩과 #y유연 을 #b%d 중첩 얻습니다. NL ",
+      "새를 잡는 마법 NL ",
+      "#r마력 을 #b%d 중첩 소모해 #y스틸레 를 #b1 마리 소환합니다. NL ",
+      "비행 마법SP NL ",
+      "#r마력 을 #b%d 중첩 소모해 #y무형 을 #b%d 중첩 얻습니다.",
+      "#r마력 을 #b%d 중첩 소모해 #y완충 을 #b%d 중첩과 #y금속화 를 #b%d 중첩 얻습니다. NL "
+    ]
+  },
+  "FrierenMod:WeakenedChantPower": {
+    "NAME": "영창 약화",
+    "DESCRIPTIONS": ["이번 턴 동안 #y영창 시 소모되는 #y마나 가 #b%d 장 증가합니다."]
+  },
+  "FrierenMod:Factor100Power": {
+    "NAME": "！？？",
+    "DESCRIPTIONS": ["...프리렌..."]
+  },
+  "FrierenMod:Factor010Power": {
+    "NAME": "？！？",
+    "DESCRIPTIONS": ["...소멸..."]
+  },
+  "FrierenMod:Factor001Power": {
+    "NAME": "？？！",
+    "DESCRIPTIONS": ["...괴물..."]
+  },
+  "FrierenMod:PaperPlaneSpellPower": {
+    "NAME": "종이 비행기를 멀리 날리는 마법",
+    "DESCRIPTIONS": [
+      "다음 #b%d 번의 공격 피해가 2배가 됩니다. NL #y동조 를 연속으로 #b%d 번 더 하면 2배 횟수가 #b%d 증가합니다."
+    ]
+  },
+  "FrierenMod:FrushDownPower": {
+    "NAME": "돌진하는 프리렌",
+    "DESCRIPTIONS": [
+      "#y동조 를 연속으로 #b%d 번 하면 카드를 #b%d 장 뽑고 손패 가장 왼쪽의 #b%d 장을 버립니다."
+    ]
+  },
+  "FrierenMod:MimicPower": {
+    "NAME": "미믹",
+    "DESCRIPTIONS": [
+      "카드를 #b%d 장 사용하면 강제로 턴이 종료되고, 모든 #y마나 가 제거되며 #y너무 어두워 를 얻습니다."
+    ]
+  },
+  "FrierenMod:DarkPower": {
+    "NAME": "너무 어두워",
+    "DESCRIPTIONS": [
+      "미믹 뱃속에서 아무것도 안 보여...",
+      "너무 어둡고 너무 #r@무서워@"
+    ]
+  },
+  "FrierenMod:SwallowedPower": {
+    "NAME": "삼켜짐",
+    "DESCRIPTIONS": ["이번 전투 동안 손패 상한이 #b%d 감소합니다."]
+  },
+  "FrierenMod:ConcentrationPower": {
+    "NAME": "집중",
+    "DESCRIPTIONS": ["#y마나 가 아닌 카드를 사용하면 이 효과를 1 잃습니다."]
+  },
+  "FrierenMod:DamageFusionPower": {
+    "NAME": "피해 융합",
+    "DESCRIPTIONS": [
+      "다음에 획득하는 #y특화 기본 공격 마법 에 추가됩니다: NL 피해를 #b%d 줍니다."
+    ]
+  },
+  "FrierenMod:EnergyFusionPower": {
+    "NAME": "에너지 융합",
+    "DESCRIPTIONS": [
+      "다음에 획득하는 #y특화 기본 공격 마법 에 추가됩니다: NL [E] 를 #b%d 얻습니다."
+    ]
+  },
+  "FrierenMod:WeakVulnerableFusionPower": {
+    "NAME": "약화·취약 융합",
+    "DESCRIPTIONS": [
+      "다음에 획득하는 #y특화 기본 공격 마법 에 추가됩니다: NL #y약화 와 #y취약 을 #b%d 중첩 부여합니다."
+    ]
+  },
+  "FrierenMod:DrawCardFusionPower": {
+    "NAME": "드로우 융합",
+    "DESCRIPTIONS": [
+      "다음에 획득하는 #y특화 기본 공격 마법 에 추가됩니다: NL 카드를 #b%d 장 뽑습니다."
+    ]
+  },
+  "FrierenMod:CopySelfToDiscardFusionPower": {
+    "NAME": "복사 융합",
+    "DESCRIPTIONS": [
+      "다음에 획득하는 #y특화 기본 공격 마법 에 추가됩니다: NL 버린 카드 더미에 이 카드의 복사본을 #b%d 장 넣습니다."
+    ]
+  },
+  "FrierenMod:ConcentrationFusionPower": {
+    "NAME": "집중 융합",
+    "DESCRIPTIONS": [
+      "다음에 획득하는 #y특화 기본 공격 마법 에 추가됩니다: NL #y집중 을 #b%d 얻습니다."
+    ]
+  },
+  "FrierenMod:StrengthFusionPower": {
+    "NAME": "힘 융합",
+    "DESCRIPTIONS": [
+      "다음에 획득하는 #y특화 기본 공격 마법 에 추가됩니다: NL #y힘 을 #b%d 얻습니다."
+    ]
+  },
+  "FrierenMod:StrengthFusionPowerFusionPower": {
+    "NAME": "힘 융합 융합",
+    "DESCRIPTIONS": [
+      "다음에 획득하는 #y특화 기본 공격 마법 에 추가됩니다: NL #y융합 : #y힘 을 #b%d 얻습니다."
+    ]
+  },
+  "FrierenMod:FightPower": {
+    "NAME": "전력 질주 기사",
+    "DESCRIPTIONS": [
+      "이번 턴 동안 다음 #b%d 장의 #y특화 공격 마법 의 비용이 0이 됩니다."
+    ]
+  },
+  "FrierenMod:WithNoStopPower": {
+    "NAME": "전속 질주",
+    "DESCRIPTIONS": ["다음 #b%d 장의 카드를 사용한 후 집중을 2 얻습니다."]
+  },
+  "FrierenMod:MysticEyePower": {
+    "NAME": "꿰뚫어 보는 마안",
+    "DESCRIPTIONS": ["플레이어가 적을 공격할 때마다 #y집중 을 #b%d 얻습니다."]
+  },
+  "FrierenMod:MasterAndApprenticePower": {
+    "NAME": "스승과 제자",
+    "DESCRIPTIONS": ["당신의 턴 시작 시 무작위 #y이색 카드 를 #b%d 장 손패에 추가합니다."]
+  },
+  "FrierenMod:SkilledMagePower": {
+    "NAME": "유능한 마법사",
+    "DESCRIPTIONS": [
+      "#y융합 , #y신속 카드, #y특화 기본 공격 마법 을 사용하거나 #y기습 을 발동하면 방어도를 #b%d 얻습니다."
+    ]
+  },
+  "FrierenMod:BoldReversalPower": {
+    "NAME": "역습",
+    "DESCRIPTIONS": ["다음 #b%d 번의 #y기습 효과가 한 번 더 발동됩니다."]
+  },
+  "FrierenMod:FernRushdownPower": {
+    "NAME": "페른의 돌진",
+    "DESCRIPTIONS": ["#y기습 발동 후 카드를 #b%d 장 뽑습니다."]
+  },
+  "FrierenMod:ManaAffinityPower": {
+    "NAME": "마나 친화",
+    "DESCRIPTIONS": ["#y마나 가 #y보존 됩니다."]
+  },
+  "FrierenMod:SocialDancingPower": {
+    "NAME": "사교댄스",
+    "DESCRIPTIONS": [
+      "#y집중 을 보유 중일 때, #y기습 X의 발동 조건이 X-1, X, X+1 모두 가능하도록 변경됩니다."
+    ]
+  },
+  "FrierenMod:ConfidencePower": {
+    "NAME": "자신만만",
+    "DESCRIPTIONS": [
+      "피해를 주는 #y기습 효과가 모두 한 번 더 발동됩니다. 턴 시작 후 모든 #y집중 을 잃습니다."
+    ]
+  },
+  "FrierenMod:GamblePower": {
+    "NAME": "대도박",
+    "DESCRIPTIONS": [
+      "카드를 사용한 후 #y집중 이 1~6으로 무작위 변경됩니다. 6이면 적 전체에게 피해를 #b%d 줍니다."
+    ]
+  },
+  "FrierenMod:FumeshroomFormPower": {
+    "NAME": "대형 연기버섯 형태",
+    "DESCRIPTIONS": ["모든 단일 대상 피해가 미지정 적에게도 적용됩니다."]
+  },
+  "FrierenMod:RecollectionOfBenefactorPower": {
+    "NAME": "은인을 그리워하며",
+    "DESCRIPTIONS": [
+      "#y하이터가 남긴 지팡이 로 #y특화 기본 공격 마법 을 획득할 때 피해 배율이 2배에서 4배로 변경됩니다."
+    ]
+  },
+  "FrierenMod:NextTurnConcentrationPower": {
+    "NAME": "일반 집중",
+    "DESCRIPTIONS": ["다음 턴에 #y집중 을 #b%d 얻습니다."]
+  }
+}
