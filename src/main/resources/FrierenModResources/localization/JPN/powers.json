@@ -1,0 +1,379 @@
+{
+  "FrierenMod:PerpetualPower": {
+    "NAME": "永続",
+    "DESCRIPTIONS": [
+      "自分のターン開始時に、 #b%d 枚の #y魔力 を捨て札に置く。"
+    ]
+  },
+  "FrierenMod:OutpouringPower": {
+    "NAME": "奔流",
+    "DESCRIPTIONS": [
+      "#y魔力 を #y同調 するたびに、 #b%d 点の #y筋力 を得る。"
+    ]
+  },
+  "FrierenMod:PajamasFormPower": {
+    "NAME": "パジャマ形態",
+    "DESCRIPTIONS": [
+      "ターン終了時に、すべての #y魔力 を 消耗 し、消耗した #y魔力 の枚数分のダメージを敵全体に #b%d 倍与える。 NL （ #b%d ダメージを与える）。"
+    ]
+  },
+  "FrierenMod:TrickPower": {
+    "NAME": "魔族を欺く小細工",
+    "DESCRIPTIONS": [
+      "自分のターン開始時に、 #y魔力隠し を1枚手札に加える。"
+    ]
+  },
+  "FrierenMod:GainRelicPower": {
+    "NAME": "失われた装飾品を探す魔法",
+    "DESCRIPTIONS": [
+      "戦闘終了時に、ランダムなレリックを #b%d 個獲得する。"
+    ]
+  },
+  "FrierenMod:RitesPreparationPower": {
+    "NAME": "儀式の準備",
+    "DESCRIPTIONS": [
+      "次に #y同調 する #b%d 枚の #y魔力 が敵全体に6ダメージを与える。"
+    ]
+  },
+  "FrierenMod:SwitchStrengthAndDexterityPower": {
+    "NAME": "交換",
+    "DESCRIPTIONS": [
+      "自分のターン終了時に、 #y筋力 と #y敏捷性 の層数を入れ替える。"
+    ]
+  },
+  "FrierenMod:TimeTravelPower": {
+    "NAME": "エルフの時間感覚",
+    "DESCRIPTIONS": [
+      "現在のすべてを #b%d ターン後の未来へ送る。"
+    ]
+  },
+  "FrierenMod:ThunderPower": {
+    "NAME": "断滅の雷",
+    "DESCRIPTIONS": [
+      "この戦闘中、 #y同調 が #y究極同調 になる。"
+    ]
+  },
+  "FrierenMod:AccelerateFlowPower": {
+    "NAME": "加速する流れ",
+    "DESCRIPTIONS": [
+      "このターン中、 #y同調 が #y加速同調 になる。"
+    ]
+  },
+  "FrierenMod:ManaReturnPower": {
+    "NAME": "魔力還元",
+    "DESCRIPTIONS": [
+      "プレイヤーが敵を攻撃するたびに、 #b%d 枚の #y魔力 を捨て札に置く。"
+    ]
+  },
+  "FrierenMod:ChantWithoutManaPower": {
+    "NAME": "魔法",
+    "DESCRIPTIONS": [
+      "このターン中、 #y詠唱 は #y魔力 を 消耗 しなくなる。"
+    ]
+  },
+  "FrierenMod:ChantWithoutManaTimesPower": {
+    "NAME": "魔力前借り",
+    "DESCRIPTIONS": [
+      "このターン中、次の #b%d 回の #y詠唱 は #y魔力 を 消耗 しなくなる。"
+    ]
+  },
+  "FrierenMod:SynchroWithoutManaPower": {
+    "NAME": "魔力回収",
+    "DESCRIPTIONS": [
+      "次の #b%d 回の #y同調 は #y魔力 を 消耗 しなくなる。"
+    ]
+  },
+  "FrierenMod:BanManaGainPower": {
+    "NAME": "&",
+    "DESCRIPTIONS": [
+      "このターン中、カードから #y魔力 を得られなくなる。"
+    ]
+  },
+  "FrierenMod:ManaInsteadOfEnergyPower": {
+    "NAME": "想像力",
+    "DESCRIPTIONS": [
+      "このターン中、カードは [E] を消費する代わりに、同じ量の #y魔力 を 消耗 する。"
+    ]
+  },
+  "FrierenMod:MageStyleChokePower": {
+    "NAME": "魔法使い流締め技",
+    "DESCRIPTIONS": [
+      "プレイヤーが #y魔力 を #y同調 するたびに、 #b%d ダメージを受ける。"
+    ]
+  },
+  "FrierenMod:RingletFormPower": {
+    "NAME": "くるくる形態",
+    "DESCRIPTIONS": [
+      "#y魔力 を 消耗 するたびに、 #b%d 点の #yブロック を得る。"
+    ]
+  },
+  "FrierenMod:SealPower": {
+    "NAME": "封印",
+    "DESCRIPTIONS": [
+      "1ターン中に #b%d 回 #y詠唱 すると封印が解け、 #b%d 枚の #y地獄業火の魔法 を手札に加える。"
+    ]
+  },
+  "FrierenMod:ManaBarricadePower": {
+    "NAME": "魔力バリア",
+    "DESCRIPTIONS": [
+      "自分のターン終了時、 #y魔力 の総数が5以上なら #yバリア を得る。そうでなければ #yバリア を失う。"
+    ]
+  },
+  "FrierenMod:FullAheadPower": {
+    "NAME": "全速前進",
+    "DESCRIPTIONS": [
+      "毎ターン最初の #y詠唱 後に、 #b%d 点の #y筋力 と #b%d 点の #y敏捷性 を得る。"
+    ]
+  },
+  "FrierenMod:FrierenSuitcasePower": {
+    "NAME": "フリーレンのスーツケース",
+    "DESCRIPTIONS": [
+      "この戦闘中、手札の上限が13枚になる。 NL カードを使用した後、手札が満杯の場合、 #b%d 点のブロックを得る。"
+    ]
+  },
+  "FrierenMod:SimmeringPower": {
+    "NAME": "くすぶる力",
+    "DESCRIPTIONS": [
+      " #y詠唱 後、 #b%d 枚の #y伝説魔法 を引く。"
+    ]
+  },
+  "FrierenMod:FlyingMagicPower": {
+    "NAME": "飛行魔法",
+    "DESCRIPTIONS": [
+      "自分のターン終了時、捨て札から #b%d 枚の #y魔力 を 消耗 する。"
+    ]
+  },
+  "FrierenMod:OpenTheWaygatePower": {
+    "NAME": "時空の扉を開く",
+    "DESCRIPTIONS": [
+      "1ターン中に連続して #b%d 枚の #y魔力 を #y同調 した後、ターンを終了し追加でもう1ターン得る。その後この能力を失う。"
+    ]
+  },
+  "FrierenMod:CopyPower": {
+    "NAME": "複製体",
+    "DESCRIPTIONS": [
+      "ブロックされていないダメージを受けると、同量の #r魔力 層数を得る。 NL プレイヤーが #yブロック を得ると、同量の #yブロック を得る。 NL HPが100を下回ると複製体の全力が解放される！"
+    ]
+  },
+  "FrierenMod:EnemyManaPower": {
+    "NAME": "魔力",
+    "DESCRIPTIONS": [
+      "#r魔法 を使用すると、対応する層数を失う。"
+    ]
+  },
+  "FrierenMod:SpellCasterPower": {
+    "NAME": "魔法の達人",
+    "DESCRIPTIONS": [
+      "宝物庫を死守する魔法 NL ",
+      "#b%d 層の #r魔力 を消費し、 #yバリア と #b%d 点の #yブロック を得る。 NL ",
+      "高速詠唱SP NL ",
+      "#b%d 層の #r魔力 を消費し、 #b%d 層の #y儀式 を得る。 NL ",
+      "石像操作魔法SP NL ",
+      "#b%d 層の #r魔力 を消費し、 #b%d 層の #y人の作りし物 を得る。 NL ",
+      "地獄業火魔法SP NL ",
+      "#b%d 層の #r魔力 を消費し、敵の山札に #b%d 枚の #y火傷 を置く。 NL ",
+      "断滅の雷魔法SP NL ",
+      "#b%d 層の #r魔力 を消費し、敵に #b%d 層の #y弱体化 と #y脱力 を与える。 NL ",
+      "防御魔法完全体SP NL ",
+      "#b%d 層の #r魔力 を消費し、 #b%d 層の #y緩衝 と #b%d 層の #y柔軟 を得る。 NL ",
+      "鳥捕り魔法 NL ",
+      "#b%d 層の #r魔力 を消費し、 #b1 羽の #yカッカ を召喚する。 NL ",
+      "飛行魔法SP NL ",
+      "#b%d 層の #r魔力 を消費し、 #b%d 層の #y無形 を得る。",
+      "#b%d 層の #r魔力 を消費し、 #b%d 層の #y緩衝 と #b%d 層の #y金属化 を得る。 NL "
+    ]
+  },
+  "FrierenMod:WeakenedChantPower": {
+    "NAME": "詠唱弱体化",
+    "DESCRIPTIONS": [
+      "このターン中、 #y詠唱 で消耗する #y魔力 が #b%d 枚増加する。"
+    ]
+  },
+  "FrierenMod:Factor100Power": {
+    "NAME": "！？？",
+    "DESCRIPTIONS": [
+      "…フリーレン…"
+    ]
+  },
+  "FrierenMod:Factor010Power": {
+    "NAME": "？！？",
+    "DESCRIPTIONS": [
+      "…消滅…"
+    ]
+  },
+  "FrierenMod:Factor001Power": {
+    "NAME": "？？！",
+    "DESCRIPTIONS": [
+      "…魔族…"
+    ]
+  },
+  "FrierenMod:PaperPlaneSpellPower": {
+    "NAME": "紙飛行機を遠くへ飛ばす魔法",
+    "DESCRIPTIONS": [
+      "次の #b%d 回の攻撃ダメージが2倍になる。 NL さらに連続して #b%d 回 #y同調 すると、2倍回数が #b%d 増加する。"
+    ]
+  },
+  "FrierenMod:FrushDownPower": {
+    "NAME": "フリーレン急襲",
+    "DESCRIPTIONS": [
+      "連続して #b%d 枚の #y魔力 を #y同調 した後、カードを #b%d 枚引き、手札の左端から #b%d 枚を捨てる。"
+    ]
+  },
+  "FrierenMod:MimicPower": {
+    "NAME": "ミミック",
+    "DESCRIPTIONS": [
+      "#b%d 枚のカードを使用した後、ターンが強制終了し、すべての #y魔力 が取り除かれ #y真っ暗だ を得る。"
+    ]
+  },
+  "FrierenMod:DarkPower": {
+    "NAME": "真っ暗だ",
+    "DESCRIPTIONS": [
+      "ミミックのお腹の中で何も見えない…",
+      "真っ暗で、 #r@怖い@ ぞ"
+    ]
+  },
+  "FrierenMod:SwallowedPower": {
+    "NAME": "丸飲みされた",
+    "DESCRIPTIONS": [
+      "この戦闘中、手札の上限が #b%d 枚減少する。"
+    ]
+  },
+  "FrierenMod:ConcentrationPower": {
+    "NAME": "集中",
+    "DESCRIPTIONS": [
+      " #y魔力 以外のカードを使用するたびにこの能力が1減少する。"
+    ]
+  },
+  "FrierenMod:DamageFusionPower": {
+    "NAME": "ダメージ融合",
+    "DESCRIPTIONS": [
+      "次に獲得する #y特化通常攻撃魔法 に追加される： NL #b%d ダメージを与える。"
+    ]
+  },
+  "FrierenMod:EnergyFusionPower": {
+    "NAME": "エナジー融合",
+    "DESCRIPTIONS": [
+      "次に獲得する #y特化通常攻撃魔法 に追加される： NL #b%d 点の [E] を得る。"
+    ]
+  },
+  "FrierenMod:WeakVulnerableFusionPower": {
+    "NAME": "脱力弱体化融合",
+    "DESCRIPTIONS": [
+      "次に獲得する #y特化通常攻撃魔法 に追加される： NL #b%d 層の #y脱力 と #y弱体化 を与える。"
+    ]
+  },
+  "FrierenMod:DrawCardFusionPower": {
+    "NAME": "ドロー融合",
+    "DESCRIPTIONS": [
+      "次に獲得する #y特化通常攻撃魔法 に追加される： NL カードを #b%d 枚引く。"
+    ]
+  },
+  "FrierenMod:CopySelfToDiscardFusionPower": {
+    "NAME": "複製融合",
+    "DESCRIPTIONS": [
+      "次に獲得する #y特化通常攻撃魔法 に追加される： NL 捨て札にこのカードのコピーを #b%d 枚置く。"
+    ]
+  },
+  "FrierenMod:ConcentrationFusionPower": {
+    "NAME": "集中融合",
+    "DESCRIPTIONS": [
+      "次に獲得する #y特化通常攻撃魔法 に追加される： NL #b%d 点の #y集中 を得る。"
+    ]
+  },
+  "FrierenMod:StrengthFusionPower": {
+    "NAME": "筋力融合",
+    "DESCRIPTIONS": [
+      "次に獲得する #y特化通常攻撃魔法 に追加される： NL #b%d 点の #y筋力 を得る。"
+    ]
+  },
+  "FrierenMod:StrengthFusionPowerFusionPower": {
+    "NAME": "筋力融合融合",
+    "DESCRIPTIONS": [
+      "次に獲得する #y特化通常攻撃魔法 に追加される： NL #y融合 ： #b%d 点の #y筋力 を得る。"
+    ]
+  },
+  "FrierenMod:FightPower": {
+    "NAME": "ファイトナイト",
+    "DESCRIPTIONS": [
+      "このターン中、次に獲得する #b%d 枚の #y特化攻撃魔法 のコストが0になる。"
+    ]
+  },
+  "FrierenMod:WithNoStopPower": {
+    "NAME": "疾風怒濤",
+    "DESCRIPTIONS": [
+      "次の #b%d 枚のカードを使用した後、集中を2点得る。"
+    ]
+  },
+  "FrierenMod:MysticEyePower": {
+    "NAME": "直視の魔眼",
+    "DESCRIPTIONS": [
+      "プレイヤーが敵を攻撃するたびに、 #b%d 点の #y集中 を得る。"
+    ]
+  },
+  "FrierenMod:MasterAndApprenticePower": {
+    "NAME": "師と弟子",
+    "DESCRIPTIONS": [
+      "自分のターン開始時に、ランダムな #y二色カード を #b%d 枚手札に加える。"
+    ]
+  },
+  "FrierenMod:SkilledMagePower": {
+    "NAME": "熟練の魔法使い",
+    "DESCRIPTIONS": [
+      "#y融合 、 #y疾風 カード、 #y特化通常攻撃魔法 の使用後、または #y奇襲 発動後に、 #b%d 点の #yブロック を得る。"
+    ]
+  },
+  "FrierenMod:BoldReversalPower": {
+    "NAME": "逆転の一手",
+    "DESCRIPTIONS": [
+      "次の #b%d 回の #y奇襲 効果が追加でもう1回発動する。"
+    ]
+  },
+  "FrierenMod:FernRushdownPower": {
+    "NAME": "フェルン突進",
+    "DESCRIPTIONS": [
+      "#y奇襲 発動後、カードを #b%d 枚引く。"
+    ]
+  },
+  "FrierenMod:ManaAffinityPower": {
+    "NAME": "魔力親和",
+    "DESCRIPTIONS": [
+      " #y魔力 が #y保留 される。"
+    ]
+  },
+  "FrierenMod:SocialDancingPower": {
+    "NAME": "社交ダンス",
+    "DESCRIPTIONS": [
+      "#y集中 を持つとき、 #y奇襲 XはX-1、X、X+1いずれの値でも発動できる。"
+    ]
+  },
+  "FrierenMod:ConfidencePower": {
+    "NAME": "自信満々",
+    "DESCRIPTIONS": [
+      "ダメージを与えるすべての #y奇襲 効果が追加でもう1回発動する。ターン開始時にすべての #y集中 を失う。"
+    ]
+  },
+  "FrierenMod:GamblePower": {
+    "NAME": "大博打",
+    "DESCRIPTIONS": [
+      "カードを使用した後、 #y集中 がランダムに1〜6に変化する。6になった場合、敵全体に #b%d ダメージを与える。"
+    ]
+  },
+  "FrierenMod:FumeshroomFormPower": {
+    "NAME": "キノコ形態",
+    "DESCRIPTIONS": [
+      "単体攻撃が対象外の敵にもダメージを与えるようになる。"
+    ]
+  },
+  "FrierenMod:RecollectionOfBenefactorPower": {
+    "NAME": "恩人への想い",
+    "DESCRIPTIONS": [
+      "#yハイターが遺した杖 で #y特化通常攻撃魔法 を獲得するとき、ダメージ倍率が2倍から4倍になる。"
+    ]
+  },
+  "FrierenMod:NextTurnConcentrationPower": {
+    "NAME": "通常チャージ",
+    "DESCRIPTIONS": [
+      "次のターンに #b%d 点の #y集中 を得る。"
+    ]
+  }
+}
