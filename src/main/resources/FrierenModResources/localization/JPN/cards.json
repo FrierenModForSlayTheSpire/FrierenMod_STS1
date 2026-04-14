@@ -1,0 +1,1211 @@
+{
+  "FrierenMod:Strike_Frieren": {
+    "NAME": "ストライク",
+    "DESCRIPTION": "!D! ダメージを与える。"
+  },
+  "FrierenMod:Defend_Frieren": {
+    "NAME": "ディフェンド",
+    "DESCRIPTION": "!B! ブロック を得る。"
+  },
+  "FrierenMod:OrdinaryOffensiveMagic": {
+    "NAME": "通常攻撃魔法",
+    "DESCRIPTION": "この戦闘中に 消耗 した NL *魔力 の総数の2倍の NL ダメージを与える。",
+    "EXTENDED_DESCRIPTION": [
+      " NL （ !D! ダメージを与える。）"
+    ]
+  },
+  "FrierenMod:DefensiveMagic": {
+    "NAME": "防御魔法",
+    "DESCRIPTION": " frierenmod:詠唱 !CX! 。 NL !B! ブロック を得る。 NL 別の *防御魔法 を手札に加える。",
+    "UPGRADE_DESCRIPTION": " frierenmod:詠唱 !CX! 。 NL !B! ブロック を得る。 NL 別の *防御魔法+ を手札に加える。"
+  },
+  "FrierenMod:SecondDefensiveMagic": {
+    "NAME": "防御魔法",
+    "DESCRIPTION": " frierenmod:詠唱 !CX! 。 NL !B! ブロック を得る。 NL 廃棄"
+  },
+  "FrierenMod:RapidChant": {
+    "NAME": "高速詠唱",
+    "DESCRIPTION": " frierenmod:詠唱 !CX! 。 NL *魔力 を1枚山札に加える。",
+    "UPGRADE_DESCRIPTION": " 保留 。 NL frierenmod:詠唱 !CX! 。 NL *魔力 を1枚山札に加える。"
+  },
+  "FrierenMod:Mana": {
+    "NAME": "魔力",
+    "DESCRIPTION": " frierenmod:同調 。"
+  },
+  "FrierenMod:ShavedIceSpell": {
+    "NAME": "かき氷を作り出す魔法",
+    "DESCRIPTION": "*魔力 を !M! 枚山札に加える。"
+  },
+  "FrierenMod:ManaConcealment": {
+    "NAME": "魔力隠し",
+    "DESCRIPTION": "山札の *魔力 をすべて NL 捨て札に移す。 NL 廃棄 NL エセリアル 。"
+  },
+  "FrierenMod:BePrepared": {
+    "NAME": "機を伺う",
+    "DESCRIPTION": "{@@} 消耗 {!frierenmod:SlotNumber!|-1= Error|0= 山札|1= 手札|2= 捨て札} の *魔力 を !M! 枚 消耗 し、次の攻撃が追加で !SM! ダメージを与える。",
+    "EXTENDED_DESCRIPTION": [
+      " X枚の *魔力 を 消耗 し、次の攻撃がX+3の追加ダメージを与える。"
+    ]
+  },
+  "FrierenMod:MetallicizFlower": {
+    "NAME": "他山の石：花びら金属化魔法",
+    "DESCRIPTION": "{@@} 消耗 {!frierenmod:SlotNumber!|-1= Error|0= 山札|1= 手札|2= 捨て札} の *魔力 を !M! 枚 消耗 し、 金属化 を !SM! 得る。",
+    "EXTENDED_DESCRIPTION": [
+      " X枚の *魔力 を 消耗 し、 金属化 Xを得る。"
+    ]
+  },
+  "FrierenMod:NatureBeauty": {
+    "NAME": "宴会魔法：花鳥風月",
+    "DESCRIPTION": "{@@} 消耗 {!frierenmod:SlotNumber!|-1= Error|0= 山札|1= 手札|2= 捨て札} の *魔力 を !M! 枚 消耗 し、次のターン [E] を !SM! 得る。",
+    "EXTENDED_DESCRIPTION": [
+      " X+1枚の *魔力 を 消耗 し、次のターン [E] Xを得る。"
+    ]
+  },
+  "FrierenMod:IceArrows": {
+    "NAME": "他山の石：氷の矢を放つ魔法",
+    "DESCRIPTION": "{@@} 消耗 {!frierenmod:SlotNumber!|-1= Error|0= 山札|1= 手札|2= 捨て札} の *魔力 を !M! 枚 消耗 し、敵全体に !SM! ダメージを与える。",
+    "EXTENDED_DESCRIPTION": [
+      " X枚の *魔力 を 消耗 し、敵全体に4Xダメージを与える。"
+    ]
+  },
+  "FrierenMod:HighSpeedMovement": {
+    "NAME": "他山の石：高速移動魔法",
+    "DESCRIPTION": "{@@} 消耗 {!frierenmod:SlotNumber!|-1= Error|0= 山札|1= 手札|2= 捨て札} の *魔力 を !M! 枚 消耗 し、 敏捷性 を !SM! 得る。",
+    "EXTENDED_DESCRIPTION": [
+      " X枚の *魔力 を 消耗 し、 敏捷性 Xを得る。"
+    ]
+  },
+  "FrierenMod:SpellBoost": {
+    "NAME": "魔力増幅",
+    "DESCRIPTION": "{@@} 消耗 {!frierenmod:SlotNumber!|-1= Error|0= 山札|1= 手札|2= 捨て札} の *魔力 を !M! 枚 消耗 し、次の !SM! ターン攻撃ダメージが2倍になる。",
+    "EXTENDED_DESCRIPTION": [
+      " 4X枚の *魔力 を 消耗 し、次のXターン攻撃ダメージが2倍になる。"
+    ]
+  },
+  "FrierenMod:Hypnosis": {
+    "NAME": "他山の石：精神操作魔法",
+    "DESCRIPTION": "{@@} 消耗 {!frierenmod:SlotNumber!|-1= Error|0= 山札|1= 手札|2= 捨て札} の *魔力 を !M! 枚 消耗 し、敵全体に 脱力 と 弱体化 を !SM! 与える。",
+    "EXTENDED_DESCRIPTION": [
+      " 2X枚の *魔力 を 消耗 し、敵全体に 脱力 と 弱体化 Xを与える。"
+    ]
+  },
+  "FrierenMod:PeacefulDays": {
+    "NAME": "穏やかな日々",
+    "DESCRIPTION": "{@@} 消耗 {!frierenmod:SlotNumber!|-1= Error|0= 山札|1= 手札|2= 捨て札} の *魔力 を !M! 枚 消耗 し、カードを !SM! 枚引く。",
+    "EXTENDED_DESCRIPTION": [
+      " X+1枚の *魔力 を 消耗 し、カードをX枚引く。"
+    ]
+  },
+  "FrierenMod:TheLivingLegend": {
+    "NAME": "生ける伝説",
+    "DESCRIPTION": "{@@} 消耗 {!frierenmod:SlotNumber!|-1= Error|0= 山札|1= 手札|2= 捨て札} の *魔力 を !M! 枚 消耗 し、ランダムな frierenmod:伝説魔法 を !SM! 枚 {!frierenmod:SlotNumber!|-1= Error|0= 山札|1= 手札|2= 捨て札} に加える。",
+    "EXTENDED_DESCRIPTION": [
+      " X枚の *魔力 を 消耗 し、ランダムな frierenmod:伝説魔法 をX枚山札に加える。"
+    ]
+  },
+  "FrierenMod:ImpeccableIntangible": {
+    "NAME": "清廉なる無形",
+    "DESCRIPTION": "{@@} 消耗 {!frierenmod:SlotNumber!|-1= Error|0= 山札|1= 手札|2= 捨て札} の *魔力 を !M! 枚 消耗 し、 無形 を !SM! 得る。",
+    "EXTENDED_DESCRIPTION": [
+      " 6X枚の *魔力 を 消耗 し、 無形 Xを得る。"
+    ]
+  },
+  "FrierenMod:BarrierMagic": {
+    "NAME": "障壁魔法",
+    "DESCRIPTION": "{@@} 消耗 {!frierenmod:SlotNumber!|-1= Error|0= 山札|1= 手札|2= 捨て札} の *魔力 を !M! 枚 消耗 し、 !B! ブロック を得て、次の !SM! ターン ブロック を失わない。",
+    "EXTENDED_DESCRIPTION": [
+      " X+1枚の *魔力 を 消耗 し、X ブロック を得て、次のXターン ブロック を失わない。"
+    ]
+  },
+  "FrierenMod:PassOnTheTorch": {
+    "NAME": "たすきを渡す",
+    "DESCRIPTION": "{@@} 消耗 {!frierenmod:SlotNumber!|-1= Error|0= 山札|1= 手札|2= 捨て札} の *魔力 を !M! 枚 消耗 し、 *魔力 を !SM! 枚 {@@} {!frierenmod:SlotNumber!|-1= Error|0= 手札|1= 捨て札|2= 山札} に加える。",
+    "EXTENDED_DESCRIPTION": [
+      " X枚の *魔力 を 消耗 し、X枚の *魔力 を次の山札に加える。"
+    ]
+  },
+  "FrierenMod:Transcendence": {
+    "NAME": "叡智の瞳へ",
+    "DESCRIPTION": "{@@} 消耗 {!frierenmod:SlotNumber!|-1= Error|0= 山札|1= 手札|2= 捨て札} の *魔力 を !M! 枚 消耗 し、 マントラ を !SM! 得る。",
+    "EXTENDED_DESCRIPTION": [
+      " X枚の *魔力 を 消耗 し、 マントラ Xを得る。"
+    ]
+  },
+  "FrierenMod:AdvancedDefensiveMagic": {
+    "NAME": "進化した防御魔法",
+    "DESCRIPTION": "{@@} 消耗 {!frierenmod:SlotNumber!|-1= Error|0= 山札|1= 手札|2= 捨て札} の *魔力 を !M! 枚 消耗 し、 !B! ブロック を2回得る。",
+    "EXTENDED_DESCRIPTION": [
+      " X枚の *魔力 を 消耗 し、X ブロック を2回得る。"
+    ]
+  },
+  "FrierenMod:Strategizing": {
+    "NAME": "策を練る",
+    "DESCRIPTION": "{@@} 消耗 {!frierenmod:SlotNumber!|-1= Error|0= 山札|1= 手札|2= 捨て札} の *魔力 を !M! 枚 消耗 し、 [E] を !SM! 得る。",
+    "EXTENDED_DESCRIPTION": [
+      " 2X枚の *魔力 を 消耗 し、 [E] Xを得る。"
+    ]
+  },
+  "FrierenMod:BuildUpBody": {
+    "NAME": "体づくり",
+    "DESCRIPTION": "{@@} 消耗 {!frierenmod:SlotNumber!|-1= Error|0= 山札|1= 手札|2= 捨て札} の *魔力 を !M! 枚 消耗 し、 筋力 を !SM! 得る。",
+    "EXTENDED_DESCRIPTION": [
+      " X枚の *魔力 を 消耗 し、 筋力 Xを得る。"
+    ]
+  },
+  "FrierenMod:MeleeMage": {
+    "NAME": "物理魔法使い",
+    "DESCRIPTION": "{@@} 消耗 {!frierenmod:SlotNumber!|-1= Error|0= 山札|1= 手札|2= 捨て札} の *魔力 を !M! 枚 消耗 し、名前に「ストライク」が含まれるカードが追加で !SM! ダメージを与えるようになる。",
+    "EXTENDED_DESCRIPTION": [
+      " X枚の *魔力 を 消耗 し、名前に「ストライク」が含まれるカードがX+1の追加ダメージを与えるようになる。"
+    ]
+  },
+  "FrierenMod:GrossedOutLook": {
+    "NAME": "嫌な顔",
+    "DESCRIPTION": "{@@} 消耗 {!frierenmod:SlotNumber!|-1= Error|0= 山札|1= 手札|2= 捨て札} の *魔力 を !M! 枚 消耗 し、このターン敵全体の 筋力 を !SM! 減少させる。",
+    "EXTENDED_DESCRIPTION": [
+      " X枚の *魔力 を 消耗 し、このターン敵全体の 筋力 をX+2減少させる。"
+    ]
+  },
+  "FrierenMod:Sleeeep": {
+    "NAME": "英気を養う",
+    "DESCRIPTION": "{@@} 消耗 {!frierenmod:SlotNumber!|-1= Error|0= 山札|1= 手札|2= 捨て札} の *魔力 を !M! 枚 消耗 し、次のターンカードを !SM! 枚引く。",
+    "EXTENDED_DESCRIPTION": [
+      " X枚の *魔力 を 消耗 し、次のターンカードをX枚引く。"
+    ]
+  },
+  "FrierenMod:TransferToAlchemist": {
+    "NAME": "錬金術師になろう",
+    "DESCRIPTION": "{@@} 消耗 {!frierenmod:SlotNumber!|-1= Error|0= 山札|1= 手札|2= 捨て札} の *魔力 を !M! 枚 消耗 し、敵全体に 毒 を !SM! 与える。",
+    "EXTENDED_DESCRIPTION": [
+      " X枚の *魔力 を 消耗 し、敵全体に 毒 2Xを与える。"
+    ]
+  },
+  "FrierenMod:GreatMageComposure": {
+    "NAME": "大魔法使いの余裕",
+    "DESCRIPTION": "{@@} 消耗 {!frierenmod:SlotNumber!|-1= Error|0= 山札|1= 手札|2= 捨て札} の *魔力 を !M! 枚 消耗 し、次の !SM! 回の frierenmod:詠唱 は *魔力 を 消耗 しなくなる。",
+    "EXTENDED_DESCRIPTION": [
+      " 4X枚の *魔力 を 消耗 し、このターン次のX回の frierenmod:詠唱 は *魔力 を 消耗 しなくなる。"
+    ]
+  },
+  "FrierenMod:PinchAndScrape": {
+    "NAME": "節約上手",
+    "DESCRIPTION": "{@@} 消耗 {!frierenmod:SlotNumber!|-1= Error|0= 山札|1= 手札|2= 捨て札} の *魔力 を !M! 枚 消耗 し、次の !SM! 回の frierenmod:同調 は 消耗 しなくなる。",
+    "EXTENDED_DESCRIPTION": [
+      " X枚の *魔力 を 消耗 し、次の2X回の frierenmod:同調 は 消耗 しなくなる。"
+    ]
+  },
+  "FrierenMod:BluePrint": {
+    "NAME": "設計図フリーレン",
+    "DESCRIPTION": "",
+    "EXTENDED_DESCRIPTION": [
+      " frierenmod:詠唱 時、常に次の frierenmod:スロット の *魔法因子 を複製する。"
+    ]
+  },
+  "FrierenMod:BloodSpell": {
+    "NAME": "他山の石：血操魔法",
+    "DESCRIPTION": "{@@} 消耗 {!frierenmod:SlotNumber!|-1= Error|0= 山札|1= 手札|2= 捨て札} の *魔力 を !M! 枚 消耗 し、HPを !SM! 失う。",
+    "EXTENDED_DESCRIPTION": [
+      " X-2枚の *魔力 を 消耗 し、X+2のHPを失う。"
+    ]
+  },
+  "FrierenMod:BigFire": {
+    "NAME": "大炎上",
+    "DESCRIPTION": "{@@} 消耗 {!frierenmod:SlotNumber!|-1= Error|0= 山札|1= 手札|2= 捨て札} の *魔力 を !M! 枚 消耗 し、 *小さな火花 を !SM! 枚 {!frierenmod:SlotNumber!|-1= Error|0= 山札|1= 手札|2= 捨て札} に加える。",
+    "EXTENDED_DESCRIPTION": [
+      " 2X枚の *魔力 を 消耗 し、X枚の *小さな火花 を山札に加える。"
+    ]
+  },
+  "FrierenMod:FloatingSpell": {
+    "NAME": "物体を浮かせる魔法",
+    "DESCRIPTION": "{@@} 消耗 {!frierenmod:SlotNumber!|-1= Error|0= 山札|1= 手札|2= 捨て札} の *魔力 を !M! 枚 消耗 し、 {!frierenmod:SlotNumber!|-1= Error|0= 山札の上|1= 手札の左端|2= 捨て札の上} の !SM! 枚のカードに frierenmod:同調 を付与する。",
+    "EXTENDED_DESCRIPTION": [
+      " X枚の *魔力 を 消耗 し、山札の上のX枚の *魔力 以外のカードに frierenmod:同調 を付与する。"
+    ]
+  },
+  "FrierenMod:Factor100": {
+    "NAME": "謎の因子: ！？？",
+    "DESCRIPTION": "{@@} 消耗 {!frierenmod:SlotNumber!|-1= Error|0= 山札|1= 手札|2= 捨て札} の *魔力 を !M! 枚 消耗 し、 {@@}{!frierenmod:SlotNumber!|-1= Error|0= ！|1= ？|2= ？} ",
+    "EXTENDED_DESCRIPTION": [
+      " X+1枚の *魔力 を 消耗 NL ... [#e1c6ed]フリーレン ..."
+    ]
+  },
+  "FrierenMod:Factor010": {
+    "NAME": "謎の因子: ？！？",
+    "DESCRIPTION": "{@@} 消耗 {!frierenmod:SlotNumber!|-1= Error|0= 山札|1= 手札|2= 捨て札} の *魔力 を !M! 枚 消耗 し、 {@@}{!frierenmod:SlotNumber!|-1= Error|0= ？|1= ！|2= ？} ",
+    "EXTENDED_DESCRIPTION": [
+      " 2X+2枚の *魔力 を 消耗 NL ... [#FFFE91]消滅 ..."
+    ]
+  },
+  "FrierenMod:Factor001": {
+    "NAME": "謎の因子: ？？！",
+    "DESCRIPTION": "{@@} 消耗 {!frierenmod:SlotNumber!|-1= Error|0= 山札|1= 手札|2= 捨て札} の *魔力 を !M! 枚 消耗 し、 {@@}{!frierenmod:SlotNumber!|-1= Error|0= ？|1= ？|2= ！} ",
+    "EXTENDED_DESCRIPTION": [
+      " 3X+3枚の *魔力 を 消耗 NL　... [#ed1c24]魔族 ..."
+    ]
+  },
+  "FrierenMod:UnbelievableTool": {
+    "NAME": "不思議な道具",
+    "DESCRIPTION": " frierenmod:[#ff4e41]未装備 の *魔法因子 を1枚と frierenmod:[#9ffc4f]装備中 の *魔法因子 を1枚選択し、 frierenmod:スロット を入れ替える。",
+    "EXTENDED_DESCRIPTION": [
+      " frierenmod:[#ff4e41]未装備 の *魔法因子 を1枚と frierenmod:[#9ffc4f]装備中 の *魔法因子 を1枚選択し、 frierenmod:スロット を入れ替える。"
+    ]
+  },
+  "FrierenMod:MysteryBox": {
+    "NAME": "ガチャ",
+    "DESCRIPTION": "ランダムな *魔法因子 を2枚 NL 魔法デッキに加える。",
+    "EXTENDED_DESCRIPTION": [
+      "ランダムな *魔法因子 を2枚 魔法デッキに加える。"
+    ]
+  },
+  "FrierenMod:SeinNote": {
+    "NAME": "ザインのノート",
+    "DESCRIPTION": " frierenmod:[#ff4e41]未装備 の *魔法因子 、または自身以外の *魔道具 を2枚取り除き、HPを10回復する。",
+    "EXTENDED_DESCRIPTION": [
+      " frierenmod:[#ff4e41]未装備 の *魔法因子 、または自身以外の *魔道具 を2枚取り除き、HPを10回復する。"
+    ]
+  },
+  "FrierenMod:MysticBox": {
+    "NAME": "神秘のマジックボックス",
+    "DESCRIPTION": " frierenmod:[#ff4e41]未装備 の *魔法因子 を3枚選択し、それらの frierenmod:スロット とすべての frierenmod:[#9ffc4f]装備中 の *魔法因子 をランダムに入れ替える。",
+    "EXTENDED_DESCRIPTION": [
+      " frierenmod:[#ff4e41]未装備 の *魔法因子 を3枚選択し、それらの frierenmod:スロット とすべての frierenmod:[#9ffc4f]装備中 の *魔法因子 をランダムに入れ替える。"
+    ]
+  },
+  "FrierenMod:ShadowDragonHorn": {
+    "NAME": "暗黒竜の角",
+    "DESCRIPTION": "戦闘中のみ有効： frierenmod:[#ff4e41]未装備 の *魔法因子 、または自身以外の *魔道具 を2枚取り除き、 [E] [E] を得る。",
+    "EXTENDED_DESCRIPTION": [
+      "戦闘中のみ有効： frierenmod:[#ff4e41]未装備 の *魔法因子 、または自身以外の *魔道具 を2枚取り除き、 [E] [E] を得る。"
+    ]
+  },
+  "FrierenMod:TransmutationCircle": {
+    "NAME": "錬成陣",
+    "DESCRIPTION": " *魔法因子 を2枚取り除き、それぞれの frierenmod:スロット にランダムな同レア度の *魔法因子 を置く。",
+    "EXTENDED_DESCRIPTION": [
+      " *魔法因子 を2枚取り除き、それぞれの frierenmod:スロット にランダムな同レア度の *魔法因子 を置く。"
+    ]
+  },
+  "FrierenMod:UnbelievableToolBox": {
+    "NAME": "道具箱",
+    "DESCRIPTION": " frierenmod:[#ff4e41]未装備 の *魔法因子 、または自身以外の *魔道具 を2枚取り除き、 *不思議な道具 を2枚得る。",
+    "EXTENDED_DESCRIPTION": [
+      " frierenmod:[#ff4e41]未装備 の *魔法因子 、または自身以外の *魔道具 を2枚取り除き、 *不思議な道具 を2枚得る。"
+    ]
+  },
+  "FrierenMod:CrystalBall": {
+    "NAME": "魔法の水晶玉",
+    "DESCRIPTION": " frierenmod:[#9ffc4f]装備中 の *魔法因子 を2枚選択し、 frierenmod:スロット を入れ替える。",
+    "EXTENDED_DESCRIPTION": [
+      " frierenmod:[#9ffc4f]装備中 の *魔法因子 を2枚選択し、 frierenmod:スロット を入れ替える。"
+    ]
+  },
+  "FrierenMod:Tutorial": {
+    "NAME": "魔法デッキチュートリアル",
+    "DESCRIPTION": "戦闘勝利後、 *魔法因子 や *魔道具 が NL ドロップすることがある。 NL *右クリック で魔道具を選択し、 *左クリック で対象を選択する。",
+    "EXTENDED_DESCRIPTION": [
+      "戦闘勝利後、 *魔法因子 や *魔道具 がドロップすることがある。 NL *右クリック で *魔道具 を選択し、 *左クリック で *魔道具 の対象を選択する。"
+    ]
+  },
+  "FrierenMod:SwampSpell": {
+    "NAME": "底なし沼から引き抜く魔法",
+    "DESCRIPTION": " *魔力 を !M! 枚引く。"
+  },
+  "FrierenMod:MoldSpell": {
+    "NAME": "カビを消し去る魔法",
+    "DESCRIPTION": " frierenmod:伝説魔法 。 NL !D! ダメージを !M! 回与える。"
+  },
+  "FrierenMod:Perpetual": {
+    "NAME": "永続",
+    "DESCRIPTION": "自分のターン開始時に、 NL *魔力 を2枚捨て札に置く。",
+    "UPGRADE_DESCRIPTION": " 天賦 。 NL 自分のターン開始時に、 NL *魔力 を2枚捨て札に置く。"
+  },
+  "FrierenMod:BackFlow": {
+    "NAME": "逆流",
+    "DESCRIPTION": "捨て札から *魔力 を !M! 枚引く。",
+    "UPGRADE_DESCRIPTION": "捨て札から *魔力 を !M! 枚引く。"
+  },
+  "FrierenMod:Disperse": {
+    "NAME": "分散",
+    "DESCRIPTION": " *魔力 を1枚山札に置く。 NL *魔力 を2枚手札に加える。 NL *魔力 を3枚捨て札に置く。 NL 廃棄",
+    "UPGRADE_DESCRIPTION": " *魔力 を1枚山札に置く。 NL *魔力 を2枚手札に加える。 NL *魔力 を3枚捨て札に置く。"
+  },
+  "FrierenMod:Flow": {
+    "NAME": "循環",
+    "DESCRIPTION": "!D! ダメージを与える。 NL 山札と捨て札からそれぞれ NL *魔力 を1枚手札に加える。"
+  },
+  "FrierenMod:FlyingMagic": {
+    "NAME": "飛行魔法",
+    "DESCRIPTION": "無形 を3得る。ターン終了時に NL 捨て札の *魔力 を !M! 枚 消耗 する。"
+  },
+  "FrierenMod:FolkGrimoire": {
+    "NAME": "民間の魔導書",
+    "DESCRIPTION": "このターンのコストが !M! 減少した NL ランダムな frierenmod:詠唱 カードと NL frierenmod:伝説魔法 を1枚ずつ手札に加える。 NL 廃棄"
+  },
+  "FrierenMod:Outpouring": {
+    "NAME": "奔流",
+    "DESCRIPTION": "このカードを使用した後、このターン NL *魔力 を frierenmod:同調 するたびに筋力を !M! 得る。 NL 廃棄",
+    "UPGRADE_DESCRIPTION": " 保留 。このカードを使用した後、このターン NL *魔力 を frierenmod:同調 するたびに筋力を !M! 得る。 NL 廃棄"
+  },
+  "FrierenMod:ContinualChant": {
+    "NAME": "連続詠唱",
+    "DESCRIPTION": " frierenmod:伝説魔法 。 NL *魔力 を !M! 枚山札に加える。 NL  frierenmod:詠唱 !CX! 。"
+  },
+  "FrierenMod:Simmering": {
+    "NAME": "くすぶる力",
+    "DESCRIPTION": " frierenmod:詠唱 後、 frierenmod:伝説魔法 を1枚引く。"
+  },
+  "FrierenMod:PajamasForm": {
+    "NAME": "パジャマ形態",
+    "DESCRIPTION": "ターン終了時に、すべての *魔力 を 消耗 し、消耗した *魔力 の枚数の4倍のダメージを敵全体に与える。"
+  },
+  "FrierenMod:PreparedPosture": {
+    "NAME": "臨戦態勢",
+    "DESCRIPTION": "!D! ダメージを与える。 NL frierenmod:詠唱 カードを1枚引く。"
+  },
+  "FrierenMod:Trick": {
+    "NAME": "魔族を欺く小細工",
+    "DESCRIPTION": "自分のターン開始時に NL *魔力隠し を1枚手札に加える。"
+  },
+  "FrierenMod:FlowerFieldSpell": {
+    "NAME": "花畑を出す魔法",
+    "DESCRIPTION": " frierenmod:詠唱 !CX! 。 NL *蒼月草 を1枚手札に加える。",
+    "UPGRADE_DESCRIPTION": " frierenmod:詠唱 !CX! 。 NL *蒼月草+ を1枚手札に加える。"
+  },
+  "FrierenMod:ClearMind": {
+    "NAME": "クリアマインド",
+    "DESCRIPTION": " *魔力 を !M! 枚手札に加える。このターン frierenmod:同調 が frierenmod:加速同調 になる。"
+  },
+  "FrierenMod:AccessoriesSpell": {
+    "NAME": "失くした装飾品を探す魔法",
+    "DESCRIPTION": " 天賦 。 frierenmod:伝説魔法 。 NL 戦闘終了時、ランダムなレリックを1個得る。 NL  エセリアル 。"
+  },
+  "FrierenMod:OilSpell": {
+    "NAME": "しつこい油汚れを取る魔法",
+    "DESCRIPTION": " frierenmod:伝説魔法 。 NL 敵全体に !D! ダメージを与える。敵が死亡しなかった場合、さらに !M! ダメージを与える。"
+  },
+  "FrierenMod:ApexMagic": {
+    "NAME": "魔法の高み",
+    "DESCRIPTION": "手札、山札、捨て札にそれぞれ NL ちょうど *魔力 が4枚ある場合、 NL 敵全体のHPを0にする。",
+    "UPGRADE_DESCRIPTION": " 保留 。 NL 手札、山札、捨て札にそれぞれ NL ちょうど *魔力 が4枚ある場合、 NL 敵全体のHPを0にする。"
+  },
+  "FrierenMod:PancakeSpell": {
+    "NAME": "パンケーキをうまく焼ける魔法",
+    "DESCRIPTION": "山札から1枚選択し、手札の !M! 枚の *魔力 と入れ替える。"
+  },
+  "FrierenMod:TongueTwisterSpell": {
+    "NAME": "早口言葉を噛まずに言える魔法",
+    "DESCRIPTION": "カードを !M! 枚引く。 *魔力 を引くたびに !B! ブロック を得る。"
+  },
+  "FrierenMod:MultipleOffensiveMagic": {
+    "NAME": "多重攻撃魔法",
+    "DESCRIPTION": "ランダムにX+4ダメージをX回与え、 *魔力 をX枚手札に加える。",
+    "UPGRADE_DESCRIPTION": "ランダムにX+4ダメージをX+1回与え、 *魔力 をX枚手札に加える。",
+    "EXTENDED_DESCRIPTION": [
+      " NL （ !D! ダメージを",
+      "回与える）"
+    ]
+  },
+  "FrierenMod:RitesPreparation": {
+    "NAME": "儀式の準備",
+    "DESCRIPTION": "次の !M! 回の frierenmod:同調 が敵全体に5ダメージを与える。"
+  },
+  "FrierenMod:FireSpell": {
+    "NAME": "火を放つ魔法",
+    "DESCRIPTION": "現在の敵1体につき *小さな火花 を1枚手札に加える。 NL 廃棄",
+    "UPGRADE_DESCRIPTION": "現在の敵1体につき *小さな火花+ を1枚手札に加える。 NL 廃棄"
+  },
+  "FrierenMod:Laziness": {
+    "NAME": "ぐうたら",
+    "DESCRIPTION": " 使用不可 。 NL  frierenmod:詠唱 を1回行うと NL このカードを 廃棄 する。 NL ターン終了時に手札にあると、複製を1枚捨て札に加える。"
+  },
+  "FrierenMod:Recall": {
+    "NAME": "追憶",
+    "DESCRIPTION": "廃棄置き場から !M! 枚を手札に加え、 保留 する。 NL 廃棄"
+  },
+  "FrierenMod:RustCleanMagic": {
+    "NAME": "銅像の錆を落とす魔法",
+    "DESCRIPTION": " frierenmod:伝説魔法 。 NL ボス以外の敵の正面効果を1つ取り除き、自分のデバフを1つ取り除く。 NL 廃棄"
+  },
+  "FrierenMod:RedAppleSpell": {
+    "NAME": "赤リンゴを青リンゴに変える魔法",
+    "DESCRIPTION": "筋力 と 敏捷性 の層数を入れ替え、 *青リンゴ を1枚手札に加える。 NL ターン終了時に元に戻す。",
+    "UPGRADE_DESCRIPTION": "筋力 と 敏捷性 の層数を入れ替え、 *青リンゴ+ を1枚手札に加える。 NL ターン終了時に元に戻す。"
+  },
+  "FrierenMod:GreenApple": {
+    "NAME": "青リンゴ",
+    "DESCRIPTION": " !B! ブロック を2回得る。 NL 廃棄"
+  },
+  "FrierenMod:LightningMagic": {
+    "NAME": "断滅の雷魔法",
+    "DESCRIPTION": " frierenmod:伝説魔法 。 NL 山札と捨て札の *魔力 を上限まで手札に加える。この戦闘中 frierenmod:同調 が frierenmod:究極同調 になる。"
+  },
+  "FrierenMod:BlueMoonWeed": {
+    "NAME": "蒼月草",
+    "DESCRIPTION": " 保留 。 NL カードを !M! 枚引く。 NL  廃棄"
+  },
+  "FrierenMod:GrapeSpell": {
+    "NAME": "甘いブドウを酸っぱくする魔法",
+    "DESCRIPTION": "手札から2枚選択して 廃棄 し、 *魔力 を2枚得る。 NL  廃棄"
+  },
+  "FrierenMod:BabySleeping": {
+    "NAME": "赤ちゃんのような眠り",
+    "DESCRIPTION": "!B! ブロック を得る。手札を1枚 保留 する。 NL 捨て札に *魔力 がない場合、手札をすべて 保留 する。"
+  },
+  "FrierenMod:SerieGrimoire": {
+    "NAME": "ゼーリエの魔導書",
+    "DESCRIPTION": "カスタム frierenmod:伝説魔法 を1枚作成する。 NL  廃棄",
+    "UPGRADE_DESCRIPTION": "より多くのオプションでカスタム frierenmod:伝説魔法 を1枚作成する。 NL  廃棄"
+  },
+  "FrierenMod:LittleFire": {
+    "NAME": "小さな火花",
+    "DESCRIPTION": " frierenmod:焼き戻し 。 !D! ダメージを与える。この戦闘中すべての *小さな火花 のダメージが2増加する。 frierenmod:同調 時、捨て札からこのカードを手札に戻す。"
+  },
+  "FrierenMod:FullAhead": {
+    "NAME": "全速前進",
+    "DESCRIPTION": "毎ターン最初の frierenmod:詠唱 後に、 筋力 1と 敏捷性 1を得る。"
+  },
+  "FrierenMod:LockTarget": {
+    "NAME": "逃さない",
+    "DESCRIPTION": "!D! ダメージを与え、カードを1枚引く。山札の *魔力 が捨て札以上なら、もう1回発動する。"
+  },
+  "FrierenMod:FiveMinutesMore": {
+    "NAME": "あと5分だけ",
+    "DESCRIPTION": "[E] [E] を得て、 *ぐうたら を1枚山札に加える。",
+    "UPGRADE_DESCRIPTION": "[E] [E] を得て、 *ぐうたら を1枚手札に加える。"
+  },
+  "FrierenMod:CustomLegendarySpell": {
+    "NAME": "カスタム魔法",
+    "DESCRIPTION": " frierenmod:伝説魔法 。"
+  },
+  "FrierenMod:Cost0": {
+    "NAME": "超小盛り魔法",
+    "DESCRIPTION": "[E] が不要"
+  },
+  "FrierenMod:Cost1": {
+    "NAME": "小盛り魔法",
+    "DESCRIPTION": " [E] "
+  },
+  "FrierenMod:Cost2": {
+    "NAME": "中盛り魔法",
+    "DESCRIPTION": " [E] [E] "
+  },
+  "FrierenMod:Cost3": {
+    "NAME": "大盛り魔法",
+    "DESCRIPTION": " [E] [E] [E] "
+  },
+  "FrierenMod:DrawOption": {
+    "NAME": "星",
+    "DESCRIPTION": "カードを !M! 枚引く。",
+    "EXTENDED_DESCRIPTION": [
+      "カードを1/2/3枚引く。"
+    ]
+  },
+  "FrierenMod:ManaInDiscardOption": {
+    "NAME": "月",
+    "DESCRIPTION": " *魔力 を !M! 枚捨て札に加える。",
+    "EXTENDED_DESCRIPTION": [
+      " *魔力 を2/4/6/8枚捨て札に加える。"
+    ]
+  },
+  "FrierenMod:ManaInHandOption": {
+    "NAME": "太陽",
+    "DESCRIPTION": " *魔力 を !M! 枚手札に加える。",
+    "EXTENDED_DESCRIPTION": [
+      " *魔力 を2/3/4/5枚手札に加える。"
+    ]
+  },
+  "FrierenMod:ManaInDrawOption": {
+    "NAME": "愚者",
+    "DESCRIPTION": " *魔力 を !M! 枚山札に加える。",
+    "EXTENDED_DESCRIPTION": [
+      " *魔力 を2/4/6/8枚山札に加える。"
+    ]
+  },
+  "FrierenMod:ScryOption": {
+    "NAME": "女教皇",
+    "DESCRIPTION": " 占術 !M! 。",
+    "EXTENDED_DESCRIPTION": [
+      " 占術 2/3/4。"
+    ]
+  },
+  "FrierenMod:CostZeroOption": {
+    "NAME": "星貨",
+    "DESCRIPTION": "手札からランダムな !M! 枚のカードのコストをこのターン0にする。",
+    "EXTENDED_DESCRIPTION": [
+      "手札からランダムな1/2枚のカードのコストをこのターン0にする。"
+    ]
+  },
+  "FrierenMod:SelfRetainOption": {
+    "NAME": "節制",
+    "DESCRIPTION": "手札の !M! 枚を 保留 する。",
+    "EXTENDED_DESCRIPTION": [
+      "手札の1/2枚を 保留 する。"
+    ]
+  },
+  "FrierenMod:GainRandomCardOption": {
+    "NAME": "運命の輪",
+    "DESCRIPTION": "ランダムなコモンカードを !M! 枚手札に加える。 NL そのターンのコストが0になる。",
+    "EXTENDED_DESCRIPTION": [
+      "ランダムなコモンカードを1/2枚手札に加える。 NL そのターンのコストが0になる。"
+    ]
+  },
+  "FrierenMod:DamageOption": {
+    "NAME": "正義",
+    "DESCRIPTION": "!D! ダメージを与える。",
+    "EXTENDED_DESCRIPTION": [
+      "6/10ダメージを与える。"
+    ]
+  },
+  "FrierenMod:DamageThirdOption": {
+    "NAME": "悪魔",
+    "DESCRIPTION": "!D! ダメージを3回与える。",
+    "EXTENDED_DESCRIPTION": [
+      "5/7ダメージを3回与える。"
+    ]
+  },
+  "FrierenMod:DamageAllOption": {
+    "NAME": "死神",
+    "DESCRIPTION": "敵全体に !D! ダメージを与える。",
+    "EXTENDED_DESCRIPTION": [
+      "敵全体に4/8/12/16ダメージを与える。"
+    ]
+  },
+  "FrierenMod:BlockOption": {
+    "NAME": "隠者",
+    "DESCRIPTION": "!B! ブロック を得る。",
+    "EXTENDED_DESCRIPTION": [
+      "4/8/12/16 ブロック を得る。"
+    ]
+  },
+  "FrierenMod:EnergyOption": {
+    "NAME": "恋人",
+    "DESCRIPTION": "次のターン [E] を !M! 得る。",
+    "EXTENDED_DESCRIPTION": [
+      "次のターン [E] を1/2/3得る。"
+    ]
+  },
+  "FrierenMod:ExtinguishOption": {
+    "NAME": "審判",
+    "DESCRIPTION": "対象の敵のHPが !M! 以下なら、HPを0にする。",
+    "EXTENDED_DESCRIPTION": [
+      "対象の敵のHPが30/40以下なら、HPを0にする。"
+    ]
+  },
+  "FrierenMod:DexterityOption": {
+    "NAME": "魔術師",
+    "DESCRIPTION": "敏捷性 を !M! 得る。 NL 廃棄",
+    "EXTENDED_DESCRIPTION": [
+      "敏捷性 を2/3/4得る。 NL 廃棄"
+    ]
+  },
+  "FrierenMod:ChantOption": {
+    "NAME": "聖杯",
+    "DESCRIPTION": " frierenmod:詠唱 !CX! 。",
+    "EXTENDED_DESCRIPTION": [
+      " frierenmod:詠唱 2/3/4。"
+    ]
+  },
+  "FrierenMod:IntangibleOption": {
+    "NAME": "吊るされた男",
+    "DESCRIPTION": "無形 を !M! 得る。 NL 廃棄",
+    "EXTENDED_DESCRIPTION": [
+      "無形 を1/2得る。 NL 廃棄"
+    ]
+  },
+  "FrierenMod:StrengthOption": {
+    "NAME": "女帝",
+    "DESCRIPTION": "筋力 を2倍にする。 NL 廃棄"
+  },
+  "FrierenMod:VulnerableOption": {
+    "NAME": "法王",
+    "DESCRIPTION": "敵全体に 弱体化 を !M! 与える。",
+    "EXTENDED_DESCRIPTION": [
+      "敵全体に 弱体化 を1/2/3与える。"
+    ]
+  },
+  "FrierenMod:UpgradeOption": {
+    "NAME": "塔",
+    "DESCRIPTION": "この戦闘中、手札のカードをすべて アップグレード する。"
+  },
+  "FrierenMod:UpgradeAllOption": {
+    "NAME": "世界",
+    "DESCRIPTION": "この戦闘中、カードをすべて アップグレード する。 NL 廃棄"
+  },
+  "FrierenMod:RemoveDebuffOption": {
+    "NAME": "杖",
+    "DESCRIPTION": "自分のデバフをすべて取り除く。"
+  },
+  "FrierenMod:PreciseChant": {
+    "NAME": "精密詠唱",
+    "DESCRIPTION": "対応する山札のすべての *魔力 を可能な限り frierenmod:詠唱 する。 NL 廃棄",
+    "UPGRADE_DESCRIPTION": "対応する山札のすべての *魔力 を可能な限り frierenmod:詠唱 する。"
+  },
+  "FrierenMod:ManaExpansion": {
+    "NAME": "魔力膨張",
+    "DESCRIPTION": " *魔力 の枚数を2倍にする。 NL 廃棄"
+  },
+  "FrierenMod:DoubleManaInDrawPile": {
+    "NAME": "山札から膨張",
+    "DESCRIPTION": "山札の *魔力 の枚数を2倍にする。"
+  },
+  "FrierenMod:DoubleManaInHand": {
+    "NAME": "手札から膨張",
+    "DESCRIPTION": "手札の *魔力 の枚数を2倍にする。"
+  },
+  "FrierenMod:DoubleManaInDiscardPile": {
+    "NAME": "捨て札から膨張",
+    "DESCRIPTION": "捨て札の *魔力 の枚数を2倍にする。"
+  },
+  "FrierenMod:ManaDetection": {
+    "NAME": "魔力探知",
+    "DESCRIPTION": "!D! ダメージを与える。 NL 対象が攻撃を受けるたびに、 *魔力 を !M! 枚捨て札に置く。 NL 廃棄"
+  },
+  "FrierenMod:TimeConcept": {
+    "NAME": "エルフの時間感覚",
+    "DESCRIPTION": "現在のすべてを2ターン後の未来へ送る。2ターン後、 *後悔 を1枚手札に加える。",
+    "UPGRADE_DESCRIPTION": "現在のすべてを2ターン後の未来へ送る。"
+  },
+  "FrierenMod:Imagination": {
+    "NAME": "魔法と想像力",
+    "DESCRIPTION": "このターン、カードは [E] を消費する代わりに等量の *魔力 を 消耗 し、カードから *魔力 を得られなくなり、 frierenmod:詠唱 は *魔力 を 消耗 しなくなる。 NL 廃棄",
+    "UPGRADE_DESCRIPTION": " 保留 。 NL このターン、カードは [E] を消費する代わりに等量の *魔力 を 消耗 し、カードから *魔力 を得られなくなり、 frierenmod:詠唱 は *魔力 を 廃棄 されない。 NL 廃棄。"
+  },
+  "FrierenMod:ContinuousShooting": {
+    "NAME": "連続乱射",
+    "DESCRIPTION": "敵全体に !D! ダメージを3回与える。山札に *魔力 がある場合、このカードを 廃棄 する。"
+  },
+  "FrierenMod:PerfectDefensiveMagic": {
+    "NAME": "防御魔法完全体",
+    "DESCRIPTION": " frierenmod:詠唱 !CX! 。 NL バッファー を1得て、 !B! ブロック を得る。",
+    "UPGRADE_DESCRIPTION": " frierenmod:詠唱 !CX! 。 NL バッファー を1得て、 !B! ブロック を得る。"
+  },
+  "FrierenMod:MageStyleFinisher": {
+    "NAME": "魔法使い流フィニッシャー",
+    "DESCRIPTION": "このターン frierenmod:同調 した回数だけ !D! ダメージを与える。",
+    "EXTENDED_DESCRIPTION": [
+      " NL （このターン *同調 した回数：",
+      " 回）"
+    ]
+  },
+  "FrierenMod:BreaksBarriersSpell": {
+    "NAME": "障壁を解析する魔法",
+    "DESCRIPTION": "山札のカードをコストの低い順に並べ替える。 NL カードを !M! 枚引く。"
+  },
+  "FrierenMod:ManaParcel": {
+    "NAME": "魔力結晶",
+    "DESCRIPTION": " 使用不可 。 NL このカードを引いた時、手札に *魔力 を !M! 枚加え、その後 廃棄"
+  },
+  "FrierenMod:FinalChant": {
+    "NAME": "究極の詠唱",
+    "DESCRIPTION": "すべての山札のすべての *魔力 を可能な限り frierenmod:詠唱 する。"
+  },
+  "FrierenMod:Kiss": {
+    "NAME": "フライングキス（破壊力抜群！）",
+    "DESCRIPTION": "弱体化 を99与え、 脱力 を99与える。 NL 廃棄 NL エセリアル"
+  },
+  "FrierenMod:RestraintMagic": {
+    "NAME": "拘束魔法",
+    "DESCRIPTION": " frierenmod:緩慢 を与え、 筋力 を3減少させる。 NL 廃棄"
+  },
+  "FrierenMod:SeeThroughPhantom": {
+    "NAME": "幻影看破",
+    "DESCRIPTION": "!D! ダメージを与える。敵の意図が攻撃なら 脱力 を !M! 与え、そうでなければ 弱体化 を !M! 与える。"
+  },
+  "FrierenMod:TrueColours": {
+    "NAME": "真面目",
+    "DESCRIPTION": " frierenmod:詠唱 !CX! 。 NL [E] [E] [E] を得て、カードを3枚引き、山札・手札・捨て札にそれぞれ *魔力 を3枚加える。 NL  廃棄"
+  },
+  "FrierenMod:OpenTheWaygate": {
+    "NAME": "時空の扉を開く",
+    "DESCRIPTION": "1ターン中に連続して *魔力 を !M! 回 frierenmod:同調 した後、追加でもう1ターン得て、この能力を失う。"
+  },
+  "FrierenMod:GrandCross": {
+    "NAME": "グランドクロス",
+    "DESCRIPTION": " !D! ダメージを与える。このターン frierenmod:詠唱 したなら、このカードのコストをこのターン0にする。"
+  },
+  "FrierenMod:HalfTheSky": {
+    "NAME": "嫉妬",
+    "DESCRIPTION": " !D! ダメージを与える。 frierenmod:詠唱 するたびに、このカードを捨て札から手札に戻す。"
+  },
+  "FrierenMod:Recycle": {
+    "NAME": "再循環",
+    "DESCRIPTION": "捨て札の *魔力 と同じ枚数の *魔力 を山札に加える。 NL 廃棄"
+  },
+  "FrierenMod:AirSlash": {
+    "NAME": "空気斬り",
+    "DESCRIPTION": "!D! ダメージを与える。 NL このターン frierenmod:同調 が frierenmod:加速同調 になるが、カードから *魔力 を得られなくなる。"
+  },
+  "FrierenMod:Apprehend": {
+    "NAME": "容赦なき鉄拳",
+    "DESCRIPTION": "!D! ダメージを与える。 NL カードを !M! 枚引く。 NL その中の *魔力 を捨てる。"
+  },
+  "FrierenMod:Free": {
+    "NAME": "力技で成仏",
+    "DESCRIPTION": " *魔力 以外のカードをすべて捨てる。 NL 1枚捨てるたびに !D! ダメージを与え、 !B! ブロック を得る。"
+  },
+  "FrierenMod:MageStyleChoke": {
+    "NAME": "魔法使い流締め技",
+    "DESCRIPTION": "!D! ダメージを与える。 NL このターン frierenmod:同調 するたびに、その敵のHPを !M! 減少させる。"
+  },
+  "FrierenMod:RingletForm": {
+    "NAME": "くるくる形態",
+    "DESCRIPTION": " *魔力 を 消耗 するたびに !M! ブロック を得る。"
+  },
+  "FrierenMod:Himmel": {
+    "NAME": "ヒンメル",
+    "DESCRIPTION": "フリーレン… NL  エセリアル "
+  },
+  "FrierenMod:Repent": {
+    "NAME": "後悔",
+    "DESCRIPTION": " 保留 。 NL 捨て札から2枚選んで手札に加え、このターンのコストを0にする。 NL 廃棄"
+  },
+  "FrierenMod:HellFireSummoning": {
+    "NAME": "地獄業火魔法",
+    "DESCRIPTION": " frierenmod:封印 。 frierenmod:焼き戻し 。 NL このターン frierenmod:詠唱 カードを使用した回数だけ !D! ダメージを2回与える。",
+    "EXTENDED_DESCRIPTION": [
+      " NL （合計",
+      " 回。）"
+    ]
+  },
+  "FrierenMod:RockGolemSpell": {
+    "NAME": "石像を操る魔法",
+    "DESCRIPTION": " frierenmod:解析 10： frierenmod:同調 2枚の魔力 NL *報酬： ランダムに !D! ダメージを与え、防御形態に切り替える。 NL （現在の進度0/2）。"
+  },
+  "FrierenMod:LureTheEnemyInDeep": {
+    "NAME": "敵を深みに誘い込む",
+    "DESCRIPTION": " frierenmod:詠唱 !CX! 。 [E] [E] を得る。 NL 手札を frierenmod:詠唱 した場合、このカードを手札に戻す。",
+    "UPGRADE_DESCRIPTION": " frierenmod:詠唱 !CX! 。 [E] を得る。 NL 手札を frierenmod:詠唱 した場合、このカードを手札に戻す。"
+  },
+  "FrierenMod:ManaCollapse": {
+    "NAME": "別れの贈り物",
+    "DESCRIPTION": "!D! ダメージを与える。このターン10枚未満のカードを使用した場合、 *魔力 を !M! 枚手札に加え、このカードを山札に戻す。"
+  },
+  "FrierenMod:Elegance": {
+    "NAME": "英姿",
+    "DESCRIPTION": "!D! ダメージを与え、 !B! ブロック を得て、カードを !M! 枚引く。 NL 致命 の一撃で、このカードのダメージと ブロック 値がこのゲーム中永続的に2増加する。エリートかボスに 致命 の一撃を与えた場合、ドロー数も永続的に1増加する。 NL 廃棄",
+    "UPGRADE_DESCRIPTION": "!D! ダメージを与え、 !B! ブロック を得て、カードを !M! 枚引く。 NL 致命 の一撃で、このカードのダメージと ブロック 値がこのゲーム中永続的に2増加する。エリートかボスに 致命 の一撃を与えた場合、ドロー数も永続的に1増加する。"
+  },
+  "FrierenMod:Confrontation": {
+    "NAME": "対峙",
+    "DESCRIPTION": "!B! ブロック を得る。手札にあるとき frierenmod:詠唱 するたびに、この戦闘中の基礎 ブロック が3増加する。"
+  },
+  "FrierenMod:Famehameha": {
+    "NAME": "フリーレン波",
+    "DESCRIPTION": " frierenmod:伝説魔法 。 NL このターン frierenmod:詠唱 するたびにコストが1減少する。 NL !D! ダメージを与える。"
+  },
+  "FrierenMod:ManaBarricade": {
+    "NAME": "魔力バリア",
+    "DESCRIPTION": " frierenmod:詠唱 !CX! 。 NL 山札を frierenmod:詠唱 した場合、 !B! ブロック を得る。"
+  },
+  "FrierenMod:ElementsBombing": {
+    "NAME": "元素爆撃",
+    "DESCRIPTION": "手札のカードをすべて 廃棄 する。 NL 1枚 廃棄 するたびに、ランダムな *元素 カードを1枚手札に加える。 NL 廃棄",
+    "UPGRADE_DESCRIPTION": "手札のカードをすべて 廃棄 する。 NL 1枚 廃棄 するたびに、 アップグレード されたランダムな *元素 カードを1枚手札に加える。 NL 廃棄"
+  },
+  "FrierenMod:Fire": {
+    "NAME": "炎元素",
+    "DESCRIPTION": "!D! ダメージを2回与える。 NL 廃棄 NL エセリアル 。"
+  },
+  "FrierenMod:Ice": {
+    "NAME": "氷元素",
+    "DESCRIPTION": "!B! ブロック を得る。 NL 廃棄 NL エセリアル 。"
+  },
+  "FrierenMod:Light": {
+    "NAME": "光元素",
+    "DESCRIPTION": "HPを !M! 回復する。 NL 廃棄 NL エセリアル 。"
+  },
+  "FrierenMod:Thunder": {
+    "NAME": "雷元素",
+    "DESCRIPTION": "敵全体に !D! ダメージを与える。 NL 廃棄 NL エセリアル 。"
+  },
+  "FrierenMod:Dark": {
+    "NAME": "闇元素",
+    "DESCRIPTION": "カードを !M! 枚引く。 NL 廃棄 NL エセリアル 。"
+  },
+  "FrierenMod:SayThinkingSpell": {
+    "NAME": "考えていることを声に出す魔法",
+    "DESCRIPTION": "手札のすべての *魔力 を 消耗 し、 消耗 した枚数ごとに山札のランダムな位置から !M! 枚のカードを使用する。"
+  },
+  "FrierenMod:FrierenSuitcase": {
+    "NAME": "フリーレンのスーツケース",
+    "DESCRIPTION": "この戦闘中、手札の上限が13になる。 NL カードを使用した後、手札が満杯の場合、 !M! ブロック を得る。"
+  },
+  "FrierenMod:FairyTaleEnd": {
+    "NAME": "童話の終わり",
+    "DESCRIPTION": " frierenmod:伝説魔法 。 NL !D! ダメージを与える。デッキに *伝説魔法 の種類がある分だけ、このカードの基礎ダメージが2倍になる。 NL 廃棄",
+    "EXTENDED_DESCRIPTION": [
+      " NL （現在",
+      " 種類。）"
+    ]
+  },
+  "FrierenMod:HotTeaSpell": {
+    "NAME": "温かいお茶を出す魔法",
+    "DESCRIPTION": " frierenmod:伝説魔法 。 NL !B! ブロック を得る。 NL （ *魔力 の総数に応じてボーナス）"
+  },
+  "FrierenMod:ButtSlam": {
+    "NAME": "猪突猛進",
+    "DESCRIPTION": "ブロック 10ごとに !D! ダメージを与え、 *魔力 を2枚山札に加える。",
+    "EXTENDED_DESCRIPTION": [
+      " NL （合計%d回）"
+    ]
+  },
+  "FrierenMod:HighDensityMana": {
+    "NAME": "高密度魔力",
+    "DESCRIPTION": "1ターン中に連続して frierenmod:同調 を3回行うと、このカードを山札から手札に加える。 NL 消耗 時に [E] を得る。 NL frierenmod:同調 。",
+    "UPGRADE_DESCRIPTION": "1ターン中に連続して frierenmod:同調 を3回行うと、このカードを山札から手札に加える。 NL 消耗 時に [E] [E] を得る。 NL frierenmod:同調 。"
+  },
+  "FrierenMod:PaperPlaneSpell": {
+    "NAME": "紙飛行機を遠くへ飛ばす魔法",
+    "DESCRIPTION": " frierenmod:伝説魔法 。 NL 連続して frierenmod:同調 を4回行うたびに、次の攻撃ダメージが2倍になる。"
+  },
+  "FrierenMod:FrushDown": {
+    "NAME": "フリーレン突進",
+    "DESCRIPTION": "連続して frierenmod:同調 を2回行うたびに、カードを !M! 枚引き、手札の左端から !M! 枚を捨てる。"
+  },
+  "FrierenMod:LongevityPain": {
+    "NAME": "長命種の苦悩",
+    "DESCRIPTION": " 使用不可 。連続して frierenmod:同調 を10回行うと *寿命論 を手札に加える。 NL この *呪い からは逃れられない。",
+    "EXTENDED_DESCRIPTION": [
+      " NL （残り %d回。）"
+    ]
+  },
+  "FrierenMod:Fatalism": {
+    "NAME": "寿命論",
+    "DESCRIPTION": "すべてのキャラクターのHPを999失わせる。"
+  },
+  "FrierenMod:UpsideDown": {
+    "NAME": "反転",
+    "DESCRIPTION": " 使用不可 。 NL frierenmod:同調 するたびに、山札と捨て札を入れ替え、HPを2失う。"
+  },
+  "FrierenMod:EmergencyFood": {
+    "NAME": "応急食品",
+    "DESCRIPTION": " 保留 。 NL HPを !M! 回復する。 NL 廃棄"
+  },
+  "FrierenMod:BirdCapturingSpell": {
+    "NAME": "鳥捕り魔法",
+    "DESCRIPTION": "鳥類、または鳥に似た敵を3ターン *眩暈 させる。 NL 廃棄",
+    "UPGRADE_DESCRIPTION": " 天賦 。 NL 鳥類、または鳥に似た敵を3ターン *眩暈 させる。 NL 廃棄",
+    "EXTENDED_DESCRIPTION": [
+      "この対象は鳥には見えない…"
+    ]
+  },
+  "FrierenMod:Strike_Fern": {
+    "NAME": "ストライク",
+    "DESCRIPTION": "!D! ダメージを与える。"
+  },
+  "FrierenMod:Defend_Fern": {
+    "NAME": "ディフェンド",
+    "DESCRIPTION": "!B! ブロック を得る。"
+  },
+  "FrierenMod:LieInWait": {
+    "NAME": "機を窺う",
+    "DESCRIPTION": "!B! ブロック を得る。 NL *魔力 を !M! 枚手札に加える。"
+  },
+  "FrierenMod:CriticalHit": {
+    "NAME": "会心の一撃",
+    "DESCRIPTION": " frierenmod:奇襲 !R! ： !D! ダメージを与える。 NL frierenmod:融合 ： !D! ダメージを与える。"
+  },
+  "FrierenMod:ChargeUp": {
+    "NAME": "通常チャージ",
+    "DESCRIPTION": "!D! ダメージを与える。 NL 次のターン frierenmod:集中 を !M! 得る。"
+  },
+  "FrierenMod:SpecializedOffensiveMagic": {
+    "NAME": "特化通常攻撃魔法",
+    "DESCRIPTION": "？ダメージを与える。 NL エセリアル 廃棄"
+  },
+  "FrierenMod:AggrieveStrike": {
+    "NAME": "慎重なストライク",
+    "DESCRIPTION": "!D! ダメージを与える。 NL frierenmod:奇襲 !R! ：このカードを手札に戻す。"
+  },
+  "FrierenMod:Backstab": {
+    "NAME": "背後からの一撃",
+    "DESCRIPTION": "敵全体に !D! ダメージを与える。敵が死亡しなかった場合、 [E] を得る。",
+    "UPGRADE_DESCRIPTION": "敵全体に !D! ダメージを与える。敵が死亡しなかった場合、 [E] と frierenmod:集中 3を得る。"
+  },
+  "FrierenMod:FlyOnTheWall": {
+    "NAME": "物陰から観察",
+    "DESCRIPTION": "!B! ブロック を得る。 NL frierenmod:奇襲 !R! ： !D! ダメージを与える。"
+  },
+  "FrierenMod:Swoop": {
+    "NAME": "急降下",
+    "DESCRIPTION": " frierenmod:融合 ： !D! ダメージを与え、カードを !M! 枚引く。"
+  },
+  "FrierenMod:SeeThroughClothSpell": {
+    "NAME": "服が透けて見える魔法",
+    "DESCRIPTION": "!D! ダメージを与える。 NL frierenmod:融合 ：目標に 脱力 と 弱体化 を !M! 与える。"
+  },
+  "FrierenMod:CloseRaid": {
+    "NAME": "密着奇襲",
+    "DESCRIPTION": " frierenmod:奇襲 !R! ： frierenmod:融合 ： !D! ダメージを与える。"
+  },
+  "FrierenMod:FusionSlash": {
+    "NAME": "融合の一閃",
+    "DESCRIPTION": "このターン *特化通常攻撃魔法 を使用した後にのみ使用できる。 NL frierenmod:融合 ： !D! ダメージを与える。",
+    "EXTENDED_DESCRIPTION": [
+      "このターン #y特化通常攻撃魔法 を使用していない。"
+    ]
+  },
+  "FrierenMod:Fight": {
+    "NAME": "頑張るないと",
+    "DESCRIPTION": " frierenmod:杖充填 を !M! 得る。 NL frierenmod:融合 ： !D! ダメージを与える。"
+  },
+  "FrierenMod:HuddleForWarmth": {
+    "NAME": "寄り添って温まる",
+    "DESCRIPTION": "!B! ブロック を得る。 NL frierenmod:奇襲 !R! ：次のターン開始時に ブロック を失わない。"
+  },
+  "FrierenMod:SkimReading": {
+    "NAME": "速読",
+    "DESCRIPTION": "カードを3枚引く。 frierenmod:奇襲 !R! ：追加で1枚引く。"
+  },
+  "FrierenMod:RaidPreparation": {
+    "NAME": "奇襲準備",
+    "DESCRIPTION": " frierenmod:奇襲 カードを1枚引く。 NL frierenmod:奇襲  !R! ： frierenmod:融合 カードを1枚引く。"
+  },
+  "FrierenMod:EmergencyDefense": {
+    "NAME": "応急防御",
+    "DESCRIPTION": " frierenmod:疾風 。 NL !B! ブロック を得る。 NL frierenmod:奇襲 !R! ： [E] を得る。 NL 廃棄"
+  },
+  "FrierenMod:CounterAttack": {
+    "NAME": "防御反撃",
+    "DESCRIPTION": " frierenmod:疾風 。 NL 選択： 集中3を得て !D! ダメージを与えるか、 frierenmod:集中 3を失い !B! ブロック を得る。"
+  },
+  "FrierenMod:FocusOnAttack": {
+    "NAME": "攻撃に集中",
+    "DESCRIPTION": " frierenmod:集中 3を得て !D! ダメージを与える。"
+  },
+  "FrierenMod:FocusOnDefense": {
+    "NAME": "防御に集中",
+    "DESCRIPTION": " frierenmod:集中 3を失い !B! ブロック を得る。"
+  },
+  "FrierenMod:MysticEye": {
+    "NAME": "直視の魔眼",
+    "DESCRIPTION": "!D! ダメージを与える。 NL 対象が攻撃を受けるたびに、 frierenmod:集中 を !M! 得る。 NL 廃棄。"
+  },
+  "FrierenMod:Glaring": {
+    "NAME": "眩惑の光",
+    "DESCRIPTION": "!D! ダメージを与える。 NL （ frierenmod:集中 の !M! 倍のボーナス） NL 廃棄"
+  },
+  "FrierenMod:ColdBlood": {
+    "NAME": "冷酷無情",
+    "DESCRIPTION": "!D! ダメージを与える。 NL この戦闘中に直前に使用した frierenmod:奇襲 カードが *奇襲 を発動した場合、このカードのコストをこのターン0にする。"
+  },
+  "FrierenMod:FernFixFrieren": {
+    "NAME": "フェルンフィクスフリーレン",
+    "DESCRIPTION": "!D! ダメージを与える。手札にある間 frierenmod:奇襲 効果を発動するたびに、この戦闘中のダメージが !M! 増加する。"
+  },
+  "FrierenMod:RaidRace": {
+    "NAME": "スピードレース",
+    "DESCRIPTION": " frierenmod:疾風 。 NL このターン frierenmod:奇襲 を発動するたびに、コストが [E] 1減少する。 NL !D! ダメージを与える。"
+  },
+  "FrierenMod:SeriousSeriesSpell": {
+    "NAME": "本気シリーズ、本気の一撃",
+    "DESCRIPTION": "!D! ダメージを与える。 NL frierenmod:奇襲 !R! ：代わりに敵全体に !D! ダメージを与える。"
+  },
+  "FrierenMod:Surveillance": {
+    "NAME": "敵情偵察",
+    "DESCRIPTION": "カードを1枚引く。 NL frierenmod:奇襲 !R! ： frierenmod:杖充填 を1得る。 NL frierenmod:融合 ： !D! ダメージを与える。"
+  },
+  "FrierenMod:SorryICant": {
+    "NAME": "ごめん、できない",
+    "DESCRIPTION": " frierenmod:疾風 。 NL すべての *魔力 を 消耗 し、消耗した枚数分の ブロック と frierenmod:集中 を得る。 NL 廃棄",
+    "UPGRADE_DESCRIPTION": " frierenmod:疾風 。 NL すべての *魔力 を 消耗 し、消耗した枚数分の ブロック と frierenmod:集中 を得る。",
+    "EXTENDED_DESCRIPTION": [
+      " NL （ !B! ブロック と frierenmod:集中 !M! を得る）"
+    ]
+  },
+  "FrierenMod:FusionRaid": {
+    "NAME": "奇襲の三連撃",
+    "DESCRIPTION": " frierenmod:奇襲 1：カードを !M! 枚引く。 NL frierenmod:奇襲 2： !D! ダメージを与える。 NL frierenmod:奇襲 3： [E] [E] を得る。"
+  },
+  "FrierenMod:SaturationOffensiveMagic": {
+    "NAME": "飽和攻撃魔法",
+    "DESCRIPTION": "!D! ダメージを !M! 回与える。 NL frierenmod:奇襲 !R! ：この戦闘中、このカードの攻撃回数と frierenmod:奇襲 値が1増加する。 NL エセリアル 。"
+  },
+  "FrierenMod:LittlePunch": {
+    "NAME": "小さなこぶし",
+    "DESCRIPTION": "敵全体に !D! ダメージと 弱体化 1をX回与える。ブロックされていないダメージを与えるたびに !B! ブロック を得る。"
+  },
+  "FrierenMod:SoSmall": {
+    "NAME": "ちっちゃい",
+    "DESCRIPTION": "対象の frierenmod:属性 が自分より小さいものの数ごとに、 *魔力 を !M! 枚手札に加え、 !B! ブロック を得る。 NL 廃棄"
+  },
+  "FrierenMod:Meditation": {
+    "NAME": "瞑想",
+    "DESCRIPTION": " 使用不可 。 NL このカードを引いた時、 frierenmod:集中 を !M! 得てカードを1枚引き、その後 廃棄"
+  },
+  "FrierenMod:InjuryTime": {
+    "NAME": "アディショナルタイム",
+    "DESCRIPTION": " frierenmod:疾風 。 NL [E] [E] と frierenmod:集中 !M! を得る。 NL 廃棄"
+  },
+  "FrierenMod:StudyTime": {
+    "NAME": "フェルンの勉強時間",
+    "DESCRIPTION": " *魔力 を !M! 枚手札に加える。 frierenmod:融合 ：このカードの複製を1枚捨て札に加える。",
+    "UPGRADE_DESCRIPTION": " *魔力 を !M! 枚手札に加える。 frierenmod:融合 ：このカードの複製を1枚捨て札に加える。 NL 廃棄"
+  },
+  "FrierenMod:OneInHundred": {
+    "NAME": "百に一つ",
+    "DESCRIPTION": "ランダムな frierenmod:融合 カードを !M! 枚手札に加える。 frierenmod:杖充填 がない場合、それらのコストをこのターン0にする。 NL 廃棄"
+  },
+  "FrierenMod:PureMind": {
+    "NAME": "明鏡止水の心",
+    "DESCRIPTION": " *魔力 を2枚山札に加える。このターン frierenmod:疾風 カードを2枚使用した場合、 *加速する流れ を1枚手札に加える。",
+    "UPGRADE_DESCRIPTION": " frierenmod:疾風 。 NL *魔力 を2枚山札に加える。このターン frierenmod:疾風 カードを2枚使用した場合、 *加速する流れ を1枚手札に加える。"
+  },
+  "FrierenMod:TrainingByEating": {
+    "NAME": "デザート特訓",
+    "DESCRIPTION": " frierenmod:集中 と同じ量の 筋力 を得て、すべての frierenmod:集中 を失う。 NL frierenmod:奇襲 !R! ： frierenmod:疾風 。 NL 廃棄",
+    "UPGRADE_DESCRIPTION": " frierenmod:集中 と同じ量の 筋力 を得て、すべての frierenmod:集中 を失う。 NL frierenmod:奇襲 !R! ： frierenmod:疾風 。"
+  },
+  "FrierenMod:GirlishHeart": {
+    "NAME": "乙女心",
+    "DESCRIPTION": "カードを1枚捨て、 !M! 枚引く。 NL frierenmod:融合 ： frierenmod:集中 を2得る。"
+  },
+  "FrierenMod:DinnerTime": {
+    "NAME": "夕食の時間",
+    "DESCRIPTION": " frierenmod:疾風 。 NL *青リンゴ を1枚手札に加える。 frierenmod:奇襲 !R! ： frierenmod:一時的な敏捷性 を !M! 得る。"
+  },
+  "FrierenMod:MasterHelpApprentice": {
+    "NAME": "師弟協力",
+    "DESCRIPTION": " frierenmod:二色カード 3枚から1枚選んで手札に加える。 NL 廃棄",
+    "UPGRADE_DESCRIPTION": " frierenmod:二色カード 3枚から1枚選んで手札に加える。そのカードのコストをこのターン0にする。 NL 廃棄"
+  },
+  "FrierenMod:MoodyGirl": {
+    "NAME": "気分屋のお姉さん",
+    "DESCRIPTION": " *むくれ顔 と *にこにこ顔 をそれぞれ山札と捨て札に加える。 NL 廃棄"
+  },
+  "FrierenMod:Pouting": {
+    "NAME": "むくれ顔",
+    "DESCRIPTION": "!D! ダメージを与える。すべての *にこにこ顔 の値がこれを増加させる。 NL エセリアル 。"
+  },
+  "FrierenMod:Cheering": {
+    "NAME": "にこにこ顔",
+    "DESCRIPTION": "!B! ブロック を得る。すべての *むくれ顔 の値がこれを増加させる。 NL エセリアル 。"
+  },
+  "FrierenMod:Rewind": {
+    "NAME": "巻き戻し",
+    "DESCRIPTION": " frierenmod:奇襲 !R! ：このターン最後に使用した *特化通常攻撃魔法 の複製を手札に加える。 NL 廃棄",
+    "UPGRADE_DESCRIPTION": " frierenmod:奇襲 !R! ：最後に使用した *特化通常攻撃魔法 の複製を手札に加える。 NL 廃棄"
+  },
+  "FrierenMod:Reviewing": {
+    "NAME": "振り返り",
+    "DESCRIPTION": "!B! ブロック を得る。 NL このターン *魔力 以外のカードを使用した枚数分 frierenmod:集中 を1得る。",
+    "UPGRADE_DESCRIPTION": " frierenmod:疾風 。 NL !B! ブロック を得る。 NL このターン *魔力 以外のカードを使用した枚数分 frierenmod:集中 を1得る。",
+    "EXTENDED_DESCRIPTION": [
+      " NL （ frierenmod:集中 %d を得る）"
+    ]
+  },
+  "FrierenMod:Snuggle": {
+    "NAME": "くっつく",
+    "DESCRIPTION": "選択：最大 !M! 枚の *魔力 を捨てて同量の [E] を得るか、 *魔力 を1枚手札に加える。"
+  },
+  "FrierenMod:Snuggle1": {
+    "NAME": "フリーレンとくっつく",
+    "DESCRIPTION": "最大 !M! 枚の *魔力 を捨てて同量の [E] を得る。"
+  },
+  "FrierenMod:Snuggle2": {
+    "NAME": "シュタルクとくっつく",
+    "DESCRIPTION": " *魔力 を !M! 枚手札に加える。"
+  },
+  "FrierenMod:WithNoStop": {
+    "NAME": "疾風怒濤",
+    "DESCRIPTION": " frierenmod:疾風 。 NL 次の3枚のカードを使用した後、 frierenmod:集中 を2得る。"
+  },
+  "FrierenMod:MasterAndApprentice": {
+    "NAME": "師と弟子",
+    "DESCRIPTION": "自分のターン開始時に、ランダムな frierenmod:二色カード を1枚手札に加える。"
+  },
+  "FrierenMod:SkilledMage": {
+    "NAME": "熟練の魔法使い",
+    "DESCRIPTION": " frierenmod:融合 、 frierenmod:疾風 カード、 *特化通常攻撃魔法 の使用後、または frierenmod:奇襲 発動後に !M! ブロック を得る。"
+  },
+  "FrierenMod:BoldReversal": {
+    "NAME": "逆転の一手",
+    "DESCRIPTION": "次の !M! 回の frierenmod:奇襲 効果が2回発動する。"
+  },
+  "FrierenMod:FernRushdown": {
+    "NAME": "フェルン突進",
+    "DESCRIPTION": " frierenmod:奇襲 発動後、カードを2枚引く。"
+  },
+  "FrierenMod:ManaAffinity": {
+    "NAME": "魔力親和",
+    "DESCRIPTION": " *魔力 が 保留 される。"
+  },
+  "FrierenMod:CleanClothSpell": {
+    "NAME": "服の汚れをきれいさっぱり落とす魔法",
+    "DESCRIPTION": " frierenmod:奇襲 !R! ：敵全体に !D! ダメージを与える。"
+  },
+  "FrierenMod:Sit": {
+    "NAME": "座り",
+    "DESCRIPTION": "!D! ダメージを与える。 NL 致命 の一撃で、 frierenmod:杖充填 の最大値が永続的に !M! 増加する。 NL このカードを削除する。"
+  },
+  "FrierenMod:Catwalk": {
+    "NAME": "キャットウォーク",
+    "DESCRIPTION": " frierenmod:融合 ： frierenmod:融合 ： 筋力 を !M! 得る。 NL 廃棄",
+    "UPGRADE_DESCRIPTION": " frierenmod:融合 ： frierenmod:融合 ： 筋力 を !M! 得る。"
+  },
+  "FrierenMod:NoMercy": {
+    "NAME": "容赦なし",
+    "DESCRIPTION": "!D! ダメージを与える。 NL 廃棄置き場に *特化通常攻撃魔法 が1枚あるたびに繰り返す。",
+    "EXTENDED_DESCRIPTION": [
+      " NL （合計 %d 回）"
+    ]
+  },
+  "FrierenMod:SleepingBeauty": {
+    "NAME": "眠れる森の美女",
+    "DESCRIPTION": " frierenmod:集中 を1失い、 [E] を得るかカードを1枚引く処理を順番に行う。これを最大 !M! 回繰り返す。 NL 廃棄"
+  },
+  "FrierenMod:ContinuousOffensiveMagic": {
+    "NAME": "連続通常攻撃魔法",
+    "DESCRIPTION": "ダメージ !M! の *特化通常攻撃魔法 を1枚得る。 NL frierenmod:奇襲 !R! ：複製をもう1枚得る。"
+  },
+  "FrierenMod:Metamorphose": {
+    "NAME": "蝶の様に舞い、蜂の様に刺す",
+    "DESCRIPTION": "すべての frierenmod:融合 の数を2倍にする。 NL 次のターン死亡する。 NL 廃棄",
+    "UPGRADE_DESCRIPTION": " 保留 。 NL すべての frierenmod:融合 の数を2倍にする。 NL 次のターン死亡する。 NL 廃棄"
+  },
+  "FrierenMod:GetSick": {
+    "NAME": "熱が出た！",
+    "DESCRIPTION": "すべての frierenmod:集中 を失い、 !B! ブロック を得て、ターンを終了する。 *治った！ を1枚山札に加える。 NL 廃棄"
+  },
+  "FrierenMod:GetWell": {
+    "NAME": "治った！",
+    "DESCRIPTION": " 保留 。 NL すべてのデバフを取り除き、HPを7回復する。 NL 廃棄"
+  },
+  "FrierenMod:SpellToMapADungeon": {
+    "NAME": "地図を描く魔法",
+    "DESCRIPTION": "前の場所が *商店 なら、 !M! ゴールドを得る。 NL 前の場所が *焚き火 なら、デッキのランダムなカードを1枚 アップグレード する。 NL エセリアル 。 廃棄"
+  },
+  "FrierenMod:MemoryOfChildhood": {
+    "NAME": "幼い日の記憶",
+    "DESCRIPTION": "廃棄置き場のすべての *特化通常攻撃魔法 の複製を再度使用する。対象はランダム。 NL 廃棄",
+    "UPGRADE_DESCRIPTION": " 保留 。 NL 廃棄置き場のすべての *特化通常攻撃魔法 の複製を再度使用する。対象はランダム。 NL 廃棄"
+  },
+  "FrierenMod:SocialDancing": {
+    "NAME": "社交ダンス",
+    "DESCRIPTION": " frierenmod:集中 を持つとき、 frierenmod:奇襲 XはX-1、X、X+1いずれの値でも発動できる。"
+  },
+  "FrierenMod:Confidence": {
+    "NAME": "自信満々",
+    "DESCRIPTION": "ダメージを与えるすべての frierenmod:奇襲 効果が追加でもう1回発動する。 NL ターン開始時にすべての frierenmod:集中 を失う。 NL エセリアル 。"
+  },
+  "FrierenMod:Gamble": {
+    "NAME": "大博打",
+    "DESCRIPTION": "カードを使用した後、 frierenmod:集中 がランダムに1〜6に変化する。6になった場合、敵全体に10ダメージを与える。"
+  },
+  "FrierenMod:FumeshroomForm": {
+    "NAME": "キノコ形態",
+    "DESCRIPTION": "単体攻撃が対象外の敵にもダメージを与えるようになる。"
+  },
+  "FrierenMod:RecollectionOfBenefactor": {
+    "NAME": "恩人への想い",
+    "DESCRIPTION": " *ハイターが遺した杖 で *特化通常攻撃魔法 を得るとき、ダメージ倍率が2倍から4倍になる。"
+  },
+  "FrierenMod:Strike_Stark": {
+    "NAME": "ストライク",
+    "DESCRIPTION": "!D! ダメージを与える。"
+  },
+  "FrierenMod:Defend_Defend": {
+    "NAME": "ディフェンド",
+    "DESCRIPTION": "!B! ブロック を得る。"
+  }
+}
