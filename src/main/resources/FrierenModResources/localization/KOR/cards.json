@@ -1,0 +1,1211 @@
+{
+  "FrierenMod:Strike_Frieren": {
+    "NAME": "타격",
+    "DESCRIPTION": "피해를 !D! 줍니다."
+  },
+  "FrierenMod:Defend_Frieren": {
+    "NAME": "방어",
+    "DESCRIPTION": "방어도를 !B! 얻습니다."
+  },
+  "FrierenMod:OrdinaryOffensiveMagic": {
+    "NAME": "기본 공격 마법",
+    "DESCRIPTION": "이번 전투에서 소멸시킨 *마나 총수의 2배만큼 피해를 줍니다.",
+    "EXTENDED_DESCRIPTION": [
+      " NL （피해를 !D! 줍니다.）"
+    ]
+  },
+  "FrierenMod:DefensiveMagic": {
+    "NAME": "방어 마법",
+    "DESCRIPTION": " frierenmod:영창 !CX! . NL 방어도를 !B! 얻습니다. 손패에 *방어 마법 을 1장 추가합니다.",
+    "UPGRADE_DESCRIPTION": " frierenmod:영창 !CX! . NL 방어도를 !B! 얻습니다. 손패에 *방어 마법+ 을 1장 추가합니다."
+  },
+  "FrierenMod:SecondDefensiveMagic": {
+    "NAME": "방어 마법",
+    "DESCRIPTION": " frierenmod:영창 !CX! . NL 방어도를 !B! 얻습니다. NL  소멸 ."
+  },
+  "FrierenMod:RapidChant": {
+    "NAME": "고속 영창",
+    "DESCRIPTION": " frierenmod:영창 !CX! . NL 뽑을 카드 더미에 *마나 를 1장 넣습니다.",
+    "UPGRADE_DESCRIPTION": " 보존 . NL frierenmod:영창 !CX! . NL 뽑을 카드 더미에 *마나 를 1장 넣습니다."
+  },
+  "FrierenMod:Mana": {
+    "NAME": "마나",
+    "DESCRIPTION": " frierenmod:동조 ."
+  },
+  "FrierenMod:ShavedIceSpell": {
+    "NAME": "빙수를 만드는 마법",
+    "DESCRIPTION": "뽑을 카드 더미에 *마나 를 !M! 장 넣습니다."
+  },
+  "FrierenMod:ManaConcealment": {
+    "NAME": "마나 은폐",
+    "DESCRIPTION": "뽑을 카드 더미의 *마나 를 모두 버린 카드 더미로 옮깁니다. NL 소멸 . NL 휘발성 ."
+  },
+  "FrierenMod:BePrepared": {
+    "NAME": "기회를 엿보며",
+    "DESCRIPTION": "{@@} {!frierenmod:SlotNumber!|-1= Error|0= 뽑을 카드 더미|1= 손패|2= 버린 카드 더미} 의 *마나 를 !M! 장 소멸 시키고, 다음 공격이 !SM! 의 추가 피해를 줍니다.",
+    "EXTENDED_DESCRIPTION": [
+      " 해당 패 더미의 *마나 X장을 소멸 시키고, 다음 공격이 X+3의 추가 피해를 줍니다."
+    ]
+  },
+  "FrierenMod:MetallicizFlower": {
+    "NAME": "타산지석: 꽃잎 금속화 마법",
+    "DESCRIPTION": "{@@} {!frierenmod:SlotNumber!|-1= Error|0= 뽑을 카드 더미|1= 손패|2= 버린 카드 더미} 의 *마나 를 !M! 장 소멸 시키고, 금속화 를 !SM! 중첩 얻습니다.",
+    "EXTENDED_DESCRIPTION": [
+      " 해당 패 더미의 *마나 X장을 소멸 시키고, 금속화 를 X중첩 얻습니다."
+    ]
+  },
+  "FrierenMod:NatureBeauty": {
+    "NAME": "연회 마법: 화조풍월",
+    "DESCRIPTION": "{@@} {!frierenmod:SlotNumber!|-1= Error|0= 뽑을 카드 더미|1= 손패|2= 버린 카드 더미} 의 *마나 를 !M! 장 소멸 시키고, 다음 턴에 !SM! [E] 를 얻습니다.",
+    "EXTENDED_DESCRIPTION": [
+      " 해당 패 더미의 *마나 X+1장을 소멸 시키고, 다음 턴에 X [E] 를 얻습니다."
+    ]
+  },
+  "FrierenMod:IceArrows": {
+    "NAME": "타산지석: 얼음 화살 마법",
+    "DESCRIPTION": "{@@} {!frierenmod:SlotNumber!|-1= Error|0= 뽑을 카드 더미|1= 손패|2= 버린 카드 더미} 의 *마나 를 !M! 장 소멸 시키고, 적 전체의 체력을 !SM! 감소시킵니다.",
+    "EXTENDED_DESCRIPTION": [
+      " 해당 패 더미의 *마나 X장을 소멸 시키고, 적 전체의 체력을 4X 감소시킵니다."
+    ]
+  },
+  "FrierenMod:HighSpeedMovement": {
+    "NAME": "타산지석: 고속 이동 마법",
+    "DESCRIPTION": "{@@} {!frierenmod:SlotNumber!|-1= Error|0= 뽑을 카드 더미|1= 손패|2= 버린 카드 더미} 의 *마나 를 !M! 장 소멸 시키고, 민첩 을 !SM! 얻습니다.",
+    "EXTENDED_DESCRIPTION": [
+      " 해당 패 더미의 *마나 X장을 소멸 시키고, 민첩 을 X얻습니다."
+    ]
+  },
+  "FrierenMod:SpellBoost": {
+    "NAME": "마나 증폭",
+    "DESCRIPTION": "{@@} {!frierenmod:SlotNumber!|-1= Error|0= 뽑을 카드 더미|1= 손패|2= 버린 카드 더미} 의 *마나 를 !M! 장 소멸 시키고, 다음 !SM! 턴 동안 모든 공격 피해가 2배가 됩니다.",
+    "EXTENDED_DESCRIPTION": [
+      " 해당 패 더미의 *마나 4X장을 소멸 시키고, 다음 X턴 동안 모든 공격 피해가 2배가 됩니다."
+    ]
+  },
+  "FrierenMod:Hypnosis": {
+    "NAME": "타산지석: 정신 조종 마법",
+    "DESCRIPTION": "{@@} {!frierenmod:SlotNumber!|-1= Error|0= 뽑을 카드 더미|1= 손패|2= 버린 카드 더미} 의 *마나 를 !M! 장 소멸 시키고, 적 전체에게 약화 와 취약 을 !SM! 중첩 부여합니다.",
+    "EXTENDED_DESCRIPTION": [
+      " 해당 패 더미의 *마나 2X장을 소멸 시키고, 적 전체에게 약화 와 취약 을 X중첩 부여합니다."
+    ]
+  },
+  "FrierenMod:PeacefulDays": {
+    "NAME": "평온한 나날",
+    "DESCRIPTION": "{@@} {!frierenmod:SlotNumber!|-1= Error|0= 뽑을 카드 더미|1= 손패|2= 버린 카드 더미} 의 *마나 를 !M! 장 소멸 시키고, 카드를 !SM! 장 뽑습니다.",
+    "EXTENDED_DESCRIPTION": [
+      " 해당 패 더미의 *마나 X+1장을 소멸 시키고, 카드를 X장 뽑습니다."
+    ]
+  },
+  "FrierenMod:TheLivingLegend": {
+    "NAME": "살아있는 전설",
+    "DESCRIPTION": "{@@} {!frierenmod:SlotNumber!|-1= Error|0= 뽑을 카드 더미|1= 손패|2= 버린 카드 더미} 의 *마나 를 !M! 장 소멸 시키고, 무작위 frierenmod:전설마법 을 !SM! 장 {!frierenmod:SlotNumber!|-1= Error|0= 뽑을 카드 더미|1= 손패|2= 버린 카드 더미} 에 넣습니다.",
+    "EXTENDED_DESCRIPTION": [
+      " 해당 패 더미의 *마나 X장을 소멸 시키고, 무작위 frierenmod:전설마법 을 X장 해당 패 더미에 넣습니다."
+    ]
+  },
+  "FrierenMod:ImpeccableIntangible": {
+    "NAME": "물 위의 연꽃",
+    "DESCRIPTION": "{@@} {!frierenmod:SlotNumber!|-1= Error|0= 뽑을 카드 더미|1= 손패|2= 버린 카드 더미} 의 *마나 를 !M! 장 소멸 시키고, 무형 을 !SM! 중첩 얻습니다.",
+    "EXTENDED_DESCRIPTION": [
+      " 해당 패 더미의 *마나 6X장을 소멸 시키고, 무형 을 X중첩 얻습니다."
+    ]
+  },
+  "FrierenMod:BarrierMagic": {
+    "NAME": "결계 마법",
+    "DESCRIPTION": "{@@} {!frierenmod:SlotNumber!|-1= Error|0= 뽑을 카드 더미|1= 손패|2= 버린 카드 더미} 의 *마나 를 !M! 장 소멸 시키고, 방어도를 !B! 얻으며 다음 !SM! 턴 동안 방어도가 사라지지 않습니다.",
+    "EXTENDED_DESCRIPTION": [
+      " 해당 패 더미의 *마나 X+1장을 소멸 시키고, 방어도를 X얻으며 다음 X턴 동안 방어도가 사라지지 않습니다."
+    ]
+  },
+  "FrierenMod:PassOnTheTorch": {
+    "NAME": "계승",
+    "DESCRIPTION": "{@@} {!frierenmod:SlotNumber!|-1= Error|0= 뽑을 카드 더미|1= 손패|2= 버린 카드 더미} 의 *마나 를 !M! 장 소멸 시키고, *마나 를 !SM! 장 {@@}{!frierenmod:SlotNumber!|-1= Error|0= 손패|1= 버린 카드 더미|2= 뽑을 카드 더미} 에 넣습니다.",
+    "EXTENDED_DESCRIPTION": [
+      " 해당 패 더미의 *마나 X장을 소멸 시키고, *마나 를 X장 다음 패 더미에 넣습니다."
+    ]
+  },
+  "FrierenMod:Transcendence": {
+    "NAME": "혜안의 경지",
+    "DESCRIPTION": "{@@} {!frierenmod:SlotNumber!|-1= Error|0= 뽑을 카드 더미|1= 손패|2= 버린 카드 더미} 의 *마나 를 !M! 장 소멸 시키고, 진언 을 !SM! 중첩 얻습니다.",
+    "EXTENDED_DESCRIPTION": [
+      " 해당 패 더미의 *마나 X장을 소멸 시키고, 진언 을 X중첩 얻습니다."
+    ]
+  },
+  "FrierenMod:AdvancedDefensiveMagic": {
+    "NAME": "진화한 방어 마법",
+    "DESCRIPTION": "{@@} {!frierenmod:SlotNumber!|-1= Error|0= 뽑을 카드 더미|1= 손패|2= 버린 카드 더미} 의 *마나 를 !M! 장 소멸 시키고, 방어도를 !B! 두 번 얻습니다.",
+    "EXTENDED_DESCRIPTION": [
+      " 해당 패 더미의 *마나 X장을 소멸 시키고, 방어도를 X두 번 얻습니다."
+    ]
+  },
+  "FrierenMod:Strategizing": {
+    "NAME": "완벽한 계략",
+    "DESCRIPTION": "{@@} {!frierenmod:SlotNumber!|-1= Error|0= 뽑을 카드 더미|1= 손패|2= 버린 카드 더미} 의 *마나 를 !M! 장 소멸 시키고, [E] 를 !SM! 얻습니다.",
+    "EXTENDED_DESCRIPTION": [
+      " 해당 패 더미의 *마나 2X장을 소멸 시키고, [E] 를 X얻습니다."
+    ]
+  },
+  "FrierenMod:BuildUpBody": {
+    "NAME": "체력 단련",
+    "DESCRIPTION": "{@@} {!frierenmod:SlotNumber!|-1= Error|0= 뽑을 카드 더미|1= 손패|2= 버린 카드 더미} 의 *마나 를 !M! 장 소멸 시키고, 힘 을 !SM! 얻습니다.",
+    "EXTENDED_DESCRIPTION": [
+      " 해당 패 더미의 *마나 X장을 소멸 시키고, 힘 을 X얻습니다."
+    ]
+  },
+  "FrierenMod:MeleeMage": {
+    "NAME": "물리 마법사",
+    "DESCRIPTION": "{@@} {!frierenmod:SlotNumber!|-1= Error|0= 뽑을 카드 더미|1= 손패|2= 버린 카드 더미} 의 *마나 를 !M! 장 소멸 시키고, 이름에 \"타격\"이 포함된 카드가 !SM! 의 추가 피해를 줍니다.",
+    "EXTENDED_DESCRIPTION": [
+      " 해당 패 더미의 *마나 X장을 소멸 시키고, 이름에 \"타격\"이 포함된 카드가 X+1의 추가 피해를 줍니다."
+    ]
+  },
+  "FrierenMod:GrossedOutLook": {
+    "NAME": "질색하는 표정",
+    "DESCRIPTION": "{@@} {!frierenmod:SlotNumber!|-1= Error|0= 뽑을 카드 더미|1= 손패|2= 버린 카드 더미} 의 *마나 를 !M! 장 소멸 시키고, 이번 턴 동안 적 전체의 힘 을 !SM! 감소시킵니다.",
+    "EXTENDED_DESCRIPTION": [
+      " 해당 패 더미의 *마나 X장을 소멸 시키고, 이번 턴 동안 적 전체의 힘 을 X+2 감소시킵니다."
+    ]
+  },
+  "FrierenMod:Sleeeep": {
+    "NAME": "충분한 수면",
+    "DESCRIPTION": "{@@} {!frierenmod:SlotNumber!|-1= Error|0= 뽑을 카드 더미|1= 손패|2= 버린 카드 더미} 의 *마나 를 !M! 장 소멸 시키고, 다음 턴에 카드를 !SM! 장 뽑습니다.",
+    "EXTENDED_DESCRIPTION": [
+      " 해당 패 더미의 *마나 X장을 소멸 시키고, 다음 턴에 카드를 X장 뽑습니다."
+    ]
+  },
+  "FrierenMod:TransferToAlchemist": {
+    "NAME": "전직: 약사",
+    "DESCRIPTION": "{@@} {!frierenmod:SlotNumber!|-1= Error|0= 뽑을 카드 더미|1= 손패|2= 버린 카드 더미} 의 *마나 를 !M! 장 소멸 시키고, 적 전체에게 독 을 !SM! 중첩 부여합니다.",
+    "EXTENDED_DESCRIPTION": [
+      " 해당 패 더미의 *마나 X장을 소멸 시키고, 적 전체에게 독 을 2X중첩 부여합니다."
+    ]
+  },
+  "FrierenMod:GreatMageComposure": {
+    "NAME": "대마법사의 여유",
+    "DESCRIPTION": "{@@} {!frierenmod:SlotNumber!|-1= Error|0= 뽑을 카드 더미|1= 손패|2= 버린 카드 더미} 의 *마나 를 !M! 장 소멸 시키고, 다음 !SM! 번의 frierenmod:영창 이 *마나 를 소모하지 않습니다.",
+    "EXTENDED_DESCRIPTION": [
+      " 해당 패 더미의 *마나 4X장을 소멸 시키고, 이번 턴 동안 다음 X번의 frierenmod:영창 이 *마나 를 소모하지 않습니다."
+    ]
+  },
+  "FrierenMod:PinchAndScrape": {
+    "NAME": "아끼고 절약",
+    "DESCRIPTION": "{@@} {!frierenmod:SlotNumber!|-1= Error|0= 뽑을 카드 더미|1= 손패|2= 버린 카드 더미} 의 *마나 를 !M! 장 소멸 시키고, 다음 !SM! 번의 frierenmod:동조 가 소멸 되지 않습니다.",
+    "EXTENDED_DESCRIPTION": [
+      " 해당 패 더미의 *마나 X장을 소멸 시키고, 다음 2X번의 frierenmod:동조 가 소멸 되지 않습니다."
+    ]
+  },
+  "FrierenMod:BluePrint": {
+    "NAME": "청사진 프리렌",
+    "DESCRIPTION": "",
+    "EXTENDED_DESCRIPTION": [
+      " frierenmod:영창 시 항상 다음 frierenmod:슬롯 의 *마법 인자 를 복사합니다."
+    ]
+  },
+  "FrierenMod:BloodSpell": {
+    "NAME": "타산지석: 혈액 조종 마법",
+    "DESCRIPTION": "{@@} {!frierenmod:SlotNumber!|-1= Error|0= 뽑을 카드 더미|1= 손패|2= 버린 카드 더미} 의 *마나 를 !M! 장 소멸 시키고, 체력을 !SM! 잃습니다.",
+    "EXTENDED_DESCRIPTION": [
+      " 해당 패 더미의 *마나 X-2장을 소멸 시키고, 체력을 X+2 잃습니다."
+    ]
+  },
+  "FrierenMod:BigFire": {
+    "NAME": "대형 화재",
+    "DESCRIPTION": "{@@} {!frierenmod:SlotNumber!|-1= Error|0= 뽑을 카드 더미|1= 손패|2= 버린 카드 더미} 의 *마나 를 !M! 장 소멸 시키고, *작은 불꽃 을 !SM! 장 {!frierenmod:SlotNumber!|-1= Error|0= 뽑을 카드 더미|1= 손패|2= 버린 카드 더미} 에 넣습니다.",
+    "EXTENDED_DESCRIPTION": [
+      " 해당 패 더미의 *마나 2X장을 소멸 시키고, *작은 불꽃 을 X장 해당 패 더미에 넣습니다."
+    ]
+  },
+  "FrierenMod:FloatingSpell": {
+    "NAME": "물체를 띄우는 마법",
+    "DESCRIPTION": "{@@} {!frierenmod:SlotNumber!|-1= Error|0= 뽑을 카드 더미|1= 손패|2= 버린 카드 더미} 의 *마나 를 !M! 장 소멸 시키고, {!frierenmod:SlotNumber!|-1= Error|0= 뽑을 카드 더미 맨 위|1= 손패 가장 왼쪽|2= 버린 카드 더미 맨 위} 의 !SM! 장 카드에 frierenmod:동조 를 부여합니다.",
+    "EXTENDED_DESCRIPTION": [
+      " 해당 패 더미의 *마나 X장을 소멸 시키고, 패 더미 맨 위의 *마나 가 아닌 카드 X장에 frierenmod:동조 를 부여합니다."
+    ]
+  },
+  "FrierenMod:Factor100": {
+    "NAME": "수수께끼: ！？？",
+    "DESCRIPTION": "{@@} {!frierenmod:SlotNumber!|-1= Error|0= 뽑을 카드 더미|1= 손패|2= 버린 카드 더미} 의 *마나 를 !M! 장 소멸 시키고, {@@}{!frierenmod:SlotNumber!|-1= Error|0= ！|1= ？|2= ？} ",
+    "EXTENDED_DESCRIPTION": [
+      " 해당 패 더미의 *마나 X+1장을 소멸 ... [#e1c6ed]프리렌 ..."
+    ]
+  },
+  "FrierenMod:Factor010": {
+    "NAME": "수수께끼: ？！？",
+    "DESCRIPTION": "{@@} {!frierenmod:SlotNumber!|-1= Error|0= 뽑을 카드 더미|1= 손패|2= 버린 카드 더미} 의 *마나 를 !M! 장 소멸 시키고, {@@}{!frierenmod:SlotNumber!|-1= Error|0= ？|1= ！|2= ？} ",
+    "EXTENDED_DESCRIPTION": [
+      " 해당 패 더미의 *마나 2X+2장을 소멸 ... [#FFFE91]소멸 ..."
+    ]
+  },
+  "FrierenMod:Factor001": {
+    "NAME": "수수께끼: ？？！",
+    "DESCRIPTION": "{@@} {!frierenmod:SlotNumber!|-1= Error|0= 뽑을 카드 더미|1= 손패|2= 버린 카드 더미} 의 *마나 를 !M! 장 소멸 시키고, {@@}{!frierenmod:SlotNumber!|-1= Error|0= ？|1= ？|2= ！} ",
+    "EXTENDED_DESCRIPTION": [
+      " 해당 패 더미의 *마나 3X+3장을 소멸 ... [#ed1c24]괴물 ..."
+    ]
+  },
+  "FrierenMod:UnbelievableTool": {
+    "NAME": "신기한 요술 도구",
+    "DESCRIPTION": "frierenmod:[#ff4e41]미장착 인 *마법 인자 1장과 frierenmod:[#9ffc4f]장착중 인 *마법 인자 1장을 선택해 frierenmod:슬롯 을 교환합니다.",
+    "EXTENDED_DESCRIPTION": [
+      "frierenmod:[#ff4e41]미장착 인 *마법 인자 1장과 frierenmod:[#9ffc4f]장착중 인 *마법 인자 1장을 선택해 frierenmod:슬롯 을 교환합니다."
+    ]
+  },
+  "FrierenMod:MysteryBox": {
+    "NAME": "미스터리 박스",
+    "DESCRIPTION": "무작위 *마법 인자 를 2장 마법 덱에 추가합니다.",
+    "EXTENDED_DESCRIPTION": [
+      "무작위 *마법 인자 를 2장 마법 덱에 추가합니다."
+    ]
+  },
+  "FrierenMod:SeinNote": {
+    "NAME": "자인의 노트",
+    "DESCRIPTION": "frierenmod:[#ff4e41]미장착 인 *마법 인자 또는 자기 자신 외의 *마도구 를 2장 제거하고 체력을 10 회복합니다.",
+    "EXTENDED_DESCRIPTION": [
+      "frierenmod:[#ff4e41]미장착 인 *마법 인자 또는 자기 자신 외의 *마도구 를 2장 제거하고 체력을 10 회복합니다."
+    ]
+  },
+  "FrierenMod:MysticBox": {
+    "NAME": "신비한 마술 상자",
+    "DESCRIPTION": "frierenmod:[#ff4e41]미장착 인 *마법 인자 3장을 선택해, 해당 frierenmod:슬롯 과 모든 frierenmod:[#9ffc4f]장착중 인 *마법 인자 의 슬롯을 무작위로 교환합니다.",
+    "EXTENDED_DESCRIPTION": [
+      "frierenmod:[#ff4e41]미장착 인 *마법 인자 3장을 선택해, 해당 frierenmod:슬롯 과 모든 frierenmod:[#9ffc4f]장착중 인 *마법 인자 의 슬롯을 무작위로 교환합니다."
+    ]
+  },
+  "FrierenMod:ShadowDragonHorn": {
+    "NAME": "흑룡의 뿔",
+    "DESCRIPTION": "전투 중에만 적용: frierenmod:[#ff4e41]미장착 인 *마법 인자 또는 자기 자신 외의 *마도구 를 2장 제거하고 [E] [E] 를 얻습니다.",
+    "EXTENDED_DESCRIPTION": [
+      "전투 중에만 적용: frierenmod:[#ff4e41]미장착 인 *마법 인자 또는 자기 자신 외의 *마도구 를 2장 제거하고 [E] [E] 를 얻습니다."
+    ]
+  },
+  "FrierenMod:TransmutationCircle": {
+    "NAME": "연성진",
+    "DESCRIPTION": "*마법 인자 를 2장 제거하고, 각각의 frierenmod:슬롯 에 같은 희귀도의 무작위 *마법 인자 를 넣습니다.",
+    "EXTENDED_DESCRIPTION": [
+      "*마법 인자 를 2장 제거하고, 각각의 frierenmod:슬롯 에 같은 희귀도의 무작위 *마법 인자 를 넣습니다."
+    ]
+  },
+  "FrierenMod:UnbelievableToolBox": {
+    "NAME": "요술 도구 상자",
+    "DESCRIPTION": "frierenmod:[#ff4e41]미장착 인 *마법 인자 또는 자기 자신 외의 *마도구 를 2장 제거하고 *신기한 요술 도구 를 2장 얻습니다.",
+    "EXTENDED_DESCRIPTION": [
+      "frierenmod:[#ff4e41]미장착 인 *마법 인자 또는 자기 자신 외의 *마도구 를 2장 제거하고 *신기한 요술 도구 를 2장 얻습니다."
+    ]
+  },
+  "FrierenMod:CrystalBall": {
+    "NAME": "마법 수정구【파란색 품질】",
+    "DESCRIPTION": "frierenmod:[#9ffc4f]장착중 인 *마법 인자 2장을 선택해 frierenmod:슬롯 을 교환합니다.",
+    "EXTENDED_DESCRIPTION": [
+      "frierenmod:[#9ffc4f]장착중 인 *마법 인자 2장을 선택해 frierenmod:슬롯 을 교환합니다."
+    ]
+  },
+  "FrierenMod:Tutorial": {
+    "NAME": "마법 덱 튜토리얼",
+    "DESCRIPTION": "전투 승리 후 일정 확률로 *마법 인자 와 *마도구 가 드롭됩니다. NL *우클릭 으로 마도구를 선택하고, *좌클릭 으로 대상을 선택해 사용합니다.",
+    "EXTENDED_DESCRIPTION": [
+      "전투 승리 후 일정 확률로 *마법 인자 와 *마도구 가 드롭됩니다. NL *우클릭 으로 *마도구 를 선택하고, *좌클릭 으로 *마도구 사용 대상을 선택합니다."
+    ]
+  },
+  "FrierenMod:SwampSpell": {
+    "NAME": "끝없는 늪에서 빠져나오는 마법",
+    "DESCRIPTION": "*마나 를 !M! 장 뽑습니다."
+  },
+  "FrierenMod:MoldSpell": {
+    "NAME": "곰팡이를 제거하는 마법",
+    "DESCRIPTION": " frierenmod:전설마법 . NL 피해를 !D! !M! 번 줍니다."
+  },
+  "FrierenMod:Perpetual": {
+    "NAME": "영속",
+    "DESCRIPTION": "당신의 턴 시작 시 *마나 를 2장 버린 카드 더미에 넣습니다.",
+    "UPGRADE_DESCRIPTION": " 선천성 . NL 당신의 턴 시작 시 *마나 를 2장 버린 카드 더미에 넣습니다."
+  },
+  "FrierenMod:BackFlow": {
+    "NAME": "역류",
+    "DESCRIPTION": "버린 카드 더미에서 *마나 를 !M! 장 뽑습니다.",
+    "UPGRADE_DESCRIPTION": "버린 카드 더미에서 *마나 를 !M! 장 뽑습니다."
+  },
+  "FrierenMod:Disperse": {
+    "NAME": "분산",
+    "DESCRIPTION": "*마나 를 1장 뽑을 카드 더미에 넣습니다. NL *마나 를 2장 손패에 넣습니다. NL *마나 를 3장 버린 카드 더미에 넣습니다. NL 소멸 .",
+    "UPGRADE_DESCRIPTION": "*마나 를 1장 뽑을 카드 더미에 넣습니다. NL *마나 를 2장 손패에 넣습니다. NL *마나 를 3장 버린 카드 더미에 넣습니다."
+  },
+  "FrierenMod:Flow": {
+    "NAME": "흐름",
+    "DESCRIPTION": "피해를 !D! 줍니다. NL 뽑을 카드 더미와 버린 카드 더미에서 각각 *마나 를 1장씩 손패에 가져옵니다."
+  },
+  "FrierenMod:FlyingMagic": {
+    "NAME": "비행 마법",
+    "DESCRIPTION": "무형 을 3중첩 얻고, 매 턴 종료 시 버린 카드 더미의 *마나 를 !M! 장 소멸 시킵니다."
+  },
+  "FrierenMod:FolkGrimoire": {
+    "NAME": "민간 마도서",
+    "DESCRIPTION": "이번 턴 비용이 !M! 감소한 무작위 frierenmod:영창 카드와 frierenmod:전설마법 을 손패에 추가합니다. NL 소멸 ."
+  },
+  "FrierenMod:Outpouring": {
+    "NAME": "분출",
+    "DESCRIPTION": "이 카드를 사용한 후, 이번 턴 동안 *마나 를 frierenmod:동조 할 때마다 힘 을 !M! 얻습니다. NL 소멸 .",
+    "UPGRADE_DESCRIPTION": " 보존 . 이 카드를 사용한 후, 이번 턴 동안 *마나 를 frierenmod:동조 할 때마다 힘 을 !M! 얻습니다. NL 소멸 ."
+  },
+  "FrierenMod:ContinualChant": {
+    "NAME": "연속 영창",
+    "DESCRIPTION": " frierenmod:전설마법 . NL 뽑을 카드 더미에 *마나 를 !M! 장 넣습니다. NL frierenmod:영창 !CX! ."
+  },
+  "FrierenMod:Simmering": {
+    "NAME": "잠재된 흐름",
+    "DESCRIPTION": " frierenmod:영창 후 frierenmod:전설마법 을 1장 뽑습니다."
+  },
+  "FrierenMod:PajamasForm": {
+    "NAME": "잠옷 형태",
+    "DESCRIPTION": "매 턴 종료 시 모든 *마나 를 소멸시키고, 소멸한 *마나 수의 4배만큼 적 전체에게 피해를 줍니다."
+  },
+  "FrierenMod:PreparedPosture": {
+    "NAME": "전투 태세",
+    "DESCRIPTION": "피해를 !D! 줍니다. NL frierenmod:영창 카드를 1장 뽑습니다."
+  },
+  "FrierenMod:Trick": {
+    "NAME": "마족을 속이는 잔꾀",
+    "DESCRIPTION": "당신의 턴 시작 시 손패에 *마나 은폐 를 1장 추가합니다."
+  },
+  "FrierenMod:FlowerFieldSpell": {
+    "NAME": "꽃밭을 만드는 마법",
+    "DESCRIPTION": " frierenmod:영창 !CX! . NL 손패에 *창월초 를 1장 추가합니다.",
+    "UPGRADE_DESCRIPTION": " frierenmod:영창 !CX! . NL 손패에 *창월초+ 를 1장 추가합니다."
+  },
+  "FrierenMod:ClearMind": {
+    "NAME": "가속 흐름",
+    "DESCRIPTION": "손패에 *마나 를 !M! 장 추가합니다. 이번 턴 동안 frierenmod:동조 가 frierenmod:가속동조 로 변경됩니다."
+  },
+  "FrierenMod:AccessoriesSpell": {
+    "NAME": "잃어버린 장식품을 찾는 마법",
+    "DESCRIPTION": " 선천성 . frierenmod:전설마법 . NL 전투 종료 시 무작위 유물을 1개 획득합니다. NL 휘발성 ."
+  },
+  "FrierenMod:OilSpell": {
+    "NAME": "완고한 기름때를 제거하는 마법",
+    "DESCRIPTION": " frierenmod:전설마법 . NL 적 전체에게 피해를 !D! 줍니다. 적이 사망하지 않으면 !M! 의 피해를 추가로 줍니다."
+  },
+  "FrierenMod:ApexMagic": {
+    "NAME": "시각 공격 마법",
+    "DESCRIPTION": "손패, 뽑을 카드 더미, 버린 카드 더미에 각각 *마나 가 정확히 4장씩 있으면 모든 적의 체력을 0으로 만듭니다.",
+    "UPGRADE_DESCRIPTION": " 보존 . NL 손패, 뽑을 카드 더미, 버린 카드 더미에 각각 *마나 가 정확히 4장씩 있으면 모든 적의 체력을 0으로 만듭니다."
+  },
+  "FrierenMod:PancakeSpell": {
+    "NAME": "팬케이크를 잘 뒤집는 마법",
+    "DESCRIPTION": "뽑을 카드 더미에서 카드 1장을 선택해 손패의 *마나 !M! 장과 교환합니다."
+  },
+  "FrierenMod:TongueTwisterSpell": {
+    "NAME": "빠른 말을 해도 절대 혀가 꼬이지 않는 마법",
+    "DESCRIPTION": "카드를 !M! 장 뽑고, *마나 를 뽑을 때마다 방어도를 !B! 얻습니다."
+  },
+  "FrierenMod:MultipleOffensiveMagic": {
+    "NAME": "다중 공격 마법",
+    "DESCRIPTION": "무작위로 X+4의 피해를 X번 주고, *마나 를 X장 손패에 추가합니다.",
+    "UPGRADE_DESCRIPTION": "무작위로 X+4의 피해를 X+1번 주고, *마나 를 X장 손패에 추가합니다.",
+    "EXTENDED_DESCRIPTION": [
+      " NL （피해를 !D! ",
+      "번 줍니다）"
+    ]
+  },
+  "FrierenMod:RitesPreparation": {
+    "NAME": "의식 준비",
+    "DESCRIPTION": "다음 !M! 번의 frierenmod:동조 가 적 전체에게 피해를 5 줍니다."
+  },
+  "FrierenMod:FireSpell": {
+    "NAME": "불꽃을 내뿜는 마법",
+    "DESCRIPTION": "현재 적의 수만큼 *작은 불꽃 을 손패에 추가합니다. NL 소멸 .",
+    "UPGRADE_DESCRIPTION": "현재 적의 수만큼 *작은 불꽃+ 을 손패에 추가합니다. NL 소멸 ."
+  },
+  "FrierenMod:Laziness": {
+    "NAME": "나른나른",
+    "DESCRIPTION": " 사용 불가 . NL frierenmod:영창 을 1번 해서 이 카드를 소멸 시킵니다. NL 턴 종료 시 손패에 있으면 복사본을 버린 카드 더미에 넣습니다."
+  },
+  "FrierenMod:Recall": {
+    "NAME": "회상",
+    "DESCRIPTION": "소멸 덱에서 카드를 !M! 장 손패에 가져오고 보존 합니다. NL 소멸 ."
+  },
+  "FrierenMod:RustCleanMagic": {
+    "NAME": "동상의 녹을 닦는 마법",
+    "DESCRIPTION": " frierenmod:전설마법 . NL 보스가 아닌 적 1명의 긍정적 효과 1개와 자신의 부정적 효과 1개를 제거합니다. NL 소멸 ."
+  },
+  "FrierenMod:RedAppleSpell": {
+    "NAME": "빨간 사과를 파란 사과로 바꾸는 마법",
+    "DESCRIPTION": "힘 과 민첩 의 중첩 수를 교환하고 손패에 *파란 사과 를 추가합니다. NL 턴 종료 시 원래대로 돌아옵니다.",
+    "UPGRADE_DESCRIPTION": "힘 과 민첩 의 중첩 수를 교환하고 손패에 *파란 사과+ 를 추가합니다. NL 턴 종료 시 원래대로 돌아옵니다."
+  },
+  "FrierenMod:GreenApple": {
+    "NAME": "파란 사과",
+    "DESCRIPTION": " 방어도를 !B! 두 번 얻습니다. NL 소멸 ."
+  },
+  "FrierenMod:LightningMagic": {
+    "NAME": "파멸의 뇌격 마법",
+    "DESCRIPTION": " frierenmod:전설마법 . NL 뽑을 카드 더미와 버린 카드 더미의 *마나 를 상한까지 손패에 가져옵니다. 이번 전투 동안 frierenmod:동조 가 frierenmod:궁극의동조로 변경됩니다."
+  },
+  "FrierenMod:BlueMoonWeed": {
+    "NAME": "창월초",
+    "DESCRIPTION": " 보존 . NL 카드를 !M! 장 뽑습니다. NL 소멸 ."
+  },
+  "FrierenMod:GrapeSpell": {
+    "NAME": "달콤한 포도를 신포도로 바꾸는 마법",
+    "DESCRIPTION": "손패에서 카드 2장을 소멸 시키고 *마나 를 2장 얻습니다. NL 소멸 ."
+  },
+  "FrierenMod:BabySleeping": {
+    "NAME": "아기처럼 잠든",
+    "DESCRIPTION": "방어도를 !B! 얻습니다. 손패 1장을 보존 합니다. NL 버린 카드 더미에 *마나 가 없으면 모든 손패를 보존 합니다."
+  },
+  "FrierenMod:SerieGrimoire": {
+    "NAME": "제리에의 마도서",
+    "DESCRIPTION": "커스텀 frierenmod:전설마법 을 1장 만듭니다. NL 소멸 .",
+    "UPGRADE_DESCRIPTION": "커스텀 frierenmod:전설마법 을 만들 때 더 많은 선택지가 제공됩니다. NL 소멸 ."
+  },
+  "FrierenMod:LittleFire": {
+    "NAME": "작은 불꽃",
+    "DESCRIPTION": " frierenmod:역류 . 피해를 !D! 줍니다. 이번 전투 동안 모든 *작은 불꽃 의 피해가 2 증가합니다. frierenmod:동조 시 버린 카드 더미에서 손패로 가져옵니다."
+  },
+  "FrierenMod:FullAhead": {
+    "NAME": "전속력",
+    "DESCRIPTION": "매 턴 첫 frierenmod:영창 후 힘 을 1, 민첩 을 1 얻습니다."
+  },
+  "FrierenMod:LockTarget": {
+    "NAME": "반드시 쓰러뜨리겠어",
+    "DESCRIPTION": "피해를 !D! 주고 카드를 1장 뽑습니다. 뽑을 카드 더미의 *마나 가 버린 카드 더미 이상이면 한 번 더 발동합니다."
+  },
+  "FrierenMod:FiveMinutesMore": {
+    "NAME": "5분만 더",
+    "DESCRIPTION": "[E] [E] 를 얻고 뽑을 카드 더미에 *나른나른 을 1장 넣습니다.",
+    "UPGRADE_DESCRIPTION": "[E] [E] 를 얻고 손패에 *나른나른 을 1장 추가합니다."
+  },
+  "FrierenMod:CustomLegendarySpell": {
+    "NAME": "커스텀 마법",
+    "DESCRIPTION": " frierenmod:전설마법 ."
+  },
+  "FrierenMod:Cost0": {
+    "NAME": "초소형 마법",
+    "DESCRIPTION": "[E] 불필요"
+  },
+  "FrierenMod:Cost1": {
+    "NAME": "소형 마법",
+    "DESCRIPTION": " [E] "
+  },
+  "FrierenMod:Cost2": {
+    "NAME": "중형 마법",
+    "DESCRIPTION": " [E] [E] "
+  },
+  "FrierenMod:Cost3": {
+    "NAME": "대형 마법",
+    "DESCRIPTION": " [E] [E] [E] "
+  },
+  "FrierenMod:DrawOption": {
+    "NAME": "별",
+    "DESCRIPTION": "카드를 !M! 장 뽑습니다.",
+    "EXTENDED_DESCRIPTION": [
+      "카드를 1/2/3장 뽑습니다."
+    ]
+  },
+  "FrierenMod:ManaInDiscardOption": {
+    "NAME": "달",
+    "DESCRIPTION": "*마나 를 !M! 장 버린 카드 더미에 넣습니다.",
+    "EXTENDED_DESCRIPTION": [
+      "*마나 를 2/4/6/8장 버린 카드 더미에 넣습니다."
+    ]
+  },
+  "FrierenMod:ManaInHandOption": {
+    "NAME": "태양",
+    "DESCRIPTION": "*마나 를 !M! 장 손패에 추가합니다.",
+    "EXTENDED_DESCRIPTION": [
+      "*마나 를 2/3/4/5장 손패에 추가합니다."
+    ]
+  },
+  "FrierenMod:ManaInDrawOption": {
+    "NAME": "바보",
+    "DESCRIPTION": "*마나 를 !M! 장 뽑을 카드 더미에 넣습니다.",
+    "EXTENDED_DESCRIPTION": [
+      "*마나 를 2/4/6/8장 뽑을 카드 더미에 넣습니다."
+    ]
+  },
+  "FrierenMod:ScryOption": {
+    "NAME": "여사제",
+    "DESCRIPTION": " 예지 !M! .",
+    "EXTENDED_DESCRIPTION": [
+      " 예지 2/3/4."
+    ]
+  },
+  "FrierenMod:CostZeroOption": {
+    "NAME": "별전",
+    "DESCRIPTION": "손패의 무작위 카드 !M! 장의 비용이 이번 턴 0이 됩니다.",
+    "EXTENDED_DESCRIPTION": [
+      "손패의 무작위 카드 1/2장의 비용이 이번 턴 0이 됩니다."
+    ]
+  },
+  "FrierenMod:SelfRetainOption": {
+    "NAME": "절제",
+    "DESCRIPTION": " 손패의 카드 !M! 장을 보존 합니다.",
+    "EXTENDED_DESCRIPTION": [
+      " 손패의 카드 1/2장을 보존 합니다."
+    ]
+  },
+  "FrierenMod:GainRandomCardOption": {
+    "NAME": "운명의 수레바퀴",
+    "DESCRIPTION": "무작위 일반 카드를 !M! 장 손패에 추가합니다. NL 이번 턴 비용이 0이 됩니다.",
+    "EXTENDED_DESCRIPTION": [
+      "무작위 일반 카드를 1/2장 손패에 추가합니다. NL 이번 턴 비용이 0이 됩니다."
+    ]
+  },
+  "FrierenMod:DamageOption": {
+    "NAME": "정의",
+    "DESCRIPTION": "피해를 !D! 줍니다.",
+    "EXTENDED_DESCRIPTION": [
+      "피해를 6/10 줍니다."
+    ]
+  },
+  "FrierenMod:DamageThirdOption": {
+    "NAME": "악마",
+    "DESCRIPTION": "피해를 !D! 세 번 줍니다.",
+    "EXTENDED_DESCRIPTION": [
+      "피해를 5/7 세 번 줍니다."
+    ]
+  },
+  "FrierenMod:DamageAllOption": {
+    "NAME": "죽음",
+    "DESCRIPTION": "적 전체에게 피해를 !D! 줍니다.",
+    "EXTENDED_DESCRIPTION": [
+      "적 전체에게 피해를 4/8/12/16 줍니다."
+    ]
+  },
+  "FrierenMod:BlockOption": {
+    "NAME": "은둔자",
+    "DESCRIPTION": "방어도를 !B! 얻습니다.",
+    "EXTENDED_DESCRIPTION": [
+      "방어도를 4/8/12/16 얻습니다."
+    ]
+  },
+  "FrierenMod:EnergyOption": {
+    "NAME": "연인",
+    "DESCRIPTION": "다음 턴에 [E] 를 !M! 얻습니다.",
+    "EXTENDED_DESCRIPTION": [
+      "다음 턴에 [E] 를 1/2/3 얻습니다."
+    ]
+  },
+  "FrierenMod:ExtinguishOption": {
+    "NAME": "심판",
+    "DESCRIPTION": "대상 적의 체력이 !M! 이하이면 체력을 0으로 만듭니다.",
+    "EXTENDED_DESCRIPTION": [
+      "대상 적의 체력이 30/40 이하이면 체력을 0으로 만듭니다."
+    ]
+  },
+  "FrierenMod:DexterityOption": {
+    "NAME": "마술사",
+    "DESCRIPTION": "민첩 을 !M! 얻습니다. NL 소멸 .",
+    "EXTENDED_DESCRIPTION": [
+      "민첩 을 2/3/4 얻습니다. NL 소멸 ."
+    ]
+  },
+  "FrierenMod:ChantOption": {
+    "NAME": "성배",
+    "DESCRIPTION": " frierenmod:영창 !CX! .",
+    "EXTENDED_DESCRIPTION": [
+      " frierenmod:영창 2/3/4."
+    ]
+  },
+  "FrierenMod:IntangibleOption": {
+    "NAME": "매달린 자",
+    "DESCRIPTION": "무형 을 !M! 중첩 얻습니다. NL 소멸 .",
+    "EXTENDED_DESCRIPTION": [
+      "무형 을 1/2중첩 얻습니다. NL 소멸 ."
+    ]
+  },
+  "FrierenMod:StrengthOption": {
+    "NAME": "여황제",
+    "DESCRIPTION": "힘 을 2배로 만듭니다. NL 소멸 ."
+  },
+  "FrierenMod:VulnerableOption": {
+    "NAME": "교황",
+    "DESCRIPTION": "적 전체에게 취약 을 !M! 중첩 부여합니다.",
+    "EXTENDED_DESCRIPTION": [
+      "적 전체에게 취약 을 1/2/3중첩 부여합니다."
+    ]
+  },
+  "FrierenMod:UpgradeOption": {
+    "NAME": "탑",
+    "DESCRIPTION": "이번 전투 동안 손패의 모든 카드를 강화합니다."
+  },
+  "FrierenMod:UpgradeAllOption": {
+    "NAME": "세계",
+    "DESCRIPTION": "이번 전투 동안 모든 카드를 강화합니다. NL 소멸 ."
+  },
+  "FrierenMod:RemoveDebuffOption": {
+    "NAME": "완드",
+    "DESCRIPTION": "자신의 모든 부정적 효과를 제거합니다."
+  },
+  "FrierenMod:PreciseChant": {
+    "NAME": "정밀 영창",
+    "DESCRIPTION": "해당 패 더미의 *마나 를 가능한 한 모두 frierenmod:영창 합니다. NL 소멸 .",
+    "UPGRADE_DESCRIPTION": "해당 패 더미의 *마나 를 가능한 한 모두 frierenmod:영창 합니다."
+  },
+  "FrierenMod:ManaExpansion": {
+    "NAME": "마나 팽창",
+    "DESCRIPTION": "*마나 의 수를 2배로 늘립니다. NL 소멸 ."
+  },
+  "FrierenMod:DoubleManaInDrawPile": {
+    "NAME": "뽑을 카드 더미에서 팽창",
+    "DESCRIPTION": "뽑을 카드 더미의 *마나 수를 2배로 늘립니다."
+  },
+  "FrierenMod:DoubleManaInHand": {
+    "NAME": "손패에서 팽창",
+    "DESCRIPTION": "손패의 *마나 수를 2배로 늘립니다."
+  },
+  "FrierenMod:DoubleManaInDiscardPile": {
+    "NAME": "버린 카드 더미에서 팽창",
+    "DESCRIPTION": "버린 카드 더미의 *마나 수를 2배로 늘립니다."
+  },
+  "FrierenMod:ManaDetection": {
+    "NAME": "마력 탐지",
+    "DESCRIPTION": "피해를 !D! 줍니다. NL 대상 적이 공격을 받을 때마다 *마나 를 !M! 장 버린 카드 더미에 넣습니다. NL 소멸 ."
+  },
+  "FrierenMod:TimeConcept": {
+    "NAME": "엘프의 시간 감각",
+    "DESCRIPTION": "현재의 모든 것을 2턴 후로 보냅니다. 2턴 후 *후회 를 손패에 추가합니다.",
+    "UPGRADE_DESCRIPTION": "현재의 모든 것을 2턴 후로 보냅니다."
+  },
+  "FrierenMod:Imagination": {
+    "NAME": "마법 & 상상력",
+    "DESCRIPTION": "이번 턴 동안 카드가 [E] 대신 같은 수의 *마나 를 소모하고, 카드에서 *마나 를 획득할 수 없으며, frierenmod:영창 이 *마나 를 소모하지 않습니다. NL 소멸 .",
+    "UPGRADE_DESCRIPTION": " 보존 . NL 이번 턴 동안 카드가 [E] 대신 같은 수의 *마나 를 소모하고, 카드에서 *마나 를 획득할 수 없으며, frierenmod:영창 이 *마나 를 소모하지 않습니다. NL 소멸 ."
+  },
+  "FrierenMod:ContinuousShooting": {
+    "NAME": "연속 사격",
+    "DESCRIPTION": "적 전체에게 피해를 !D! 세 번 줍니다. 뽑을 카드 더미에 *마나 가 있으면 이 카드를 소멸 시킵니다."
+  },
+  "FrierenMod:PerfectDefensiveMagic": {
+    "NAME": "방어 마법 완전체",
+    "DESCRIPTION": " frierenmod:영창 !CX! . NL 완충 을 1중첩 얻고 방어도를 !B! 얻습니다.",
+    "UPGRADE_DESCRIPTION": " frierenmod:영창 !CX! . NL 완충 을 1중첩 얻고 방어도를 !B! 얻습니다."
+  },
+  "FrierenMod:MageStyleFinisher": {
+    "NAME": "마법사식 마무리 기술",
+    "DESCRIPTION": "이번 턴 동안 frierenmod:동조 한 횟수만큼 피해를 !D! 줍니다.",
+    "EXTENDED_DESCRIPTION": [
+      " NL （이번 턴 *동조 횟수：",
+      " 번）"
+    ]
+  },
+  "FrierenMod:BreaksBarriersSpell": {
+    "NAME": "결계를 해석하는 마법",
+    "DESCRIPTION": "뽑을 카드 더미를 비용 낮은 순으로 정렬합니다. NL 카드를 !M! 장 뽑습니다."
+  },
+  "FrierenMod:ManaParcel": {
+    "NAME": "마나 꾸러미",
+    "DESCRIPTION": " 사용 불가 . NL 이 카드를 뽑을 때 손패에 *마나 를 !M! 장 추가하고 소멸 합니다."
+  },
+  "FrierenMod:FinalChant": {
+    "NAME": "최종 영창",
+    "DESCRIPTION": "모든 패 더미의 *마나 를 가능한 한 모두 frierenmod:영창 합니다."
+  },
+  "FrierenMod:Kiss": {
+    "NAME": " 날아가는 키스（살상력 매우 강함！）",
+    "DESCRIPTION": "취약 을 99중첩, 약화 를 99중첩 부여합니다. NL 소멸 . NL 휘발성 ."
+  },
+  "FrierenMod:RestraintMagic": {
+    "NAME": "구속 마법",
+    "DESCRIPTION": "frierenmod:둔화 를 부여하고 힘 을 3 감소시킵니다. NL 소멸 ."
+  },
+  "FrierenMod:SeeThroughPhantom": {
+    "NAME": "환영 간파",
+    "DESCRIPTION": "피해를 !D! 줍니다. 적의 의도가 공격이면 약화 를 !M! 중첩, 아니면 취약 을 !M! 중첩 부여합니다."
+  },
+  "FrierenMod:TrueColours": {
+    "NAME": "진면목",
+    "DESCRIPTION": " frierenmod:영창 !CX! . NL [E] [E] [E] 를 얻고 카드를 3장 뽑으며, 뽑을 카드 더미·손패·버린 카드 더미에 각각 *마나 를 3장씩 넣습니다. NL 소멸 ."
+  },
+  "FrierenMod:OpenTheWaygate": {
+    "NAME": "시공의 문 열기",
+    "DESCRIPTION": "한 턴 안에 frierenmod:동조 를 !M! 번 연속으로 하면 추가 턴을 얻고 이 효과가 제거됩니다."
+  },
+  "FrierenMod:GrandCross": {
+    "NAME": "그랜드 크로스",
+    "DESCRIPTION": " 피해를 !D! 줍니다. 이번 턴에 frierenmod:영창 을 했다면 이 카드의 비용이 0이 됩니다."
+  },
+  "FrierenMod:HalfTheSky": {
+    "NAME": "한눈에 봐도 프리렌이네",
+    "DESCRIPTION": " 피해를 !D! 줍니다. frierenmod:영창 을 할 때마다 버린 카드 더미에서 손패로 가져옵니다."
+  },
+  "FrierenMod:Recycle": {
+    "NAME": "재순환",
+    "DESCRIPTION": "버린 카드 더미의 *마나 수만큼 *마나 를 뽑을 카드 더미에 넣습니다. NL 소멸 ."
+  },
+  "FrierenMod:AirSlash": {
+    "NAME": "공기 베기",
+    "DESCRIPTION": "피해를 !D! 줍니다. NL 이번 턴 동안 frierenmod:동조 가 frierenmod:가속동조 로 변경되지만 카드에서 *마나 를 획득할 수 없습니다."
+  },
+  "FrierenMod:Apprehend": {
+    "NAME": "냉철한 손길",
+    "DESCRIPTION": "피해를 !D! 줍니다. NL 카드를 !M! 장 뽑습니다. NL 뽑은 카드 중 *마나 를 버립니다."
+  },
+  "FrierenMod:Free": {
+    "NAME": "물리적 해탈",
+    "DESCRIPTION": "*마나 가 아닌 손패를 모두 버립니다. NL 카드 1장을 버릴 때마다 피해를 !D! 주고 방어도를 !B! 얻습니다."
+  },
+  "FrierenMod:MageStyleChoke": {
+    "NAME": "마법사식 목 조르기",
+    "DESCRIPTION": "피해를 !D! 줍니다. NL 이번 턴 동안 frierenmod:동조 를 할 때마다 해당 적의 체력을 !M! 감소시킵니다."
+  },
+  "FrierenMod:RingletForm": {
+    "NAME": "곱슬 형태",
+    "DESCRIPTION": "*마나 를 소멸 할 때마다 방어도를 !M! 얻습니다."
+  },
+  "FrierenMod:Himmel": {
+    "NAME": "힘멜",
+    "DESCRIPTION": "프리렌... NL 휘발성 ."
+  },
+  "FrierenMod:Repent": {
+    "NAME": "뒤늦은 후회",
+    "DESCRIPTION": " 보존 . NL 버린 카드 더미에서 카드 2장을 선택해 손패에 가져옵니다. 해당 카드들의 비용이 이번 턴 0이 됩니다. NL 소멸 ."
+  },
+  "FrierenMod:HellFireSummoning": {
+    "NAME": "지옥의 업화 마법",
+    "DESCRIPTION": " frierenmod:봉인 . frierenmod:역류 . NL 이번 턴 동안 사용한 frierenmod:영창 카드 수만큼 피해를 !D! 두 번씩 줍니다.",
+    "EXTENDED_DESCRIPTION": [
+      " NL （총",
+      " 번.）"
+    ]
+  },
+  "FrierenMod:RockGolemSpell": {
+    "NAME": "석상을 조종하는 마법",
+    "DESCRIPTION": " frierenmod:해석 10： frierenmod:동조 *마나 2장 NL *보상： 무작위로 피해를 !D! 주고 방어 형태로 전환합니다. NL (현재 진행도 0/2)."
+  },
+  "FrierenMod:LureTheEnemyInDeep": {
+    "NAME": "유인 작전",
+    "DESCRIPTION": " frierenmod:영창 !CX! . [E] [E] 를 얻습니다. NL frierenmod:영창 이 손패 슬롯 이면 이 카드를 손패로 돌려보냅니다.",
+    "UPGRADE_DESCRIPTION": " frierenmod:영창 !CX! . [E] 를 얻습니다. NL frierenmod:영창 이 손패 슬롯 이면 이 카드를 손패로 돌려보냅니다."
+  },
+  "FrierenMod:ManaCollapse": {
+    "NAME": "이별의 선물",
+    "DESCRIPTION": "피해를 !D! 줍니다. 이번 턴에 카드를 10장 미만 사용했다면 손패에 *마나 를 !M! 장 추가하고 이 카드를 뽑을 카드 더미에 넣습니다."
+  },
+  "FrierenMod:Elegance": {
+    "NAME": "위풍당당",
+    "DESCRIPTION": "피해를 !D! 주고 방어도를 !B! 얻으며 카드를 !M! 장 뽑습니다. NL 처치 시 이 카드의 피해·방어도가 이번 게임 동안 영구히 2 증가하고, 정예·보스를 처치했다면 드로우 수도 영구히 1 증가합니다. NL 소멸 .",
+    "UPGRADE_DESCRIPTION": "피해를 !D! 주고 방어도를 !B! 얻으며 카드를 !M! 장 뽑습니다. NL 처치 시 이 카드의 피해·방어도가 이번 게임 동안 영구히 2 증가하고, 정예·보스를 처치했다면 드로우 수도 영구히 1 증가합니다."
+  },
+  "FrierenMod:Confrontation": {
+    "NAME": "대치",
+    "DESCRIPTION": "방어도를 !B! 얻습니다. 손패에 있는 동안 frierenmod:영창 을 할 때마다 이번 전투에서 이 카드의 기본 방어도가 3 증가합니다."
+  },
+  "FrierenMod:Famehameha": {
+    "NAME": "프리렌 기공파",
+    "DESCRIPTION": " frierenmod:전설마법 . NL 이번 턴 동안 frierenmod:영창 을 할 때마다 이 카드의 비용이 1 감소합니다. NL 피해를 !D! 줍니다."
+  },
+  "FrierenMod:ManaBarricade": {
+    "NAME": "마나 장벽",
+    "DESCRIPTION": " frierenmod:영창 !CX! . NL 영창 이 뽑을 카드 더미 슬롯이면 방어도를 !B! 얻습니다."
+  },
+  "FrierenMod:ElementsBombing": {
+    "NAME": "원소 폭격",
+    "DESCRIPTION": "손패를 모두 소멸 시킵니다. 소멸한 카드 1장당 무작위 *원소 카드를 손패에 추가합니다. NL 소멸 .",
+    "UPGRADE_DESCRIPTION": "손패를 모두 소멸 시킵니다. 소멸한 카드 1장당 강화된 무작위 *원소 카드를 손패에 추가합니다. NL 소멸 ."
+  },
+  "FrierenMod:Fire": {
+    "NAME": "화염 원소",
+    "DESCRIPTION": "피해를 !D! 두 번 줍니다. NL 소멸 . NL 휘발성 ."
+  },
+  "FrierenMod:Ice": {
+    "NAME": "얼음 원소",
+    "DESCRIPTION": "방어도를 !B! 얻습니다. NL 소멸 . NL 휘발성 ."
+  },
+  "FrierenMod:Light": {
+    "NAME": "빛 원소",
+    "DESCRIPTION": "체력을 !M! 회복합니다. NL 소멸 . NL 휘발성 ."
+  },
+  "FrierenMod:Thunder": {
+    "NAME": "번개 원소",
+    "DESCRIPTION": "적 전체에게 피해를 !D! 줍니다. NL 소멸 . NL 휘발성 ."
+  },
+  "FrierenMod:Dark": {
+    "NAME": "어둠 원소",
+    "DESCRIPTION": "카드를 !M! 장 뽑습니다. NL 소멸 . NL 휘발성 ."
+  },
+  "FrierenMod:SayThinkingSpell": {
+    "NAME": "생각하는 것을 소리 내어 말하는 마법",
+    "DESCRIPTION": "손패의 모든 *마나 를 소멸 시키고, 소멸한 장당 뽑을 카드 더미의 무작위 위치에서 !M! 장의 카드를 사용합니다."
+  },
+  "FrierenMod:FrierenSuitcase": {
+    "NAME": "프리렌의 여행 가방",
+    "DESCRIPTION": "이번 전투 동안 손패 상한이 13으로 증가합니다. NL 카드를 사용한 후 손패가 가득 차면 방어도를 !M! 얻습니다."
+  },
+  "FrierenMod:FairyTaleEnd": {
+    "NAME": "동화의 결말",
+    "DESCRIPTION": " frierenmod:전설마법 . NL 피해를 !D! 줍니다. 덱에 있는 *전설마법 의 종류마다 이 카드의 기본 피해가 2배가 됩니다. NL 소멸 .",
+    "EXTENDED_DESCRIPTION": [
+      " NL （덱에 있는 종류：",
+      " 종.）"
+    ]
+  },
+  "FrierenMod:HotTeaSpell": {
+    "NAME": "따뜻한 차를 만드는 마법",
+    "DESCRIPTION": " frierenmod:전설마법 . NL 방어도를 !B! 얻습니다. NL （*마나 총수에 비례해 증가）"
+  },
+  "FrierenMod:ButtSlam": {
+    "NAME": "전신 박치기",
+    "DESCRIPTION": "방어도 10마다 피해를 !D! 주고 뽑을 카드 더미에 *마나 를 2장 넣습니다.",
+    "EXTENDED_DESCRIPTION": [
+      " NL （총%d번）"
+    ]
+  },
+  "FrierenMod:HighDensityMana": {
+    "NAME": "고밀도 마나",
+    "DESCRIPTION": "한 턴 안에 frierenmod:동조 를 3번 연속으로 하면 이 카드를 뽑을 카드 더미에서 손패로 가져옵니다. NL 소멸 시 [E] 를 얻습니다. NL frierenmod:동조 .",
+    "UPGRADE_DESCRIPTION": "한 턴 안에 frierenmod:동조 를 3번 연속으로 하면 이 카드를 뽑을 카드 더미에서 손패로 가져옵니다. NL 소멸 시 [E] [E] 를 얻습니다. NL frierenmod:동조 ."
+  },
+  "FrierenMod:PaperPlaneSpell": {
+    "NAME": "종이 비행기를 멀리 날리는 마법",
+    "DESCRIPTION": " frierenmod:전설마법 . NL frierenmod:동조 를 4번 연속으로 할 때마다 다음 공격 피해가 2배가 됩니다."
+  },
+  "FrierenMod:FrushDown": {
+    "NAME": "돌진하는 프리렌",
+    "DESCRIPTION": "frierenmod:동조 를 2번 연속으로 할 때마다 카드를 !M! 장 뽑고 손패 가장 왼쪽의 !M! 장을 버립니다."
+  },
+  "FrierenMod:LongevityPain": {
+    "NAME": "장수종의 고통",
+    "DESCRIPTION": " 사용 불가 . frierenmod:동조 를 10번 연속으로 하면 *수명론 을 손패에 추가합니다. NL 이 *저주 에서는 도망칠 수 없습니다.",
+    "EXTENDED_DESCRIPTION": [
+      " NL （남은 횟수: %d번.）"
+    ]
+  },
+  "FrierenMod:Fatalism": {
+    "NAME": "수명론",
+    "DESCRIPTION": "모든 캐릭터의 체력을 999 감소시킵니다."
+  },
+  "FrierenMod:UpsideDown": {
+    "NAME": "역전",
+    "DESCRIPTION": " 사용 불가 . NL frierenmod:동조 를 할 때마다 뽑을 카드 더미와 버린 카드 더미를 교환하고 체력을 2 잃습니다."
+  },
+  "FrierenMod:EmergencyFood": {
+    "NAME": "비상식량",
+    "DESCRIPTION": " 보존 . NL 체력을 !M! 회복합니다. NL 소멸 ."
+  },
+  "FrierenMod:BirdCapturingSpell": {
+    "NAME": "새를 잡는 마법",
+    "DESCRIPTION": " 새 또는 새처럼 생긴 적 1명을 3턴 동안 *기절 시킵니다. NL 소멸 .",
+    "UPGRADE_DESCRIPTION": " 선천성 . NL 새 또는 새처럼 생긴 적 1명을 3턴 동안 *기절 시킵니다. NL 소멸 .",
+    "EXTENDED_DESCRIPTION": [
+      "이 대상은 새처럼 생기지 않았습니다..."
+    ]
+  },
+  "FrierenMod:Strike_Fern": {
+    "NAME": "타격",
+    "DESCRIPTION": "피해를 !D! 줍니다."
+  },
+  "FrierenMod:Defend_Fern": {
+    "NAME": "방어",
+    "DESCRIPTION": "방어도를 !B! 얻습니다."
+  },
+  "FrierenMod:LieInWait": {
+    "NAME": "기회를 노리며",
+    "DESCRIPTION": "방어도를 !B! 얻습니다. NL 손패에 *마나 를 !M! 장 추가합니다."
+  },
+  "FrierenMod:CriticalHit": {
+    "NAME": "일격필살",
+    "DESCRIPTION": " frierenmod:기습 !R! ：피해를 !D! 줍니다. NL frierenmod:융합 ：피해를 !D! 줍니다."
+  },
+  "FrierenMod:ChargeUp": {
+    "NAME": "일반 집중",
+    "DESCRIPTION": "피해를 !D! 줍니다. NL 다음 턴에 frierenmod:집중 을 !M! 얻습니다."
+  },
+  "FrierenMod:SpecializedOffensiveMagic": {
+    "NAME": "특화 기본 공격 마법",
+    "DESCRIPTION": "？의 피해를 줍니다. NL 휘발성 . 소멸 ."
+  },
+  "FrierenMod:AggrieveStrike": {
+    "NAME": "억울한 일격",
+    "DESCRIPTION": "피해를 !D! 줍니다. NL frierenmod:기습 !R! ：이 카드를 손패로 돌려보냅니다."
+  },
+  "FrierenMod:Backstab": {
+    "NAME": "배신",
+    "DESCRIPTION": "적 전체에게 피해를 !D! 줍니다. 적이 사망하지 않으면 [E] 를 얻습니다.",
+    "UPGRADE_DESCRIPTION": "적 전체에게 피해를 !D! 줍니다. 적이 사망하지 않으면 [E] 와 frierenmod:집중 을 3 얻습니다."
+  },
+  "FrierenMod:FlyOnTheWall": {
+    "NAME": "은밀한 관찰",
+    "DESCRIPTION": "방어도를 !B! 얻습니다. NL frierenmod:기습 !R! ：피해를 !D! 줍니다."
+  },
+  "FrierenMod:Swoop": {
+    "NAME": "머리박기",
+    "DESCRIPTION": " frierenmod:융합 ：피해를 !D! 주고 카드를 !M! 장 뽑습니다."
+  },
+  "FrierenMod:SeeThroughClothSpell": {
+    "NAME": "옷을 투명하게 만드는 마법",
+    "DESCRIPTION": "피해를 !D! 줍니다. NL frierenmod:융합 ：약화 와 취약 을 !M! 중첩 부여합니다."
+  },
+  "FrierenMod:CloseRaid": {
+    "NAME": "근접 기습",
+    "DESCRIPTION": " frierenmod:기습 !R! ： frierenmod:융합 ：피해를 !D! 줍니다."
+  },
+  "FrierenMod:FusionSlash": {
+    "NAME": "융합의 일격",
+    "DESCRIPTION": "이번 턴에 *특화 기본 공격 마법 을 사용한 경우에만 사용할 수 있습니다. NL frierenmod:융합 ：피해를 !D! 줍니다.",
+    "EXTENDED_DESCRIPTION": [
+      "이번 턴에 #y특화 기본 공격 마법 을 사용하지 않았습니다."
+    ]
+  },
+  "FrierenMod:Fight": {
+    "NAME": "전력 질주 기사",
+    "DESCRIPTION": "frierenmod:지팡이충전 을 !M! 얻습니다. NL frierenmod:융합 ：피해를 !D! 줍니다."
+  },
+  "FrierenMod:HuddleForWarmth": {
+    "NAME": "서로 몸을 맞대어 온기 나누기",
+    "DESCRIPTION": "방어도를 !B! 얻습니다. NL frierenmod:기습 !R! ：다음 턴 시작 시 방어도가 사라지지 않습니다."
+  },
+  "FrierenMod:SkimReading": {
+    "NAME": "빠른 점검",
+    "DESCRIPTION": "카드를 3장 뽑습니다. frierenmod:기습 !R! ：1장 더 뽑습니다."
+  },
+  "FrierenMod:RaidPreparation": {
+    "NAME": "기습 준비",
+    "DESCRIPTION": "frierenmod:기습 카드를 1장 뽑습니다. NL frierenmod:기습 !R! ： frierenmod:융합 카드를 1장 뽑습니다."
+  },
+  "FrierenMod:EmergencyDefense": {
+    "NAME": "긴급 방어",
+    "DESCRIPTION": " frierenmod:신속 . NL 방어도를 !B! 얻습니다. NL frierenmod:기습 !R! ：[E] 를 얻습니다. NL 소멸 ."
+  },
+  "FrierenMod:CounterAttack": {
+    "NAME": "방어 반격",
+    "DESCRIPTION": " frierenmod:신속 . NL 선택： frierenmod:집중 을 3 얻고 피해를 !D! 주거나, frierenmod:집중 을 3 잃고 방어도를 !B! 얻습니다."
+  },
+  "FrierenMod:FocusOnAttack": {
+    "NAME": "공격에 집중",
+    "DESCRIPTION": "frierenmod:집중 을 3 얻고 피해를 !D! 줍니다."
+  },
+  "FrierenMod:FocusOnDefense": {
+    "NAME": "방어에 집중",
+    "DESCRIPTION": "frierenmod:집중 을 3 잃고 방어도를 !B! 얻습니다."
+  },
+  "FrierenMod:MysticEye": {
+    "NAME": "꿰뚫어 보는 마안",
+    "DESCRIPTION": "피해를 !D! 줍니다. NL 대상 적이 공격을 받을 때마다 frierenmod:집중 을 !M! 얻습니다. NL 소멸 ."
+  },
+  "FrierenMod:Glaring": {
+    "NAME": "섬광",
+    "DESCRIPTION": "피해를 !D! 줍니다. NL （ frierenmod:집중 의 !M! 배만큼 가산） NL 소멸 ."
+  },
+  "FrierenMod:ColdBlood": {
+    "NAME": "냉혹무정",
+    "DESCRIPTION": "피해를 !D! 줍니다. NL 이번 전투에서 마지막으로 사용한 frierenmod:기습 카드가 *기습 을 발동했다면 이 카드의 비용이 이번 턴 0이 됩니다."
+  },
+  "FrierenMod:FernFixFrieren": {
+    "NAME": "페른이 프리렌을 돌봐주기",
+    "DESCRIPTION": "피해를 !D! 줍니다. 손패에 있는 동안 frierenmod:기습 이 발동될 때마다 이번 전투에서 이 카드의 피해가 !M! 증가합니다."
+  },
+  "FrierenMod:RaidRace": {
+    "NAME": "스피드 레이스",
+    "DESCRIPTION": " frierenmod:신속 . NL 이번 턴 동안 frierenmod:기습 이 발동될 때마다 비용이 1 [E] 감소합니다. NL 피해를 !D! 줍니다."
+  },
+  "FrierenMod:SeriousSeriesSpell": {
+    "NAME": "진지 시리즈, 진지한 일격",
+    "DESCRIPTION": "피해를 !D! 줍니다. NL frierenmod:기습 !R! ：대신 적 전체에게 피해를 !D! 줍니다."
+  },
+  "FrierenMod:Surveillance": {
+    "NAME": "적정 관찰",
+    "DESCRIPTION": "카드를 1장 뽑습니다. NL frierenmod:기습 !R! ： frierenmod:지팡이충전 을 1 얻습니다. NL frierenmod:융합 ：피해를 !D! 줍니다."
+  },
+  "FrierenMod:SorryICant": {
+    "NAME": "미안해요, 못하겠어요",
+    "DESCRIPTION": " frierenmod:신속 . NL 모든 *마나 를 소멸 시키고, 소멸한 수만큼 방어도와 frierenmod:집중 을 얻습니다. NL 소멸 .",
+    "UPGRADE_DESCRIPTION": " frierenmod:신속 . NL 모든 *마나 를 소멸 시키고, 소멸한 수만큼 방어도와 frierenmod:집중 을 얻습니다.",
+    "EXTENDED_DESCRIPTION": [
+      " NL （방어도를 !B! 얻고 frierenmod:집중 을 !M! 얻습니다）"
+    ]
+  },
+  "FrierenMod:FusionRaid": {
+    "NAME": "기습의 삼타",
+    "DESCRIPTION": " frierenmod:기습 1：카드를 !M! 장 뽑습니다. NL frierenmod:기습 2：피해를 !D! 줍니다. NL frierenmod:기습 3：[E] [E] 를 얻습니다."
+  },
+  "FrierenMod:SaturationOffensiveMagic": {
+    "NAME": "포화 공격 마법",
+    "DESCRIPTION": "피해를 !D! !M! 번 줍니다. NL frierenmod:기습 !R! ：이번 전투에서 이 카드의 공격 횟수와 frierenmod:기습 값이 1 증가합니다. NL 휘발성 ."
+  },
+  "FrierenMod:LittlePunch": {
+    "NAME": "작은 주먹",
+    "DESCRIPTION": "적 전체에게 피해를 !D! 주고 취약 을 1중첩 부여하기를 X번 반복합니다. 방어도를 뚫은 피해를 줄 때마다 방어도를 !B! 얻습니다."
+  },
+  "FrierenMod:SoSmall": {
+    "NAME": "너무 작아",
+    "DESCRIPTION": "대상의 frierenmod:속성 이 당신보다 작을 때마다 손패에 *마나 를 !M! 장 추가하고 방어도를 !B! 얻습니다. NL 소멸 ."
+  },
+  "FrierenMod:Meditation": {
+    "NAME": "명상",
+    "DESCRIPTION": " 사용 불가 . NL 이 카드를 뽑을 때 frierenmod:집중 을 !M! 얻고 카드를 1장 뽑은 후 소멸 합니다."
+  },
+  "FrierenMod:InjuryTime": {
+    "NAME": "인저리 타임",
+    "DESCRIPTION": " frierenmod:신속 . NL [E] [E] 와 frierenmod:집중 을 !M! 얻습니다. NL 소멸 ."
+  },
+  "FrierenMod:StudyTime": {
+    "NAME": "페른의 猛특훈",
+    "DESCRIPTION": "손패에 *마나 를 !M! 장 추가합니다. frierenmod:융합 ：버린 카드 더미에 이 카드의 복사본을 1장 넣습니다.",
+    "UPGRADE_DESCRIPTION": "손패에 *마나 를 !M! 장 추가합니다. frierenmod:융합 ：버린 카드 더미에 이 카드의 복사본을 1장 넣습니다. NL 소멸 ."
+  },
+  "FrierenMod:OneInHundred": {
+    "NAME": "백 명 중의 하나",
+    "DESCRIPTION": "무작위 frierenmod:융합 카드를 !M! 장 손패에 추가합니다. frierenmod:지팡이충전 이 없으면 이번 턴 비용이 0이 됩니다. NL 소멸 ."
+  },
+  "FrierenMod:PureMind": {
+    "NAME": "명경지수의 마음",
+    "DESCRIPTION": "뽑을 카드 더미에 *마나 를 2장 넣습니다. 이번 턴에 frierenmod:신속 카드를 2장 사용했다면 손패에 *가속 흐름 을 1장 추가합니다.",
+    "UPGRADE_DESCRIPTION": " frierenmod:신속 . NL 뽑을 카드 더미에 *마나 를 2장 넣습니다. 이번 턴에 frierenmod:신속 카드를 2장 사용했다면 손패에 *가속 흐름 을 1장 추가합니다."
+  },
+  "FrierenMod:TrainingByEating": {
+    "NAME": "디저트로 추가 훈련",
+    "DESCRIPTION": "frierenmod:집중 수만큼 힘을 얻고 모든 frierenmod:집중 을 잃습니다. NL frierenmod:기습 !R! ： frierenmod:신속 . NL 소멸 .",
+    "UPGRADE_DESCRIPTION": "frierenmod:집중 수만큼 힘을 얻고 모든 frierenmod:집중 을 잃습니다. NL frierenmod:기습 !R! ： frierenmod:신속 ."
+  },
+  "FrierenMod:GirlishHeart": {
+    "NAME": "소녀 감성",
+    "DESCRIPTION": "카드를 1장 버리고 !M! 장 뽑습니다. NL frierenmod:융합 ： frierenmod:집중 을 2 얻습니다."
+  },
+  "FrierenMod:DinnerTime": {
+    "NAME": "저녁 식사 시간",
+    "DESCRIPTION": " frierenmod:신속 . NL 손패에 *파란 사과 를 1장 추가합니다. frierenmod:기습 !R! ： frierenmod:일시적민첩 을 !M! 얻습니다."
+  },
+  "FrierenMod:MasterHelpApprentice": {
+    "NAME": "사제 협력",
+    "DESCRIPTION": "frierenmod:이색카드 3장 중 1장을 선택해 손패에 추가합니다. NL 소멸 .",
+    "UPGRADE_DESCRIPTION": "frierenmod:이색카드 3장 중 1장을 선택해 손패에 추가합니다. 해당 카드의 비용이 이번 턴 0이 됩니다. NL 소멸 ."
+  },
+  "FrierenMod:MoodyGirl": {
+    "NAME": "기분파 언니",
+    "DESCRIPTION": "뽑을 카드 더미와 버린 카드 더미에 각각 *부루퉁 과 *방글방글 을 1장씩 넣습니다. NL 소멸 ."
+  },
+  "FrierenMod:Pouting": {
+    "NAME": "부루퉁",
+    "DESCRIPTION": "피해를 !D! 줍니다. 모든 *방글방글 만큼 이 수치가 증가합니다. NL 휘발성 ."
+  },
+  "FrierenMod:Cheering": {
+    "NAME": "방글방글",
+    "DESCRIPTION": "방어도를 !B! 얻습니다. 모든 *부루퉁 만큼 이 수치가 증가합니다. NL 휘발성 ."
+  },
+  "FrierenMod:Rewind": {
+    "NAME": "되감기",
+    "DESCRIPTION": " frierenmod:기습 !R! ：이번 턴에 마지막으로 사용한 *특화 기본 공격 마법 의 복사본을 손패에 추가합니다. NL 소멸 .",
+    "UPGRADE_DESCRIPTION": " frierenmod:기습 !R! ：마지막으로 사용한 *특화 기본 공격 마법 의 복사본을 손패에 추가합니다. NL 소멸 ."
+  },
+  "FrierenMod:Reviewing": {
+    "NAME": "복기",
+    "DESCRIPTION": "방어도를 !B! 얻습니다. NL 이번 턴에 *마나 가 아닌 카드를 사용한 수만큼 frierenmod:집중 을 1씩 얻습니다.",
+    "UPGRADE_DESCRIPTION": " frierenmod:신속 . NL 방어도를 !B! 얻습니다. NL 이번 턴에 *마나 가 아닌 카드를 사용한 수만큼 frierenmod:집중 을 1씩 얻습니다.",
+    "EXTENDED_DESCRIPTION": [
+      " NL （집중 을 %d 얻습니다）"
+    ]
+  },
+  "FrierenMod:Snuggle": {
+    "NAME": "딱 붙기",
+    "DESCRIPTION": "선택：*마나 를 최대 !M! 장 버려 같은 수의 [E] 를 얻거나, 손패에 *마나 를 1장 추가합니다."
+  },
+  "FrierenMod:Snuggle1": {
+    "NAME": "프리렌과 딱 붙기",
+    "DESCRIPTION": "*마나 를 최대 !M! 장 버려 같은 수의 [E] 를 얻습니다."
+  },
+  "FrierenMod:Snuggle2": {
+    "NAME": "슈타르크와 딱 붙기",
+    "DESCRIPTION": "손패에 *마나 를 !M! 장 추가합니다."
+  },
+  "FrierenMod:WithNoStop": {
+    "NAME": "전속 질주",
+    "DESCRIPTION": " frierenmod:신속 . NL 다음 카드 3장을 사용한 후 frierenmod:집중 을 2 얻습니다."
+  },
+  "FrierenMod:MasterAndApprentice": {
+    "NAME": "스승과 제자",
+    "DESCRIPTION": "당신의 턴 시작 시 무작위 frierenmod:이색카드 를 1장 손패에 추가합니다."
+  },
+  "FrierenMod:SkilledMage": {
+    "NAME": "유능한 마법사",
+    "DESCRIPTION": "frierenmod:융합 , frierenmod:신속 카드, *특화 기본 공격 마법 을 사용하거나 frierenmod:기습 이 발동되면 방어도를 !M! 얻습니다."
+  },
+  "FrierenMod:BoldReversal": {
+    "NAME": "역습",
+    "DESCRIPTION": "다음 !M! 번의 frierenmod:기습 효과가 두 번 발동됩니다."
+  },
+  "FrierenMod:FernRushdown": {
+    "NAME": "페른의 돌진",
+    "DESCRIPTION": "frierenmod:기습 발동 후 카드를 2장 뽑습니다."
+  },
+  "FrierenMod:ManaAffinity": {
+    "NAME": "마나 친화",
+    "DESCRIPTION": " *마나 가 보존 됩니다."
+  },
+  "FrierenMod:CleanClothSpell": {
+    "NAME": "옷의 더러움을 말끔히 없애는 마법",
+    "DESCRIPTION": " frierenmod:기습 !R! ：적 전체에게 피해를 !D! 줍니다."
+  },
+  "FrierenMod:Sit": {
+    "NAME": "신좌",
+    "DESCRIPTION": "피해를 !D! 줍니다. NL 처치 시 frierenmod:지팡이충전 최대치를 영구히 !M! 증가시킵니다. NL stslib:일회성 ."
+  },
+  "FrierenMod:Catwalk": {
+    "NAME": "캣워크",
+    "DESCRIPTION": " frierenmod:융합 : frierenmod:융합 ：힘 을 !M! 얻습니다. NL 소멸 .",
+    "UPGRADE_DESCRIPTION": " frierenmod:융합 : frierenmod:융합 ：힘 을 !M! 얻습니다."
+  },
+  "FrierenMod:NoMercy": {
+    "NAME": "무자비",
+    "DESCRIPTION": "피해를 !D! 줍니다. NL 소멸 덱에 *특화 기본 공격 마법 이 있을 때마다 한 번 더 반복합니다.",
+    "EXTENDED_DESCRIPTION": [
+      " NL （총 %d 번）"
+    ]
+  },
+  "FrierenMod:SleepingBeauty": {
+    "NAME": "잠자는 숲속의 공주",
+    "DESCRIPTION": "frierenmod:집중 을 1 잃고 [E] 를 얻거나 카드를 1장 뽑습니다. 이 효과를 최대 !M! 번 반복합니다. NL 소멸 ."
+  },
+  "FrierenMod:ContinuousOffensiveMagic": {
+    "NAME": "연속 기본 공격 마법",
+    "DESCRIPTION": "피해가 !M! 인 *특화 기본 공격 마법 을 1장 얻습니다. NL frierenmod:기습 !R! ：복사본을 1장 더 얻습니다."
+  },
+  "FrierenMod:Metamorphose": {
+    "NAME": "나비로 변신",
+    "DESCRIPTION": "모든 frierenmod:융합 수를 2배로 늘립니다. NL 다음 턴에 소멸합니다. NL 소멸 .",
+    "UPGRADE_DESCRIPTION": " 보존 . NL 모든 frierenmod:융합 수를 2배로 늘립니다. NL 다음 턴에 소멸합니다. NL 소멸 ."
+  },
+  "FrierenMod:GetSick": {
+    "NAME": "열이 나！",
+    "DESCRIPTION": "모든 frierenmod:집중 을 잃고 방어도를 !B! 얻으며 턴을 종료합니다. 뽑을 카드 더미에 *나았어！ 를 1장 넣습니다. NL 소멸 ."
+  },
+  "FrierenMod:GetWell": {
+    "NAME": "나았어！",
+    "DESCRIPTION": " 보존 . NL 모든 부정적 효과를 제거하고 체력을 7 회복합니다. NL 소멸 ."
+  },
+  "FrierenMod:SpellToMapADungeon": {
+    "NAME": "지도를 그리는 마법",
+    "DESCRIPTION": "직전 장소가 *상점 이면 금화를 !M! 얻습니다. NL 직전 장소가 *모닥불 이면 덱의 무작위 카드 1장을 강화합니다. NL 휘발성 . 소멸 ."
+  },
+  "FrierenMod:MemoryOfChildhood": {
+    "NAME": "어린 시절의 기억",
+    "DESCRIPTION": "소멸 덱의 모든 *특화 기본 공격 마법 의 복사본을 무작위 대상으로 다시 사용합니다. NL 소멸 .",
+    "UPGRADE_DESCRIPTION": " 보존 . NL 소멸 덱의 모든 *특화 기본 공격 마법 의 복사본을 무작위 대상으로 다시 사용합니다. NL 소멸 ."
+  },
+  "FrierenMod:SocialDancing": {
+    "NAME": "사교댄스",
+    "DESCRIPTION": "frierenmod:집중 을 보유 중일 때 frierenmod:기습 X의 발동 조건이 X-1, X, X+1 모두 가능하도록 변경됩니다."
+  },
+  "FrierenMod:Confidence": {
+    "NAME": "자신만만",
+    "DESCRIPTION": "피해를 주는 모든 frierenmod:기습 효과가 한 번 더 발동됩니다. NL 매 턴 시작 후 모든 frierenmod:집중 을 잃습니다. NL 휘발성 ."
+  },
+  "FrierenMod:Gamble": {
+    "NAME": "대도박",
+    "DESCRIPTION": "카드를 사용한 후 frierenmod:집중 이 1~6으로 무작위 변경됩니다. 6이면 적 전체에게 피해를 10 줍니다."
+  },
+  "FrierenMod:FumeshroomForm": {
+    "NAME": "대형 연기버섯 형태",
+    "DESCRIPTION": "모든 단일 대상 피해가 미지정 적에게도 적용됩니다."
+  },
+  "FrierenMod:RecollectionOfBenefactor": {
+    "NAME": "은인을 그리워하며",
+    "DESCRIPTION": "*하이터가 남긴 지팡이 로 *특화 기본 공격 마법 을 획득할 때 피해 배율이 2배에서 4배로 변경됩니다."
+  },
+  "FrierenMod:Strike_Stark": {
+    "NAME": "타격",
+    "DESCRIPTION": "피해를 !D! 줍니다."
+  },
+  "FrierenMod:Defend_Defend": {
+    "NAME": "방어",
+    "DESCRIPTION": "방어도를 !B! 얻습니다."
+  }
+}

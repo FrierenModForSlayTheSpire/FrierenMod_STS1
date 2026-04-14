@@ -1,0 +1,19 @@
+{
+  "FrierenMod:BottledMana": {
+    "NAME": "병에 담긴 마나",
+    "DESCRIPTIONS": [" #y마나 를 #b%d 장 손패에 추가합니다."]
+  },
+  "FrierenMod:DissolveClothPotion": {
+    "NAME": "옷만 녹이는 약",
+    "DESCRIPTIONS": [
+      "대상의 방어도를 제거하고 #y취약 과 #y약화 를 #b%d 중 부여합니다."
+    ]
+  },
+  "FrierenMod:EmperorWine": {
+    "NAME": "황제주",
+    "DESCRIPTIONS": [
+      "무작위 희귀 카드 #b3 장 중 #b1 장을 선택해 손패에 추가합니다. 이 카드는 이번 턴에 비용이 0이 됩니다.",
+      "무작위 희귀 카드 #b3 장 중 #b1 장을 선택하고, 그 복사본 #b2 장을 손패에 추가합니다. 이 카드들은 이번 턴에 비용이 0이 됩니다."
+    ]
+  }
+}
