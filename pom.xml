@@ -23,7 +23,8 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <SlayTheSpire.version>12-22-2020</SlayTheSpire.version>
         <ModTheSpire.version>3.23.2</ModTheSpire.version>
-        <Steam.path>D:\Steam\steamapps</Steam.path>
+        <!-- Configure Steam.path in your local Maven settings.xml -->
+        <Steam.path>${user.home}/.sts-steam-path-not-configured</Steam.path>
     </properties>
 
     <dependencies>
