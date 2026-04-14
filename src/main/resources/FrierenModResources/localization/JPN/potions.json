@@ -1,0 +1,21 @@
+{
+  "FrierenMod:BottledMana": {
+    "NAME": "瓶詰めの魔力",
+    "DESCRIPTIONS": [
+      " #b%d 枚の #y魔力 を手札に加える。"
+    ]
+  },
+  "FrierenMod:DissolveClothPotion": {
+    "NAME": "服だけ溶けるポーション",
+    "DESCRIPTIONS": [
+      "対象のブロックを取り除き、 #b%d 層の #y弱体化 と #y脱力 を与える。"
+    ]
+  },
+  "FrierenMod:EmperorWine": {
+    "NAME": "皇帝のワイン",
+    "DESCRIPTIONS": [
+      "ランダムな #b3 枚のレアカードから #b1 枚を選択し、手札に加える。そのターンに限りコストが #b0 になる。",
+      "ランダムな #b3 枚のレアカードから #b1 枚を選択し、そのコピー #b2 枚を手札に加える。そのターンに限りコストが #b0 になる。"
+    ]
+  }
+}

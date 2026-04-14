@@ -724,7 +724,7 @@
     "DESCRIPTION": " 피해를 !D! 줍니다. 이번 턴에 frierenmod:영창 을 했다면 이 카드의 비용이 0이 됩니다."
   },
   "FrierenMod:HalfTheSky": {
-    "NAME": "한눈에 봐도 프리렌이네",
+    "NAME": "질투",
     "DESCRIPTION": " 피해를 !D! 줍니다. frierenmod:영창 을 할 때마다 버린 카드 더미에서 손패로 가져옵니다."
   },
   "FrierenMod:Recycle": {
@@ -946,7 +946,7 @@
     ]
   },
   "FrierenMod:Fight": {
-    "NAME": "전력 질주 기사",
+    "NAME": "힘내",
     "DESCRIPTION": "frierenmod:지팡이충전 을 !M! 얻습니다. NL frierenmod:융합 ：피해를 !D! 줍니다."
   },
   "FrierenMod:HuddleForWarmth": {

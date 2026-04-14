@@ -166,6 +166,9 @@ public class ModManager implements EditCardsSubscriber, EditStringsSubscriber, E
             case RUS:
                 lang = "RUS";
                 break;
+            case JPN:
+                lang = "JPN";
+                break;
             default:
             case ENG:
                 lang = "ENG";
@@ -196,6 +199,9 @@ public class ModManager implements EditCardsSubscriber, EditStringsSubscriber, E
                 break;
             case KOR:
                 lang = "KOR";
+                break;
+            case JPN:
+                lang = "JPN";
                 break;
             default:
             case ENG:
